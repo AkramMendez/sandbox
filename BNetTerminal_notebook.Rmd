@@ -1,0 +1,293 @@
+---
+title: "R Notebook"
+output:
+  html_document: default
+  html_notebook: default
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+
+```{r}
+library(BoolNet)
+library(reshape2)
+library(ggthemes)
+library(ggplot2)
+library(BoolNet)
+#setwd("~/Desktop/Network_sandbox/BoolNet_models/")
+net<-loadNetwork("~/Desktop/Network_sandbox/BoolNet_models/BNet_terminal_core.txt")
+att<-getAttractors(net, type = "asynchronous", method = "random", startStates = 1000000)
+plotAttractors(att)
+
+```
+```{r}
+init.state<-c(Bach2=1,Bcl6=0,Blimp1=1,Irf4=0,Pax5=1,XBP1=0)
+perturbedNet1<-perturbNetwork(net, perturb = "functions")
+
+plotAttractors(getAttractors(perturbedNet1))
+
+```
+```{r}
+trajectories<-perturbTrajectories(net, measure = "attractor", updateType = "asynchronous")
+trajectories
+```
+```{r}
+#Evidence Matrix for BNet core
+library(cowplot)
+library(plyr)
+library(ggplot2)
+library(ggthemes)
+library(reshape2)
+data<-matrix(nrow = 6,ncol=6, c(4,1,4,3,-3,-3,0,0,0,0,-3,0,0,0,4,-3,-3,0,3,0,-3,3,3,0,-3,-1,-3,1,0,1,0,0,0,0,0,0), byrow = TRUE)
+colnames(data)<-rownames(data)<-c("Pax5", "Bach2", "Bcl6", "Irf4", "Blimp1", "XBP1")
+ data.df<-melt(t(data))
+  #Plot data frame in a "descendent" order
+  p<-ggplot(data=data.df, aes(x=Var1, y=reorder(Var2,desc(Var2)),fill=factor(value)))
+  #geom_tile plots data by filling rectangles of a given size, 
+  #size and color control the lines dividing each site in the lattice
+  p<-p + geom_tile(colour="#878787", size=0.35)
+  #Make all sites on the grid to take the equal sizes
+  p <- p + coord_equal()
+  #(Optional) use this for a predefined color palette: 
+  #scale_fill_distiller("", palette = "Spectral", direction = -1, limits=c(0,1))
+  #Define our own colors form almost white to yellow and red :D
+  #p<-p+scale_fill_gradient2("", low="#ffffcc", mid="yellow", high="red", midpoint = 0.5, limits=c(0,1), guide=guide_colorbar(draw.ulim=FALSE, draw.llim=FALSE, barwidth = 0.5, barheight = 4.0))
+  p<-p+theme_bw()
+  p<-p+scale_fill_manual(values=c("#cb181d","#fb6a4a", "#d9d9d9", "#74c476", "#238b45", "#969696"),name="")
+  #Use a fancy plot style, for more styles see ggthemes help
+  #Add user dfined labels to the plot
+  p<-p+labs(list(title="",x="Target",y="Regulator", colour=""))
+  p<-p + theme(axis.text.x = element_text(angle=90, hjust=1, vjust=0.5), legend.key = element_rect(colour = 'white', fill = 'pink', size = 0))
+  p<-p+ guides(col = guide_legend(nrow=3,byrow=TRUE))
+ggdraw(switch_axis_position(p,axis='x'))
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+```{r}
+library(deSolve)
+#Function for plotting dynamics as continuous lines
+plotDynamics<-function(data,labels){
+  plot<-ggplot(data=data, aes(x=data[[1]], y=value, colour=variable)) + geom_path(size=1.5, alpha=0.9)
+  #plot<-plot + scale_colour_brewer(palette = "Set2")
+  plot<- plot + scale_colour_tableau()
+  plot<-plot+theme_tufte()
+  plot<-plot+theme(axis.line.x=element_line(colour = "black"),axis.line.y=element_line(colour = "black"))
+  plot<-plot+labs(list(title=labels["title"],x=labels["xlab"],y=labels["ylab"], colour=""))
+  return(plot)
+}
+
+parameters <- c(h = 50,lambda = 1)
+     
+network<-function(t, state, parameters) {
+	with(as.list(c(state, parameters)),{
+		#node inputs
+		w_Akt = TNFR2
+		w_B9 = 0
+		w_Bach2 = max(Pax5,Bcl6)
+		w_Bcl2 = max(FR4,STAT5)
+		w_Bcl6 = min(IL21R,Ebf1,1-Blimp1,1-Irf4)
+		w_Bcl11b = min(Notch1,TCF1)
+		w_BCR = 0
+		w_Blimp1 = min(Irf4,1-Bach2,1-Bcl6,1-Pax5)
+	     	w_CD4 = min(max(CD4,Notch1,ThPOK),1-Ebf1,1-Runx3)
+	   	w_CD8 = min(max(CD8,Notch1,Runx3),1-Ebf1,1-TCR,1-ThPOK)
+		w_CD19 = Pax5
+		# Dll1 should be 0. A value of 1 simulates the thymus environment.
+	   w_Dll1 = 0
+		 w_Ebf1 = min(Runx1,1-Runx3)
+	   w_EOMES = min(max(IL27R,Tbet),Runx3)
+		 w_ERK = max(BCR,Flt3)
+		    w_Flt3 = min(max(Flt3L,Hoxa9),1-Pax5)
+		# Flt3L should be 0. However, Flt3L is set to 1 to simulate the input from the bone marrow.
+		    if(i==1 || i==10){
+		  w_Flt3L =1
+		  print(w_Flt3L)
+		    }
+		    else{
+		w_Flt3L =0}
+	     	w_Foxp3 = min(max(SMAD2,SMAD3,Foxp3),1-GATA3,1-RORgt,1-STAT3,1-Tbet)
+		w_FR4 = min(B9,Foxp3)
+	     	w_GATA3 = min(max(GATA3,STAT6,TCF1),1-Foxp3,1-HEB,1-RORgt,1-Runx1,1-Tbet)
+		w_Gfi1 = Ikaros
+	     	w_Gzmb = EOMES
+		w_HEB = Notch1
+		w_Helios = NFkB
+		w_Hoxa9 = 0 
+	     	w_IFNb = 0
+	     	w_IFNbR = IFNb
+	     	w_IFNg = min(max(EOMES,IRAK,STAT4,Tbet),1-STAT3)
+	     	w_IFNgR = IFNg
+		w_Ikaros = PU1
+	     	w_IL2 = 0 
+	     	w_IL2R = IL2
+	     	w_IL4 = min(GATA3,1-STAT1)
+	     	w_IL4R = min(IL4,1-SOCS1)
+	     	w_IL6 = RORgt
+	     	w_IL6R = IL6
+		# IL-7 should be 0. A value of 1 simulates input from the bone marrow to create pro-B cells.
+	     	if(i==10){
+	     	w_IL7 = 1}
+	     	else{
+	     	  w_IL7 = 0
+	     	}
+	     	w_IL7R = min(IL7,1-TCR)
+	     	w_IL10 = GATA3
+	     	w_IL10R = IL10
+	     	w_IL12 = 0
+	     	w_IL12R = min(IL12,1-STAT6)
+	     	w_IL17 = RORgt
+	     	w_IL18 = 0
+	     	w_IL18R = min(IL18,1-STAT6)
+		w_IL21 = 0
+		w_IL21R = IL21
+	     	w_IL23 = 0
+	     	w_IL23R = IL23
+	     	w_IL27 = 0
+	     	w_IL27R = IL27
+	     	w_IRAK = IL18R
+		w_Irf4 = min(max(Blimp1,NFkB),Ebf1,1-Flt3)
+	     	w_JAK1 = IFNgR
+	     	w_JAK3 = min(max(IL6R,IL7R),1-Notch1)
+		w_NFkB = BCR
+	     	w_NFAT = TCR
+		w_Notch1 = Dll1
+		w_Pax5 = max(min(Ebf1,1-Blimp1,1-Flt3,1-Irf4,1-ThPOK),min(Ebf1,STAT5,1-Blimp1,1-Irf4,1-ThPOK))
+	     	w_Prf1 = EOMES
+		w_PU1 = min(1-Gfi1,1-Ikaros)
+	     	w_RORgt = max(min(SMAD2,STAT3),min(RORgt,1-Foxp3,1-GATA3,1-Tbet))
+		w_Runx1 = min(Runx1,1-Notch1,1-Runx3,1-TCR,1-ThPOK)
+	     	w_Runx3 = max(min(CD8,1-CD4,1-STAT5,1-ThPOK),min(CD8,STAT5))
+	     	w_SMAD2 = TGFbR
+		w_SMAD3 = min(TGFbR,1-Akt)
+	     	w_SOCS1 = max(STAT1,Tbet)
+	     	w_STAT1 = max(IFNbR,IL27R,JAK1)
+	     	w_STAT3 = max(IL10R,IL21R,IL23R,JAK3)
+	     	w_STAT4 = min(IL12R,1-GATA3)
+	     	w_STAT5 = min(max(IL2R,JAK3),1-SOCS1)
+	     	w_STAT6 = IL4R
+	     	w_Tbet = min(max(STAT1,Tbet),1-Foxp3,1-GATA3,1-RORgt)
+		w_TCF1 = Notch1
+	     	w_TCR = 0 
+	     	w_TGFb = Foxp3
+	     	w_TGFbR = TGFb
+	     	w_ThPOK = max(min(CD4,1-CD8),Foxp3,GATA3,RORgt,TCR,min(Tbet,1-Runx3),ThPOK)
+		w_TNFa = RORgt
+		w_TNFR2 = TNFa
+		w_XBP1 = Blimp1
+		#rates of change
+		dAkt <- ((-exp(0.5*h)+exp(-h*(w_Akt-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_Akt-0.5)))))-(lambda*Akt)
+		dB9 <- ((-exp(0.5*h)+exp(-h*(w_B9-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_B9-0.5)))))-(lambda*B9)
+		dBach2 <- ((-exp(0.5*h)+exp(-h*(w_Bach2-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_Bach2-0.5)))))-(lambda*Bach2)
+		dBcl2 <- ((-exp(0.5*h)+exp(-h*(w_Bcl2-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_Bcl2-0.5)))))-(lambda*Bcl2)
+		dBcl6 <- ((-exp(0.5*h)+exp(-h*(w_Bcl6-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_Bcl6-0.5)))))-(lambda*Bcl6)
+		dBcl11b <- ((-exp(0.5*h)+exp(-h*(w_Bcl11b-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_Bcl11b-0.5)))))-(lambda*Bcl11b)
+		dBCR <- ((-exp(0.5*h)+exp(-h*(w_BCR-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_BCR-0.5)))))-(lambda*BCR)
+		dBlimp1 <- ((-exp(0.5*h)+exp(-h*(w_Blimp1-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_Blimp1-0.5)))))-(lambda*Blimp1)
+		dCD4 <- ((-exp(0.5*h)+exp(-h*(w_CD4-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_CD4-0.5)))))-(lambda*CD4)
+		dCD8 <- ((-exp(0.5*h)+exp(-h*(w_CD8-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_CD8-0.5)))))-(lambda*CD8)
+		dCD19 <- ((-exp(0.5*h)+exp(-h*(w_CD19-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_CD19-0.5)))))-(lambda*CD19)
+		dDll1 <- ((-exp(0.5*h)+exp(-h*(w_Dll1-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_Dll1-0.5)))))-(lambda*Dll1)
+		dEbf1 <- ((-exp(0.5*h)+exp(-h*(w_Ebf1-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_Ebf1-0.5)))))-(lambda*Ebf1)
+		dEOMES <- ((-exp(0.5*h)+exp(-h*(w_EOMES-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_EOMES-0.5)))))-(lambda*EOMES)
+		dERK <- ((-exp(0.5*h)+exp(-h*(w_ERK-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_ERK-0.5)))))-(lambda*ERK)
+		dFlt3 <- ((-exp(0.5*h)+exp(-h*(w_Flt3-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_Flt3-0.5)))))-(lambda*Flt3)
+		dFlt3L <- ((-exp(0.5*h)+exp(-h*(w_Flt3L-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_Flt3L-0.5)))))-(lambda*Flt3L)
+		dFoxp3 <- ((-exp(0.5*h)+exp(-h*(w_Foxp3-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_Foxp3-0.5)))))-(lambda*Foxp3)
+		dFR4 <- ((-exp(0.5*h)+exp(-h*(w_FR4-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_FR4-0.5)))))-(lambda*FR4)
+		dGATA3 <- ((-exp(0.5*h)+exp(-h*(w_GATA3-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_GATA3-0.5)))))-(lambda*GATA3)
+		dGfi1 <- ((-exp(0.5*h)+exp(-h*(w_Gfi1-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_Gfi1-0.5)))))-(lambda*Gfi1)
+		dGzmb <- ((-exp(0.5*h)+exp(-h*(w_Gzmb-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_Gzmb-0.5)))))-(lambda*Gzmb)
+		dHEB <- ((-exp(0.5*h)+exp(-h*(w_HEB-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_HEB-0.5)))))-(lambda*HEB)
+		dHelios <- ((-exp(0.5*h)+exp(-h*(w_Helios-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_Helios-0.5)))))-(lambda*Helios)
+		dHoxa9 <- ((-exp(0.5*h)+exp(-h*(w_Hoxa9-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_Hoxa9-0.5)))))-(lambda*Hoxa9)
+		dIFNb <- ((-exp(0.5*h)+exp(-h*(w_IFNb-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_IFNb-0.5)))))-(lambda*IFNb)
+		dIFNbR <- ((-exp(0.5*h)+exp(-h*(w_IFNbR-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_IFNbR-0.5)))))-(lambda*IFNbR)
+		dIFNg <- ((-exp(0.5*h)+exp(-h*(w_IFNg-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_IFNg-0.5)))))-(lambda*IFNg)
+		dIFNgR <- ((-exp(0.5*h)+exp(-h*(w_IFNgR-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_IFNgR-0.5)))))-(lambda*IFNgR)
+		dIkaros <- ((-exp(0.5*h)+exp(-h*(w_Ikaros-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_Ikaros-0.5)))))-(lambda*Ikaros)
+		dIL2 <- ((-exp(0.5*h)+exp(-h*(w_IL2-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_IL2-0.5)))))-(lambda*IL2)
+		dIL2R <- ((-exp(0.5*h)+exp(-h*(w_IL2R-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_IL2R-0.5)))))-(lambda*IL2R)
+		dIL4 <- ((-exp(0.5*h)+exp(-h*(w_IL4-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_IL4-0.5)))))-(lambda*IL4)
+		dIL4R <- ((-exp(0.5*h)+exp(-h*(w_IL4R-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_IL4R-0.5)))))-(lambda*IL4R)
+		dIL6 <- ((-exp(0.5*h)+exp(-h*(w_IL6-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_IL6-0.5)))))-(lambda*IL6)
+		dIL6R <- ((-exp(0.5*h)+exp(-h*(w_IL6R-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_IL6R-0.5)))))-(lambda*IL6R)
+		dIL7 <- ((-exp(0.5*h)+exp(-h*(w_IL7-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_IL7-0.5)))))-(lambda*IL7)
+		dIL7R <- ((-exp(0.5*h)+exp(-h*(w_IL7R-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_IL7R-0.5)))))-(lambda*IL7R)
+		dIL10 <- ((-exp(0.5*h)+exp(-h*(w_IL10-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_IL10-0.5)))))-(lambda*IL10)
+		dIL10R <- ((-exp(0.5*h)+exp(-h*(w_IL10R-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_IL10R-0.5)))))-(lambda*IL10R)
+		dIL12 <- ((-exp(0.5*h)+exp(-h*(w_IL12-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_IL12-0.5)))))-(lambda*IL12)
+		dIL12R <- ((-exp(0.5*h)+exp(-h*(w_IL12R-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_IL12R-0.5)))))-(lambda*IL12R)
+		dIL17 <- ((-exp(0.5*h)+exp(-h*(w_IL17-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_IL17-0.5)))))-(lambda*IL17)
+		dIL18 <- ((-exp(0.5*h)+exp(-h*(w_IL18-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_IL18-0.5)))))-(lambda*IL18)
+		dIL18R <- ((-exp(0.5*h)+exp(-h*(w_IL18R-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_IL18R-0.5)))))-(lambda*IL18R)
+		dIL21 <- ((-exp(0.5*h)+exp(-h*(w_IL21-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_IL21-0.5)))))-(lambda*IL21)
+		dIL21R <- ((-exp(0.5*h)+exp(-h*(w_IL21R-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_IL21R-0.5)))))-(lambda*IL21R)
+		dIL23 <- ((-exp(0.5*h)+exp(-h*(w_IL23-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_IL23-0.5)))))-(lambda*IL23)
+		dIL23R <- ((-exp(0.5*h)+exp(-h*(w_IL23R-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_IL23R-0.5)))))-(lambda*IL23R)
+		dIL27 <- ((-exp(0.5*h)+exp(-h*(w_IL27-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_IL27-0.5)))))-(lambda*IL27)
+		dIL27R <- ((-exp(0.5*h)+exp(-h*(w_IL27R-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_IL27R-0.5)))))-(lambda*IL27R)
+		dIRAK <- ((-exp(0.5*h)+exp(-h*(w_IRAK-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_IRAK-0.5)))))-(lambda*IRAK)
+		dIrf4 <- ((-exp(0.5*h)+exp(-h*(w_Irf4-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_Irf4-0.5)))))-(lambda*Irf4)
+		dJAK1 <- ((-exp(0.5*h)+exp(-h*(w_JAK1-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_JAK1-0.5)))))-(lambda*JAK1)
+		dJAK3 <- ((-exp(0.5*h)+exp(-h*(w_JAK3-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_JAK3-0.5)))))-(lambda*JAK3)
+		dNFkB <- ((-exp(0.5*h)+exp(-h*(w_NFkB-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_NFkB-0.5)))))-(lambda*NFkB)
+		dNFAT <- ((-exp(0.5*h)+exp(-h*(w_NFAT-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_NFAT-0.5)))))-(lambda*NFAT)
+		dNotch1 <- ((-exp(0.5*h)+exp(-h*(w_Notch1-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_Notch1-0.5)))))-(lambda*Notch1)
+		dPax5 <- ((-exp(0.5*h)+exp(-h*(w_Pax5-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_Pax5-0.5)))))-(lambda*Pax5)
+		dPrf1 <- ((-exp(0.5*h)+exp(-h*(w_Prf1-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_Prf1-0.5)))))-(lambda*Prf1)
+		dPU1 <- ((-exp(0.5*h)+exp(-h*(w_PU1-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_PU1-0.5)))))-(lambda*PU1)
+		dRORgt <- ((-exp(0.5*h)+exp(-h*(w_RORgt-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_RORgt-0.5)))))-(lambda*RORgt)
+		dRunx1 <- ((-exp(0.5*h)+exp(-h*(w_Runx1-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_Runx1-0.5)))))-(lambda*Runx1)
+		dRunx3 <- ((-exp(0.5*h)+exp(-h*(w_Runx3-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_Runx3-0.5)))))-(lambda*Runx3)
+		dSMAD2 <- ((-exp(0.5*h)+exp(-h*(w_SMAD2-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_SMAD2-0.5)))))-(lambda*SMAD2)
+		dSMAD3 <- ((-exp(0.5*h)+exp(-h*(w_SMAD3-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_SMAD3-0.5)))))-(lambda*SMAD3)
+		dSOCS1 <- ((-exp(0.5*h)+exp(-h*(w_SOCS1-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_SOCS1-0.5)))))-(lambda*SOCS1)
+		dSTAT1 <- ((-exp(0.5*h)+exp(-h*(w_STAT1-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_STAT1-0.5)))))-(lambda*STAT1)
+		dSTAT3 <- ((-exp(0.5*h)+exp(-h*(w_STAT3-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_STAT3-0.5)))))-(lambda*STAT3)
+		dSTAT4 <- ((-exp(0.5*h)+exp(-h*(w_STAT4-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_STAT4-0.5)))))-(lambda*STAT4)
+		dSTAT5 <- ((-exp(0.5*h)+exp(-h*(w_STAT5-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_STAT5-0.5)))))-(lambda*STAT5)
+		dSTAT6 <- ((-exp(0.5*h)+exp(-h*(w_STAT6-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_STAT6-0.5)))))-(lambda*STAT6)
+		dTbet <- ((-exp(0.5*h)+exp(-h*(w_Tbet-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_Tbet-0.5)))))-(lambda*Tbet)
+		dTCF1 <- ((-exp(0.5*h)+exp(-h*(w_TCF1-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_TCF1-0.5)))))-(lambda*TCF1)
+		dTCR <- ((-exp(0.5*h)+exp(-h*(w_TCR-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_TCR-0.5)))))-(lambda*TCR)
+		dTGFb <-  ((-exp(0.5*h)+exp(-h*(w_TGFb-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_TGFb-0.5)))))-(lambda*TGFb)
+		dTGFbR <- ((-exp(0.5*h)+exp(-h*(w_TGFbR-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_TGFbR-0.5)))))-(lambda*TGFbR)
+		dThPOK <- ((-exp(0.5*h)+exp(-h*(w_ThPOK-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_ThPOK-0.5)))))-(lambda*ThPOK)
+		dTNFa <- ((-exp(0.5*h)+exp(-h*(w_TNFa-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_TNFa-0.5)))))-(lambda*TNFa)
+		dTNFR2 <- ((-exp(0.5*h)+exp(-h*(w_TNFR2-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_TNFR2-0.5)))))-(lambda*TNFR2)
+		dXBP1 <- ((-exp(0.5*h)+exp(-h*(w_XBP1-0.5)))/((1-exp(0.5*h))*(1+exp(-h*(w_XBP1-0.5)))))-(lambda*XBP1)	  
+		# return the rate of change
+		list(c(dAkt, dB9, dBach2, dBcl2, dBcl6, dBcl11b, dBCR, dBlimp1, dCD4, dCD8, dCD19, dDll1, dEbf1, dEOMES, dERK, dFlt3, dFlt3L, dFoxp3, dFR4, dGATA3, dGfi1, dGzmb, dHEB, dHelios, dHoxa9,  dIFNb, dIFNbR, dIFNg, dIFNgR, dIkaros, dIL2, dIL2R, dIL4, dIL4R, dIL6, dIL6R, dIL7, dIL7R, dIL10, dIL10R, dIL12, dIL12R, dIL17, dIL18, dIL18R, dIL21, dIL21R, dIL23, dIL23R, dIL27, dIL27R, dIRAK, dIrf4, dJAK1, dJAK3, dNFkB, dNFAT, dNotch1, dPax5, dPrf1, dPU1, dRORgt, dRunx1, dRunx3, dSMAD2, dSMAD3, dSOCS1, dSTAT1, dSTAT3, dSTAT4, dSTAT5, dSTAT6, dTbet, dTCF1, dTCR, dTGFb, dTGFbR, dThPOK, dTNFa, dTNFR2, dXBP1))
+	})
+}
+
+attractors<-list(CLP=c(Akt=0, B9=0, Bach2=0, Bcl2=0, Bcl6=0, Bcl11b=0, BCR=0, Blimp1=0, CD4=0, CD8=0, CD19=0, Dll1=0, Ebf1=1, EOMES=0, ERK=1, Flt3=1, Flt3L=1, Foxp3=0, FR4=0, GATA3=0, Gfi1=0.5, Gzmb=0, HEB=0, Helios=0, Hoxa9=0, IFNb=0, IFNbR=0, IFNg=0, IFNgR=0, Ikaros=0.5, IL2=0, IL2R=0, IL4=0, IL4R=0, IL6=0, IL6R=0, IL7=0, IL7R= 0, IL10=0, IL10R=0, IL12=0, IL12R=0, IL17=0, IL18=0, IL18R=0, IL21=0, IL21R=0, IL23=0, IL23R=0, IL27=0, IL27R=0, IRAK=0, Irf4=0, JAK1=0, JAK3=0, NFkB=0, NFAT=0, Notch1=0, Pax5=0, Prf1=0, PU1=0.5, RORgt=0, Runx1=1, Runx3=0, SMAD2=0, SMAD3=0, SOCS1=0, STAT1=0, STAT3=0, STAT4=0, STAT5=0, STAT6=0, Tbet=0, TCF1=0, TCR=0, TGFb=0, TGFbR=0, ThPOK=0, TNFa=0, TNFR2=0, XBP1=0),
+                 DP=c(Akt=0, B9=0, Bach2=0, Bcl2=0, Bcl6=0, Bcl11b=0, BCR=0, Blimp1=0, CD4=1, CD8=1, CD19=0, Dll1=0, Ebf1=0, EOMES=0, ERK=0, Flt3=0, Flt3L=0, Foxp3=0, FR4=0, GATA3=0, Gfi1=0.5, Gzmb=0, HEB=0, Helios=0, Hoxa9=0, IFNb=0, IFNbR=0, IFNg=0, IFNgR=0, Ikaros=0.5, IL2=0, IL2R=0, IL4=0, IL4R=0, IL6=0, IL6R=0, IL7=0, IL7R= 0, IL10=0, IL10R=0, IL12=0, IL12R=0, IL17=0, IL18=0, IL18R=0, IL21=0, IL21R=0, IL23=0, IL23R=0, IL27=0, IL27R=0, IRAK=0, Irf4=0, JAK1=0, JAK3=0, NFkB=0, NFAT=0, Notch1=0, Pax5=0, Prf1=0, PU1=0.5, RORgt=0, Runx1=0, Runx3=0, SMAD2=0, SMAD3=0, SOCS1=0, STAT1=0, STAT3=0, STAT4=0, STAT5=0, STAT6=0, Tbet=0, TCF1=0, TCR=0, TGFb=0, TGFbR=0, ThPOK=0, TNFa=0, TNFR2=0, XBP1=0),
+                 CD4.naive=c(Akt=0, B9=0, Bach2=0, Bcl2=0, Bcl6=0, Bcl11b=0, BCR=0, Blimp1=0, CD4=1, CD8=0, CD19=0, Dll1=0, Ebf1=0, EOMES=0, ERK=0, Flt3=0, Flt3L=0, Foxp3=0, FR4=0, GATA3=0, Gfi1=0.5, Gzmb=0, HEB=0, Helios=0, Hoxa9=0, IFNb=0, IFNbR=0, IFNg=0, IFNgR=0, Ikaros=0.5, IL2=0, IL2R=0, IL4=0, IL4R=0, IL6=0, IL6R=0, IL7=0, IL7R= 0, IL10=0, IL10R=0, IL12=0, IL12R=0, IL17=0, IL18=0, IL18R=0, IL21=0, IL21R=0, IL23=0, IL23R=0, IL27=0, IL27R=0, IRAK=0, Irf4=0, JAK1=0, JAK3=0, NFkB=0, NFAT=0, Notch1=0, Pax5=0, Prf1=0, PU1=0.5, RORgt=0, Runx1=0, Runx3=0, SMAD2=0, SMAD3=0, SOCS1=0, STAT1=0, STAT3=0, STAT4=0, STAT5=0, STAT6=0, Tbet=0, TCF1=0, TCR=0, TGFb=0, TGFbR=0, ThPOK=1, TNFa=0, TNFR2=0, XBP1=0),
+                 TH1=c(Akt=0, B9=0, Bach2=0, Bcl2=0, Bcl6=0, Bcl11b=0, BCR=0, Blimp1=0, CD4=1, CD8=0, CD19=0, Dll1=0, Ebf1=0, EOMES=0, ERK=0, Flt3=0, Flt3L=0, Foxp3=0, FR4=0, GATA3=0, Gfi1=0.5, Gzmb=0, HEB=0, Helios=0, Hoxa9=0, IFNb=0, IFNbR=0, IFNg=1, IFNgR=1, Ikaros=0.5, IL2=0, IL2R=0, IL4=0, IL4R=0, IL6=0, IL6R=0, IL7=0, IL7R= 0, IL10=0, IL10R=0, IL12=0, IL12R=0, IL17=0, IL18=0, IL18R=0, IL21=0, IL21R=0, IL23=0, IL23R=0, IL27=0, IL27R=0, IRAK=0, Irf4=0, JAK1=1, JAK3=0, NFkB=0, NFAT=0, Notch1=0, Pax5=0, Prf1=0, PU1=0.5, RORgt=0, Runx1=0, Runx3=0, SMAD2=0, SMAD3=0, SOCS1=1, STAT1=1, STAT3=0, STAT4=0, STAT5=0, STAT6=0, Tbet=1, TCF1=0, TCR=0, TGFb=0, TGFbR=0, ThPOK=1, TNFa=0, TNFR2=0, XBP1=0),
+                 TH2=c(Akt=0, B9=0, Bach2=0, Bcl2=0, Bcl6=0, Bcl11b=0, BCR=0, Blimp1=0, CD4=1, CD8=0, CD19=0, Dll1=0, Ebf1=0, EOMES=0, ERK=0, Flt3=0, Flt3L=0, Foxp3=0, FR4=0, GATA3=1, Gfi1=0.5, Gzmb=0, HEB=0, Helios=0, Hoxa9=0, IFNb=0, IFNbR=0, IFNg=0, IFNgR=0, Ikaros=0.5, IL2=0, IL2R=0, IL4=1, IL4R=1, IL6=0, IL6R=0, IL7=0, IL7R= 0, IL10=1, IL10R=1, IL12=0, IL12R=0, IL17=0, IL18=0, IL18R=0, IL21=0, IL21R=0, IL23=0, IL23R=0, IL27=0, IL27R=0, IRAK=0, Irf4=0, JAK1=0, JAK3=0, NFkB=0, NFAT=0, Notch1=0, Pax5=0, Prf1=0, PU1=0.5, RORgt=0, Runx1=0, Runx3=0, SMAD2=0, SMAD3=0, SOCS1=0, STAT1=0, STAT3=1, STAT4=0, STAT5=0, STAT6=1, Tbet=0, TCF1=0, TCR=0, TGFb=0, TGFbR=0, ThPOK=1, TNFa=0, TNFR2=0, XBP1=0),
+                 TH17=c(Akt=1, B9=0, Bach2=0, Bcl2=1, Bcl6=0, Bcl11b=0, BCR=0, Blimp1=0, CD4=1, CD8=0, CD19=0, Dll1=0, Ebf1=0, EOMES=0, ERK=0, Flt3=0, Flt3L=0, Foxp3=0, FR4=0, GATA3=0, Gfi1=0.5, Gzmb=0, HEB=0, Helios=0, Hoxa9=0, IFNb=0, IFNbR=0, IFNg=0, IFNgR=0, Ikaros=0.5, IL2=0, IL2R=0, IL4=0, IL4R=0, IL6=1, IL6R=1, IL7=0, IL7R= 0, IL10=0, IL10R=0, IL12=0, IL12R=0, IL17=1, IL18=0, IL18R=0, IL21=0, IL21R=0, IL23=0, IL23R=0, IL27=0, IL27R=0, IRAK=0, Irf4=0, JAK1=0, JAK3=1, NFkB=0, NFAT=0, Notch1=0, Pax5=0, Prf1=0, PU1=0.5, RORgt=1, Runx1=0, Runx3=0, SMAD2=0, SMAD3=0, SOCS1=0, STAT1=0, STAT3=1, STAT4=0, STAT5=1, STAT6=0, Tbet=0, TCF1=0, TCR=0, TGFb=0, TGFbR=0, ThPOK=1, TNFa=1, TNFR2=1, XBP1=0),
+                 Treg=c(Akt=0, B9=0, Bach2=0, Bcl2=0, Bcl6=0, Bcl11b=0, BCR=0, Blimp1=0, CD4=1, CD8=0, CD19=0, Dll1=0, Ebf1=0, EOMES=0, ERK=0, Flt3=0, Flt3L=0, Foxp3=1, FR4=0, GATA3=0, Gfi1=0.5, Gzmb=0, HEB=0, Helios=0, Hoxa9=0, IFNb=0, IFNbR=0, IFNg=0, IFNgR=0, Ikaros=0.5, IL2=0, IL2R=0, IL4=0, IL4R=0, IL6=0, IL6R=0, IL7=0, IL7R= 0, IL10=0, IL10R=0, IL12=0, IL12R=0, IL17=0, IL18=0, IL18R=0, IL21=0, IL21R=0, IL23=0, IL23R=0, IL27=0, IL27R=0, IRAK=0, Irf4=0, JAK1=0, JAK3=0, NFkB=0, NFAT=0, Notch1=0, Pax5=0, Prf1=0, PU1=0.5, RORgt=0, Runx1=0, Runx3=0, SMAD2=1, SMAD3=1, SOCS1=0, STAT1=0, STAT3=0, STAT4=0, STAT5=0, STAT6=0, Tbet=0, TCF1=0, TCR=0, TGFb=1, TGFbR=1, ThPOK=1, TNFa=0, TNFR2=0, XBP1=0),
+                 CD8.naive=c(Akt=0, B9=0, Bach2=0, Bcl2=0, Bcl6=0, Bcl11b=0, BCR=0, Blimp1=0, CD4=0, CD8=1, CD19=0, Dll1=0, Ebf1=0, EOMES=0, ERK=0, Flt3=0, Flt3L=0, Foxp3=0, FR4=0, GATA3=0, Gfi1=0.5, Gzmb=0, HEB=0, Helios=0, Hoxa9=0, IFNb=0, IFNbR=0, IFNg=0, IFNgR=0, Ikaros=0.5, IL2=0, IL2R=0, IL4=0, IL4R=0, IL6=0, IL6R=0, IL7=0, IL7R= 0, IL10=0, IL10R=0, IL12=0, IL12R=0, IL17=0, IL18=0, IL18R=0, IL21=0, IL21R=0, IL23=0, IL23R=0, IL27=0, IL27R=0, IRAK=0, Irf4=0, JAK1=0, JAK3=0, NFkB=0, NFAT=0, Notch1=0, Pax5=0, Prf1=0, PU1=0.5, RORgt=0, Runx1=0, Runx3=1, SMAD2=0, SMAD3=0, SOCS1=0, STAT1=0, STAT3=0, STAT4=0, STAT5=0, STAT6=0, Tbet=0, TCF1=0, TCR=0, TGFb=0, TGFbR=0, ThPOK=0, TNFa=0, TNFR2=0, XBP1=0),
+                 CTL=c(Akt=0, B9=0, Bach2=0, Bcl2=0, Bcl6=0, Bcl11b=0, BCR=0, Blimp1=0, CD4=0, CD8=1, CD19=0, Dll1=0, Ebf1=0, EOMES=1, ERK=0, Flt3=0, Flt3L=0, Foxp3=0, FR4=0, GATA3=0, Gfi1=0.5, Gzmb=1, HEB=0, Helios=0, Hoxa9=0, IFNb=0, IFNbR=0, IFNg=1, IFNgR=1, Ikaros=0.5, IL2=0, IL2R=0, IL4=0, IL4R=0, IL6=0, IL6R=0, IL7=0, IL7R= 0, IL10=0, IL10R=0, IL12=0, IL12R=0, IL17=0, IL18=0, IL18R=0, IL21=0, IL21R=0, IL23=0, IL23R=0, IL27=0, IL27R=0, IRAK=0, Irf4=0, JAK1=1, JAK3=0, NFkB=0, NFAT=0, Notch1=0, Pax5=0, Prf1=1, PU1=0.5, RORgt=0, Runx1=0, Runx3=1, SMAD2=0, SMAD3=0, SOCS1=1, STAT1=1, STAT3=0, STAT4=0, STAT5=0, STAT6=0, Tbet=1, TCF1=0, TCR=0, TGFb=0, TGFbR=0, ThPOK=0, TNFa=0, TNFR2=0, XBP1=0),
+                 proB=c(Akt=0, B9=0, Bach2=1, Bcl2=1, Bcl6=0, Bcl11b=0, BCR=0, Blimp1=0, CD4=0, CD8=0, CD19=1, Dll1=0, Ebf1=1, EOMES=0, ERK=0, Flt3=0, Flt3L=1, Foxp3=0, FR4=0, GATA3=0, Gfi1=0.5, Gzmb=0, HEB=0, Helios=0, Hoxa9=0, IFNb=0, IFNbR=0, IFNg=0, IFNgR=0, Ikaros=0.5, IL2=0, IL2R=0, IL4=0, IL4R=0, IL6=0, IL6R=0, IL7=1, IL7R= 1, IL10=0, IL10R=0, IL12=0, IL12R=0, IL17=0, IL18=0, IL18R=0, IL21=0, IL21R=0, IL23=0, IL23R=0, IL27=0, IL27R=0, IRAK=0, Irf4=0, JAK1=0, JAK3=1, NFkB=0, NFAT=0, Notch1=0, Pax5=1, Prf1=0, PU1=0.5, RORgt=0, Runx1=1, Runx3=0, SMAD2=0, SMAD3=0, SOCS1=0, STAT1=0, STAT3=1, STAT4=0, STAT5=1, STAT6=0, Tbet=0, TCF1=0, TCR=0, TGFb=0, TGFbR=0, ThPOK=0, TNFa=0, TNFR2=0, XBP1=0),
+                 B.naive=c(Akt=0, B9=0, Bach2=1, Bcl2=0, Bcl6=0, Bcl11b=0, BCR=0, Blimp1=0, CD4=0, CD8=0, CD19=1, Dll1=0, Ebf1=1, EOMES=0, ERK=0, Flt3=0, Flt3L=0, Foxp3=0, FR4=0, GATA3=0, Gfi1=0.5, Gzmb=0, HEB=0, Helios=0, Hoxa9=0, IFNb=0, IFNbR=0, IFNg=0, IFNgR=0, Ikaros=0.5, IL2=0, IL2R=0, IL4=0, IL4R=0, IL6=0, IL6R=0, IL7=0, IL7R= 0, IL10=0, IL10R=0, IL12=0, IL12R=0, IL17=0, IL18=0, IL18R=0, IL21=0, IL21R=0, IL23=0, IL23R=0, IL27=0, IL27R=0, IRAK=0, Irf4=0, JAK1=0, JAK3=0, NFkB=0, NFAT=0, Notch1=0, Pax5=1, Prf1=0, PU1=0.5, RORgt=0, Runx1=1, Runx3=0, SMAD2=0, SMAD3=0, SOCS1=0, STAT1=0, STAT3=0, STAT4=0, STAT5=0, STAT6=0, Tbet=0, TCF1=0, TCR=0, TGFb=0, TGFbR=0, ThPOK=0, TNFa=0, TNFR2=0, XBP1=0),
+                 PC=c(Akt=0, B9=0, Bach2=0, Bcl2=0, Bcl6=0, Bcl11b=0, BCR=0, Blimp1=1, CD4=0, CD8=0, CD19=0, Dll1=0, Ebf1=1, EOMES=0, ERK=0, Flt3=0, Flt3L=0, Foxp3=0, FR4=0, GATA3=0, Gfi1=0.5, Gzmb=0, HEB=0, Helios=0, Hoxa9=0, IFNb=0, IFNbR=0, IFNg=0, IFNgR=0, Ikaros=0.5, IL2=0, IL2R=0, IL4=0, IL4R=0, IL6=0, IL6R=0, IL7=0, IL7R= 0, IL10=0, IL10R=0, IL12=0, IL12R=0, IL17=0, IL18=0, IL18R=0, IL21=0, IL21R=0, IL23=0, IL23R=0, IL27=0, IL27R=0, IRAK=0, Irf4=1, JAK1=0, JAK3=0, NFkB=0, NFAT=0, Notch1=0, Pax5=0, Prf1=0, PU1=0.5, RORgt=0, Runx1=1, Runx3=0, SMAD2=0, SMAD3=0, SOCS1=0, STAT1=0, STAT3=0, STAT4=0, STAT5=0, STAT6=0, Tbet=0, TCF1=0, TCR=0, TGFb=0, TGFbR=0, ThPOK=0, TNFa=0, TNFR2=0, XBP1=1)
+)
+
+times <- seq(0,100,by=0.1)
+lol<-NULL
+for(i in 1:length(attractors)){
+out <- ode(y=attractors[[i]],times=times,func=network,parms=parameters)
+data<-melt(as.data.frame(out), id.vars="time")
+plotDynamics(data, labels="")
+
+lol[i]<-all(round(out[nrow(out),2:ncol(out)], digits = 1)==attractors[[i]])
+
+}
+```
+
