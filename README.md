@@ -1,2 +1,2 @@
 # sandbox
-![alt text](/images/Perturb.A.tiff)
+![alt text](images/Perturb.A.tiff)
