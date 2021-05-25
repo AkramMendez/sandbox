@@ -1,0 +1,166 @@
+hub Vero
+shortLabel Vero genome browser.
+longLabel Mapping visualizations for Vero genome data, infected and noninfected cells.
+useOneFile on
+email akram.mendez@gu.se
+
+genome chlSab2
+
+track WU_m6A_reverse
+shortLabel WU m6A reverse
+longLabel infected WU m6A reverse
+visibility full
+color 190,60,120
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_noNormalization/WU_infected_m6a_noNorm_rev.bw
+
+
+track WU_input_reverse
+shortLabel WU input reverse
+longLabel infected WU input reverse
+visibility full
+color 190,60,120
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_noNormalization/WU_infected_input1_noNorm_rev.bw
+
+
+track UK_m6A_reverse
+shortLabel UK m6A reverse
+longLabel infected UK m6A reverse
+visibility full
+color 190,60,120
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_noNormalization/UK_infected_m6a_noNorm_rev.bw
+
+
+track UK_input_reverse
+shortLabel UK input reverse
+longLabel infected UK input reverse
+visibility full
+color 190,60,120
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_noNormalization/UK_infected_input1_noNorm_rev.bw
+
+
+track SA_m6A_reverse
+shortLabel SA m6A reverse
+longLabel infected SA m6A reverse
+visibility full
+color 190,60,120
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_noNormalization/SA_infected_m6a_noNorm_rev.bw
+
+
+track SA_input_reverse
+shortLabel SA input reverse
+longLabel infected SA input reverse
+visibility full
+color 190,60,120
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_noNormalization/SA_infected_input1_noNorm_rev.bw
+
+
+track Vero_m6A_reverse
+shortLabel Vero m6A reverse
+longLabel non infected Vero m6A reverse
+visibility full
+color 190,60,120
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_noNormalization/Vero_m6a_noNorm_rev.bw
+
+
+track Vero_input_reverse
+shortLabel Vero input reverse
+longLabel non infected Vero input reverse
+visibility full
+color 190,60,120
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_noNormalization/Vero_input1_noNorm_rev.bw
+
+
+track WU_m6A_forward
+shortLabel WU m6A forward
+longLabel infected WU m6A forward
+visibility full
+color 33,113,181
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_noNormalization/WU_infected_m6a_noNorm_fwd.bw
+
+
+track WU_input_forward
+shortLabel WU input forward
+longLabel infected WU input forward
+visibility full
+color 33,113,181
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_noNormalization/WU_infected_input1_noNorm_fwd.bw
+
+
+track UK_m6A_forward
+shortLabel UK m6A forward
+longLabel infected UK m6A forward
+visibility full
+color 33,113,181
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_noNormalization/UK_infected_m6a_noNorm_fwd.bw
+
+
+track UK_input_forward
+shortLabel UK input forward
+longLabel infected UK input forward
+visibility full
+color 33,113,181
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_noNormalization/UK_infected_input1_noNorm_fwd.bw
+
+
+track SA_m6A_forward
+shortLabel SA m6A forward
+longLabel infected SA m6A forward
+visibility full
+color 33,113,181
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_noNormalization/SA_infected_m6a_noNorm_fwd.bw
+
+
+track SA_input_forward
+shortLabel SA input forward
+longLabel infected SA input forward
+visibility full
+color 33,113,181
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_noNormalization/SA_infected_input1_noNorm_fwd.bw
+
+
+track Vero_m6A_forward
+shortLabel Vero m6A forward
+longLabel non infected Vero m6A forward
+visibility full
+color 33,113,181
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_noNormalization/Vero_m6a_noNorm_fwd.bw
+
+
+track Vero_input_forward
+shortLabel Vero input forward
+longLabel non infected Vero input forward
+visibility full
+color 33,113,181
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_noNormalization/Vero_input1_noNorm_fwd.bw
