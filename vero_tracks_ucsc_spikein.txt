@@ -170,7 +170,7 @@ track H3K27ac
 shortLabel H3K27ac
 longLabel H3K27ac SARS-Cov2 (Wilen et al., 2020)
 visibility full
-color 37,65,178
+color 190,60,120
 type bigWig
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/h3k27ac/GSM4678410_WC200604_051_142_S5_L001_FE.bigWig
