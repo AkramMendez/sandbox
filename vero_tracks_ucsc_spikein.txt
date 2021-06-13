@@ -164,3 +164,23 @@ color 33,113,181
 type bigWig
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/Vero_input1_SpikeInNorm_fwd.bw
+
+
+track H3K27ac
+shortLabel H3K27ac
+longLabel H3K27ac SARS-Cov2 (Wilen et al., 2020)
+visibility full
+color 37,65,178
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/h3k27ac/GSM4678410_WC200604_051_142_S5_L001_FE.bigWig
+
+
+track H3K27ac peaks
+shortLabel H3K27ac peaks
+longLabel H3K27ac narrowPeak SARS-Cov2 (Wilen et al., 2020)
+visibility full
+color 37,65,178
+type narrowPeal
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/h3k27ac/GSM4678410_WC200604_051_142_S5_L001_peaks.narrowPeak
