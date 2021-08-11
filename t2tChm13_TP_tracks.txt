@@ -24,6 +24,8 @@ visibility full
 color 0,128,128
 type bigWig
 maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/fwd/csh.m6a.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.fwd.noNorm.bs10.bw
 
 track Igg-Fwd
@@ -33,6 +35,8 @@ visibility full
 color 0,128,128
 type bigWig
 maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/fwd/igg.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.fwd.noNorm.bs10.bw
 
 track METTL3-KD_Input-Fwd
@@ -42,6 +46,8 @@ visibility full
 color 0,128,128
 type bigWig
 maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/fwd/mettl3kd.input.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.fwd.noNorm.bs10.bw
 
 track METTL3-KD_m6A-Fwd
@@ -51,6 +57,8 @@ visibility full
 color 0,128,128
 type bigWig
 maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/fwd/mettl3kd.m6a.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.fwd.noNorm.bs10.bw
 
 track U2OS_ATRi_Input-Fwd
@@ -60,6 +68,8 @@ visibility full
 color 0,128,128
 type bigWig
 maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/fwd/u2os.atri.input.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.fwd.noNorm.bs10.bw
 
 track U2OS_ATRi_m6A-Fwd
@@ -69,6 +79,8 @@ visibility full
 color 0,128,128
 type bigWig
 maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/fwd/u2os.atri.m6a.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.fwd.noNorm.bs10.bw
 
 track U2OS_DMSO_Input-Fwd
@@ -78,6 +90,8 @@ visibility full
 color 0,128,128
 type bigWig
 maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/fwd/u2os.dmso.input.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.fwd.noNorm.bs10.bw
 
 track U2OS_DMSO_m6A-Fwd
@@ -87,6 +101,8 @@ visibility full
 color 0,128,128
 type bigWig
 maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/fwd/u2os.dmso.m6a.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.fwd.noNorm.bs10.bw
 
 track Csh_Input-Rev
@@ -96,6 +112,8 @@ visibility full
 color 195,29,188
 type bigWig
 maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/rev/csh.input.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.rev.noNorm.bs10.bw
 
 track Csh_m6A-Rev
@@ -105,6 +123,8 @@ visibility full
 color 195,29,188
 type bigWig
 maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/rev/csh.m6a.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.rev.noNorm.bs10.bw
 
 track Igg-Rev
@@ -114,6 +134,8 @@ visibility full
 color 195,29,188
 type bigWig
 maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/rev/igg.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.rev.noNorm.bs10.bw
 
 track METTL3-KD_Input-Rev
@@ -123,6 +145,8 @@ visibility full
 color 195,29,188
 type bigWig
 maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/rev/mettl3kd.input.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.rev.noNorm.bs10.bw
 
 track METTL3-KD_m6A-Rev
@@ -132,6 +156,8 @@ visibility full
 color 195,29,188
 type bigWig
 maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/rev/mettl3kd.m6a.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.rev.noNorm.bs10.bw
 
 track U2OS_ATRi_Input-Rev
@@ -141,6 +167,8 @@ visibility full
 color 195,29,188
 type bigWig
 maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/rev/u2os.atri.input.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.rev.noNorm.bs10.bw
 
 track U2OS_ATRi-Rev
@@ -150,6 +178,8 @@ visibility full
 color 195,29,188
 type bigWig
 maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/rev/u2os.atri.m6a.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.rev.noNorm.bs10.bw
 
 track U2OS_DMSO_Input-Rev
@@ -159,6 +189,8 @@ visibility full
 color 195,29,188
 type bigWig
 maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/rev/u2os.dmso.input.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.rev.noNorm.bs10.bw
 
 track U2OS_DMSO_m6A-Rev
@@ -168,78 +200,96 @@ visibility full
 color 195,29,188
 type bigWig
 maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/rev/u2os.dmso.m6a.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.rev.noNorm.bs10.bw
 
 track 812_Bleomycin_4h_Input-Fwd
 shortLabel 812_Bleomycin_4h_Input-Fwd
 longLabel 812_Bleomycin_4h_Input-Fwd
 visibility full
-color 195,29,188
+color 0,128,128
 type bigWig
 maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/fwd/812_Bleomycin_4h_Input_S37_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.fwd.noNorm.bs10.bw
 
 track 812_Bleomycin_4h_m6A-Fwd
 shortLabel 812_Bleomycin_4h_m6A-Fwd
 longLabel 812_Bleomycin_4h_m6A-Fwd
 visibility full
-color 195,29,188
+color 0,128,128
 type bigWig
 maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/fwd/812_Bleomycin_4h_m6A_S41_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.fwd.noNorm.bs10.bw
 
 track 812_NoTreat_Input-Fwd
 shortLabel 812_NoTreat_Input-Fwd
 longLabel 812_NoTreat_Input-Fwd
 visibility full
-color 195,29,188
+color 0,128,128
 type bigWig
 maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/fwd/812_No_treat_Input_S36_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.fwd.noNorm.bs10.bw
 
 track 812_NoTreat_m6A-Fwd
 shortLabel 812_NoTreat_m6A-Fwd
 longLabel 812_NoTreat_m6A-Fwd
 visibility full
-color 195,29,188
+color 0,128,128
 type bigWig
 maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/fwd/812_No_treat_m6A_S40_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.fwd.noNorm.bs10.bw
 
 track Csh_Bleomycin_4h_Input-Fwd
 shortLabel Csh_Bleomycin_4h_Input-Fwd
 longLabel Csh_Bleomycin_4h_Input-Fwd
 visibility full
-color 195,29,188
+color 0,128,128
 type bigWig
 maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/fwd/Csh_Bleomycin_4h_Input_S35_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.fwd.noNorm.bs10.bw
 
 track Csh_Bleomycin_4h_m6A-Fwd
 shortLabel Csh_Bleomycin_4h_m6A-Fwd
 longLabel Csh_Bleomycin_4h_m6A-Fwd
 visibility full
-color 195,29,188
+color 0,128,128
 type bigWig
 maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/fwd/Csh_Bleomycin_4h_m6A_S39_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.fwd.noNorm.bs10.bw
 
 track Csh_NoTreat_Input-Fwd
 shortLabel Csh_NoTreat_Input-Fwd
 longLabel Csh_NoTreat_Input-Fwd
 visibility full
-color 195,29,188
+color 0,128,128
 type bigWig
 maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/fwd/Csh_No_treat_Input_S34_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.fwd.noNorm.bs10.bw
 
 track Csh_NoTreat_m6A-Fwd
 shortLabel Csh_NoTreat_m6A-Fwd
 longLabel Csh_NoTreat_m6A-Fwd
 visibility full
-color 195,29,188
+color 0,128,128
 type bigWig
 maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/fwd/Csh_No_treat_m6A_S38_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.fwd.noNorm.bs10.bw
 
 
@@ -250,6 +300,8 @@ visibility full
 color 195,29,188
 type bigWig
 maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/rev/812_Bleomycin_4h_Input_S37_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.rev.noNorm.bs10.bw
 
 track 812_Bleomycin_4h_m6A-Rev
@@ -259,6 +311,8 @@ visibility full
 color 195,29,188
 type bigWig
 maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/rev/812_Bleomycin_4h_m6A_S41_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.rev.noNorm.bs10.bw
 
 track 812_NoTreat_Input-Rev
@@ -268,6 +322,8 @@ visibility full
 color 195,29,188
 type bigWig
 maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/rev/812_No_treat_Input_S36_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.rev.noNorm.bs10.bw
 
 track 812_NoTreat_m6A-Rev
@@ -277,6 +333,8 @@ visibility full
 color 195,29,188
 type bigWig
 maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/rev/812_No_treat_m6A_S40_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.rev.noNorm.bs10.bw
 
 track Csh_Bleomycin_4h_Input-Rev
@@ -286,6 +344,8 @@ visibility full
 color 195,29,188
 type bigWig
 maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/rev/Csh_Bleomycin_4h_Input_S35_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.rev.noNorm.bs10.bw
 
 track Csh_Bleomycin_4h_m6A-Rev
@@ -295,6 +355,8 @@ visibility full
 color 195,29,188
 type bigWig
 maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/rev/Csh_Bleomycin_4h_m6A_S39_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.rev.noNorm.bs10.bw
 
 track Csh_NoTreat_Input-Rev
@@ -304,6 +366,8 @@ visibility full
 color 195,29,188
 type bigWig
 maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/rev/Csh_No_treat_Input_S34_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.rev.noNorm.bs10.bw
 
 track Csh_NoTreat_m6A-Rev
@@ -313,4 +377,6 @@ visibility full
 color 195,29,188
 type bigWig
 maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/rev/Csh_No_treat_m6A_S38_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.rev.noNorm.bs10.bw
