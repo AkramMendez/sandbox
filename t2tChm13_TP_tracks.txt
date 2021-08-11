@@ -6,7 +6,7 @@ email akram.mendez@gu.se
 
 genome t2t-chm13-v1.0
 
-track Csh Input Fwd
+track Csh_Input_Fwd
 shortLabel Csh Input Fwd
 longLabel Csh Input Fwd
 visibility full
