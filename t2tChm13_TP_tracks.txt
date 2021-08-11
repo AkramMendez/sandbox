@@ -13,6 +13,7 @@ visibility full
 color 0,128,128
 type bigWig
 maxWindowToDraw 200000
+windowingFunction maximum
 smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/fwd/csh.input.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.fwd.noNorm.bs10.bw
 
