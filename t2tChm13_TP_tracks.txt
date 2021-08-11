@@ -1,0 +1,315 @@
+hub t2tChm13_dev
+shortLabel CHM13
+longLabel T2T CHM13 Dev
+useOneFile on
+email akram.mendez@gu.se
+
+genome t2t-chm13-v1.0
+
+track Csh Input Fwd
+shortLabel Csh Input Fwd
+longLabel Csh Input Fwd
+visibility full
+color 0,128,128
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/fwd/csh.input.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.fwd.noNorm.bs10.bw
+
+track Csh m6A Fwd
+shortLabel Csh m6A Fwd
+longLabel Csh m6A Fwd
+visibility full
+color 0,128,128
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/fwd/csh.m6a.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.fwd.noNorm.bs10.bw
+
+track Igg Fwd
+shortLabel Igg Fwd
+longLabel Igg Fwd
+visibility full
+color 0,128,128
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/fwd/igg.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.fwd.noNorm.bs10.bw
+
+track METTL3-KD Input Fwd
+shortLabel METTL3-KD Input Fwd
+longLabel METTL3-KD Input Fwd
+visibility full
+color 0,128,128
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/fwd/mettl3kd.input.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.fwd.noNorm.bs10.bw
+
+track METTL3-KD m6A Fwd
+shortLabel METTL3-KD m6A Fwd
+longLabel METTL3-KD m6A Fwd
+visibility full
+color 0,128,128
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/fwd/mettl3kd.m6a.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.fwd.noNorm.bs10.bw
+
+track U2OS ATRi Input Fwd
+shortLabel U2OS ATRi Input Fwd
+longLabel U2OS ATRi Input Fwd
+visibility full
+color 0,128,128
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/fwd/u2os.atri.input.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.fwd.noNorm.bs10.bw
+
+track U2OS ATRi m6A Fwd
+shortLabel U2OS ATRi m6A Fwd
+longLabel U2OS ATRi m6A Fwd
+visibility full
+color 0,128,128
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/fwd/u2os.atri.m6a.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.fwd.noNorm.bs10.bw
+
+track U2OS DMSO Input Fwd
+shortLabel U2OS DMSO Input Fwd
+longLabel U2OS DMSO Input Fwd
+visibility full
+color 0,128,128
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/fwd/u2os.dmso.input.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.fwd.noNorm.bs10.bw
+
+track U2OS DMSO m6A Fwd
+shortLabel  U2OS DMSO m6A Fwd
+longLabel  U2OS DMSO m6A Fwd
+visibility full
+color 0,128,128
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/fwd/u2os.dmso.m6a.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.fwd.noNorm.bs10.bw
+
+
+track Csh Iput Rev
+shortLabel Csh Iput Rev
+longLabel Csh Iput Rev
+visibility full
+color 195,29,188
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/rev/csh.input.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.rev.noNorm.bs10.bw
+
+track Csh m6A Rev
+shortLabel  Csh m6A Rev
+longLabel  Csh m6A Rev
+visibility full
+color 195,29,188
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/rev/csh.m6a.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.rev.noNorm.bs10.bw
+
+track Igg Rev
+shortLabel 
+longLabel 
+visibility full
+color 195,29,188
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/rev/igg.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.rev.noNorm.bs10.bw
+
+track METTL3-KD Input Rev
+shortLabel METTL3-KD Input Rev
+longLabel METTL3-KD Input Rev
+visibility full
+color 195,29,188
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/rev/mettl3kd.input.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.rev.noNorm.bs10.bw
+
+track METTL3-KD m6A Rev
+shortLabel METTL3-KD m6A Rev
+longLabel METTL3-KD m6A Rev
+visibility full
+color 195,29,188
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/rev/mettl3kd.m6a.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.rev.noNorm.bs10.bw
+
+track U2OS ATRi Input Rev
+shortLabel U2OS ATRi Input Rev
+longLabel U2OS ATRi Input Rev
+visibility full
+color 195,29,188
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/rev/u2os.atri.input.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.rev.noNorm.bs10.bw
+
+track U2OS ATRi Rev
+shortLabel U2OS ATRi Rev
+longLabel U2OS ATRi Rev
+visibility full
+color 195,29,188
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/rev/u2os.atri.m6a.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.rev.noNorm.bs10.bw
+
+track U2OS DMSO Input Rev
+shortLabel U2OS DMSO Input Rev
+longLabel U2OS DMSO Input Rev
+visibility full
+color 195,29,188
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/rev/u2os.dmso.input.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.rev.noNorm.bs10.bw
+
+track U2OS DMSO m6A Rev
+shortLabel U2OS DMSO m6A Rev
+longLabel U2OS DMSO m6A Rev
+visibility full
+color 195,29,188
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/rev/u2os.dmso.m6a.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.rev.noNorm.bs10.bw
+
+track 
+shortLabel 
+longLabel 
+visibility full
+color 195,29,188
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/fwd/812_Bleomycin_4h_Input_S37_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.fwd.noNorm.bs10.bw
+
+track 
+shortLabel 
+longLabel 
+visibility full
+color 195,29,188
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/fwd/812_Bleomycin_4h_m6A_S41_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.fwd.noNorm.bs10.bw
+
+track 
+shortLabel 
+longLabel 
+visibility full
+color 195,29,188
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/fwd/812_No_treat_Input_S36_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.fwd.noNorm.bs10.bw
+
+track 
+shortLabel 
+longLabel 
+visibility full
+color 195,29,188
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/fwd/812_No_treat_m6A_S40_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.fwd.noNorm.bs10.bw
+
+track 
+shortLabel 
+longLabel 
+visibility full
+color 195,29,188
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/fwd/Csh_Bleomycin_4h_Input_S35_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.fwd.noNorm.bs10.bw
+
+track 
+shortLabel 
+longLabel 
+visibility full
+color 195,29,188
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/fwd/Csh_Bleomycin_4h_m6A_S39_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.fwd.noNorm.bs10.bw
+
+track 
+shortLabel 
+longLabel 
+visibility full
+color 195,29,188
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/fwd/Csh_No_treat_Input_S34_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.fwd.noNorm.bs10.bw
+
+track 
+shortLabel 
+longLabel 
+visibility full
+color 195,29,188
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/fwd/Csh_No_treat_m6A_S38_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.fwd.noNorm.bs10.bw
+
+
+track 
+shortLabel 
+longLabel 
+visibility full
+color 195,29,188
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/rev/812_Bleomycin_4h_Input_S37_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.rev.noNorm.bs10.bw
+
+track 
+shortLabel 
+longLabel 
+visibility full
+color 195,29,188
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/rev/812_Bleomycin_4h_m6A_S41_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.rev.noNorm.bs10.bw
+
+track 
+shortLabel 
+longLabel 
+visibility full
+color 195,29,188
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/rev/812_No_treat_Input_S36_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.rev.noNorm.bs10.bw
+
+track 
+shortLabel 
+longLabel 
+visibility full
+color 195,29,188
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/rev/812_No_treat_m6A_S40_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.rev.noNorm.bs10.bw
+
+track 
+shortLabel 
+longLabel 
+visibility full
+color 195,29,188
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/rev/Csh_Bleomycin_4h_Input_S35_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.rev.noNorm.bs10.bw
+
+track 
+shortLabel 
+longLabel 
+visibility full
+color 195,29,188
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/rev/Csh_Bleomycin_4h_m6A_S39_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.rev.noNorm.bs10.bw
+
+track 
+shortLabel 
+longLabel 
+visibility full
+color 195,29,188
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/rev/Csh_No_treat_Input_S34_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.rev.noNorm.bs10.bw
+
+track 
+shortLabel 
+longLabel 
+visibility full
+color 195,29,188
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/rev/Csh_No_treat_m6A_S38_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.rev.noNorm.bs10.bw
