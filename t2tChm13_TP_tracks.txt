@@ -24,6 +24,7 @@ longLabel Csh_Input_Fwd
 visibility full
 color 128,192,192
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -35,6 +36,7 @@ longLabel METTL3-KD m6A Fwd
 visibility full
 color 0,128,128
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -46,6 +48,7 @@ longLabel METTL3-KD Input Fwd
 visibility full
 color 128,192,192
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -57,6 +60,7 @@ longLabel U2OS ATRi Input Fwd
 visibility full
 color 128,192,192
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -68,6 +72,7 @@ longLabel U2OS ATRi m6A Fwd
 visibility full
 color 0,128,128
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -79,6 +84,7 @@ longLabel  U2OS DMSO m6A Fwd
 visibility full
 color 0,128,128
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -90,6 +96,7 @@ longLabel U2OS DMSO Input Fwd
 visibility full
 color 128,192,192
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -102,6 +109,7 @@ longLabel Igg Fwd
 visibility full
 color 0,128,128
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -113,6 +121,7 @@ longLabel Csh Input Rev
 visibility full
 color 243,177,241
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -124,6 +133,7 @@ longLabel  Csh m6A Rev
 visibility full
 color 195,29,188
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -135,6 +145,7 @@ longLabel Igg Rev
 visibility full
 color 195,29,188
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -146,6 +157,7 @@ longLabel METTL3-KD Input Rev
 visibility full
 color 243,177,241
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -157,6 +169,7 @@ longLabel METTL3-KD m6A Rev
 visibility full
 color 195,29,188
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -168,6 +181,7 @@ longLabel U2OS ATRi Input Rev
 visibility full
 color 243,177,241
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -179,6 +193,7 @@ longLabel U2OS ATRi Rev
 visibility full
 color 195,29,188
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -190,6 +205,7 @@ longLabel U2OS DMSO Input Rev
 visibility full
 color 243,177,241
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -201,6 +217,7 @@ longLabel U2OS DMSO m6A Rev
 visibility full
 color 195,29,188
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -212,6 +229,7 @@ longLabel 812_Bleomycin_4h_Input-Fwd
 visibility full
 color 128,192,192
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -223,6 +241,7 @@ longLabel 812_Bleomycin_4h_m6A-Fwd
 visibility full
 color 0,128,128
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -234,6 +253,7 @@ longLabel 812_NoTreat_Input-Fwd
 visibility full
 color 128,192,192
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -245,6 +265,7 @@ longLabel 812_NoTreat_m6A-Fwd
 visibility full
 color 0,128,128
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -256,6 +277,7 @@ longLabel Csh_Bleomycin_4h_Input-Fwd
 visibility full
 color 128,192,192
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -267,6 +289,7 @@ longLabel Csh_Bleomycin_4h_m6A-Fwd
 visibility full
 color 0,128,128
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -278,6 +301,7 @@ longLabel Csh_NoTreat_Input-Fwd
 visibility full
 color 128,192,192
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -289,6 +313,7 @@ longLabel Csh_NoTreat_m6A-Fwd
 visibility full
 color 0,128,128
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -301,6 +326,7 @@ longLabel 812_Bleomycin_4h_Input-Rev
 visibility full
 color 243,177,241
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -312,6 +338,7 @@ longLabel 812_Bleomycin_4h_m6A-Rev
 visibility full
 color 195,29,188
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -323,6 +350,7 @@ longLabel 812_NoTreat_Input-Rev
 visibility full
 color 243,177,241
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -334,6 +362,7 @@ longLabel 812_NoTreat_m6A-Rev
 visibility full
 color 195,29,188
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -345,6 +374,7 @@ longLabel Csh_Bleomycin_4h_Input-Rev
 visibility full
 color 243,177,241
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -356,6 +386,7 @@ longLabel Csh_Bleomycin_4h_m6A-Rev
 visibility full
 color 195,29,188
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -367,6 +398,7 @@ longLabel Csh_NoTreat_Input-Rev
 visibility full
 color 243,177,241
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -378,6 +410,7 @@ longLabel Csh_NoTreat_m6A-Rev
 visibility full
 color 195,29,188
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -389,6 +422,7 @@ longLabel CTCF_Deng_etal_2014
 visibility full
 color 121,67,163
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -400,6 +434,7 @@ longLabel CTCF_U2OS_Ibarra_etal_2016
 visibility full
 color 163,67,15
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -411,6 +446,7 @@ longLabel H3K27ac_U2OS_Ibarra_etal_2016
 visibility full
 color 239,96,23
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -422,6 +458,7 @@ longLabel PolII_Deng_etal_2014
 visibility full
 color 23,58,239
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -433,6 +470,7 @@ longLabel PolII_Waltz_etal_2014
 visibility full
 color 129,71,242
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -444,6 +482,7 @@ longLabel Rad21_Deng_etal_2014
 visibility full
 color 162,119,245
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
