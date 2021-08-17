@@ -12,6 +12,7 @@ longLabel Csh m6A Fwd
 visibility full
 color 0,128,128
 type bigWig
+maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
