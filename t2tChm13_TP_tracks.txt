@@ -381,3 +381,69 @@ maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/rev/Csh_No_treat_m6A_S38_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.rev.noNorm.bs10.bw
+
+track CTCF_Deng_etal_2014
+shortLabel CTCF_Deng_etal_2014
+longLabel CTCF_Deng_etal_2014
+visibility full
+color 121,67,163
+type bigWig
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/public_datasets/CTCF_SRR036691_trimmed.fq.gz.hisat2.mapped.nodup.sorted.noNorm.bs10.bw
+
+track CTCF_U2OS_Ibarra_etal_2016
+shortLabel CTCF_U2OS_Ibarra_etal_2016
+longLabel CTCF_U2OS_Ibarra_etal_2016
+visibility full
+color 163,67,15
+type bigWig
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/public_datasets/CTCF_U2OS_SRR4413988_trimmed.fq.gz.hisat2.mapped.nodup.sorted.noNorm.bs10.bw
+
+track H3K27ac_U2OS_Ibarra_etal_2016
+shortLabel H3K27ac_U2OS_Ibarra_etal_2016
+longLabel H3K27ac_U2OS_Ibarra_etal_2016
+visibility full
+color 239,96,23
+type bigWig
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/public_datasets/H3K27ac_U2OS_SRR4413985_trimmed.fq.gz.hisat2.mapped.nodup.sorted.noNorm.bs10.bw
+
+track PolII_Deng_etal_2014
+shortLabel PolII_Deng_etal_2014
+longLabel PolII_Deng_etal_2014
+visibility full
+color 23,58,239
+type bigWig
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/public_datasets/PolII_SRR038355_trimmed.fq.gz.hisat2.mapped.nodup.sorted.noNorm.bs10.bw
+
+track PolII_Waltz_etal_2014
+shortLabel PolII_Waltz_etal_2014
+longLabel PolII_Waltz_etal_2014
+visibility full
+color 129,71,242
+type bigWig
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/public_datasets/PolII_U2OS_SRR987271_trimmed.fq.gz.hisat2.mapped.nodup.sorted.noNorm.bs10.bw
+
+track Rad21_Deng_etal_2014
+shortLabel Rad21_Deng_etal_2014
+longLabel Rad21_Deng_etal_2014
+visibility full
+color 162,119,245
+type bigWig
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/public_datasets/Rad21_SRR351758_trimmed.fq.gz.hisat2.mapped.nodup.sorted.noNorm.bs10.bw
