@@ -12,6 +12,7 @@ longLabel infected WU m6A reverse
 visibility full
 color 190,60,120
 type bigWig
+negateValues on
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/WU_infected_m6a_SpikeInNorm_rev.bw
 
