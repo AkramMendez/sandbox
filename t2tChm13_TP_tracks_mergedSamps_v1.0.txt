@@ -1,4 +1,4 @@
-hub t2tChm13_dev
+hub t2tChm13_dev_v1.0
 shortLabel CHM13_lab_data
 longLabel T2T CHM13 Dev
 useOneFile on
