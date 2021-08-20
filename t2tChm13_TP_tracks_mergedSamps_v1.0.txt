@@ -6,38 +6,6 @@ email akram.mendez@gu.se
 
 genome t2t-chm13-v1.0
 
-track non-infected_Vero_peaks
-shortLabel non-infected_Vero_peaks
-longLabel non-infected_Vero_peaks
-visibility full
-color 0,0,0
-type narrowPeak
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/peaks_nodup_uniq_vero_infectedAll_peaks_all_qcutoff.narrowPeak
-
-track infected_B.1_peaks
-shortLabel infected_B.1_peaks
-longLabel infected_B.1_peaks
-visibility full
-color 0,0,0
-type narrowPeak
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/peaks_nodup_uniq_WU_infectedAll_peaks_all_qcutoff.narrowPeak
-
-track infected_B.1.1.7_peaks
-shortLabel infected_B.1.1.7_peaks
-longLabel infected_B.1.1.7_peaks
-visibility full
-color 0,0,0
-type narrowPeak
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/peaks_nodup_uniq_UK_infectedAll_peaks_all_qcutoff.narrowPeak
-
-track infected_B.1.351_peaks
-shortLabel infected_B.1.351_peaks
-longLabel infected_B.1.351_peaks
-visibility full
-color 0,0,0
-type narrowPeak
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/peaks_nodup_uniq_SA_infectedAll_peaks_all_qcutoff.narrowPeak
-
 track Csh_m6A-Fwd
 shortLabel Csh m6A Fwd
 longLabel Csh m6A Fwd
