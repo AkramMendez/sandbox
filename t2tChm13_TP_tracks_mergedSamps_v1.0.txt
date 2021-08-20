@@ -13,7 +13,7 @@ visibility full
 altColor 0,128,128
 type bigWig
 negateValues on
-viewLimitsMax -50,0
+viewLimits -50,0
 maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
@@ -27,7 +27,7 @@ visibility full
 altColor 128,192,192
 type bigWig
 negateValues on
-viewLimitsMax -50,0
+viewLimits -50,0
 maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
@@ -41,7 +41,7 @@ visibility full
 altColor 0,128,128
 type bigWig
 negateValues on
-viewLimitsMax -50,0
+viewLimits -50,0
 maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
@@ -55,7 +55,7 @@ visibility full
 altColor 128,192,192
 type bigWig
 negateValues on
-viewLimitsMax -50,0
+viewLimits -50,0
 maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
@@ -69,7 +69,7 @@ visibility full
 altColor 128,192,192
 type bigWig
 negateValues on
-viewLimitsMax -50,0
+viewLimits -50,0
 maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
@@ -83,7 +83,7 @@ visibility full
 altColor 0,128,128
 type bigWig
 negateValues on
-viewLimitsMax -50,0
+viewLimits -50,0
 maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
@@ -97,7 +97,7 @@ visibility full
 altColor 0,128,128
 type bigWig
 negateValues on
-viewLimitsMax -50,0
+viewLimits -50,0
 maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
@@ -111,7 +111,7 @@ visibility full
 altColor 128,192,192
 type bigWig
 negateValues on
-viewLimitsMax -50,0
+viewLimits -50,0
 maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
@@ -126,7 +126,7 @@ visibility full
 altColor 0,128,128
 type bigWig
 negateValues on
-viewLimitsMax -50,0
+viewLimits -50,0
 maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
@@ -248,7 +248,7 @@ visibility full
 altColor 128,192,192
 type bigWig
 negateValues on
-viewLimitsMax -50,0
+viewLimits -50,0
 maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
@@ -262,7 +262,7 @@ visibility full
 altColor 0,128,128
 type bigWig
 negateValues on
-viewLimitsMax -50,0
+viewLimits -50,0
 maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
@@ -276,7 +276,7 @@ visibility full
 altColor 128,192,192
 type bigWig
 negateValues on
-viewLimitsMax -50,0
+viewLimits -50,0
 maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
@@ -290,7 +290,7 @@ visibility full
 altColor 0,128,128
 type bigWig
 negateValues on
-viewLimitsMax -50,0
+viewLimits -50,0
 maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
