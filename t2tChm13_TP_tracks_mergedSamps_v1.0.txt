@@ -12,7 +12,7 @@ longLabel Csh m6A Fwd
 visibility full
 altColor 0,128,128
 type bigWig
-negateValues on
+negateValues off
 maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
@@ -25,7 +25,7 @@ longLabel Csh_Input_Fwd
 visibility full
 altColor 128,192,192
 type bigWig
-negateValues on
+negateValues off
 maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
@@ -38,7 +38,7 @@ longLabel METTL3-KD m6A Fwd
 visibility full
 altColor 0,128,128
 type bigWig
-negateValues on
+negateValues off
 maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
@@ -51,7 +51,7 @@ longLabel METTL3-KD Input Fwd
 visibility full
 altColor 128,192,192
 type bigWig
-negateValues on
+negateValues off
 maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
@@ -64,7 +64,7 @@ longLabel U2OS ATRi Input Fwd
 visibility full
 altColor 128,192,192
 type bigWig
-negateValues on
+negateValues off
 maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
@@ -77,7 +77,7 @@ longLabel U2OS ATRi m6A Fwd
 visibility full
 altColor 0,128,128
 type bigWig
-negateValues on
+negateValues off
 maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
@@ -90,7 +90,7 @@ longLabel  U2OS DMSO m6A Fwd
 visibility full
 altColor 0,128,128
 type bigWig
-negateValues on
+negateValues off
 maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
@@ -103,7 +103,7 @@ longLabel U2OS DMSO Input Fwd
 visibility full
 altColor 128,192,192
 type bigWig
-negateValues on
+negateValues off
 maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
@@ -117,7 +117,7 @@ longLabel Igg Fwd
 visibility full
 altColor 0,128,128
 type bigWig
-negateValues on
+negateValues off
 maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
@@ -238,7 +238,7 @@ longLabel 812_Bleomycin_4h_Input-Fwd
 visibility full
 altColor 128,192,192
 type bigWig
-negateValues on
+negateValues off
 maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
@@ -251,7 +251,7 @@ longLabel 812_Bleomycin_4h_m6A-Fwd
 visibility full
 altColor 0,128,128
 type bigWig
-negateValues on
+negateValues off
 maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
@@ -264,7 +264,7 @@ longLabel Csh_Bleomycin_4h_Input-Fwd
 visibility full
 altColor 128,192,192
 type bigWig
-negateValues on
+negateValues off
 maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
@@ -277,7 +277,7 @@ longLabel Csh_Bleomycin_4h_m6A-Fwd
 visibility full
 altColor 0,128,128
 type bigWig
-negateValues on
+negateValues off
 maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
