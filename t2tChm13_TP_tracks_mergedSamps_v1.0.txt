@@ -6,11 +6,63 @@ email akram.mendez@gu.se
 
 genome t2t-chm13-v1.0
 
+track Csh_m6A-ratio_fwd
+shortLabel Csh_m6A-ratio_fwd
+longLabel Csh_m6A-ratio_fwd
+visibility full
+color 0,128,128
+type bigWig
+negateValues off
+maxHeightPixels 50
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/ratio/csh_merged.mapped.nodup.spikeInNorm.bs10.ratio.fwd.bw
+
+track Csh_m6A-ratio_rev
+shortLabel Csh_m6A-ratio_rev
+longLabel Csh_m6A-ratio_rev
+visibility full
+color 195,29,188
+type bigWig
+negateValues off
+maxHeightPixels 50
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/ratio/csh_merged.mapped.nodup.spikeInNorm.bs10.ratio.rev.bw
+
+track METTL3KD_m6A-ratio_fwd
+shortLabel METTL3KD_m6A-ratio_fwd
+longLabel METTL3KD_m6A-ratio_fwd
+visibility full
+color 0,128,128
+type bigWig
+negateValues off
+maxHeightPixels 50
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/ratio/mettl3kd_merged.mapped.nodup.spikeInNorm.bs10.ratio.fwd.bw
+
+track METTL3KD_m6A-ratio_rev
+shortLabel METTL3KD_m6A-ratio_rev
+longLabel METTL3KD_m6A-ratio_rev
+visibility full
+color 195,29,188
+type bigWig
+negateValues off
+maxHeightPixels 50
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/ratio/mettl3kd_merged.mapped.nodup.spikeInNorm.bs10.ratio.rev.bw
+
 track Csh_m6A-Fwd
 shortLabel Csh m6A Fwd
 longLabel Csh m6A Fwd
 visibility full
-altColor 0,128,128
+color 0,128,128
 type bigWig
 negateValues off
 maxHeightPixels 50
@@ -23,7 +75,7 @@ track Csh_Input-Fwd
 shortLabel Csh_Input_Fwd
 longLabel Csh_Input_Fwd
 visibility full
-altColor 128,192,192
+color 128,192,192
 type bigWig
 negateValues off
 maxHeightPixels 50
@@ -36,7 +88,7 @@ track METTL3-KD_m6A-Fwd
 shortLabel METTL3-KD m6A Fwd
 longLabel METTL3-KD m6A Fwd
 visibility full
-altColor 0,128,128
+color 0,128,128
 type bigWig
 negateValues off
 maxHeightPixels 50
@@ -49,7 +101,7 @@ track METTL3-KD_Input-Fwd
 shortLabel METTL3 KD Input Fwd
 longLabel METTL3-KD Input Fwd
 visibility full
-altColor 128,192,192
+color 128,192,192
 type bigWig
 negateValues off
 maxHeightPixels 50
@@ -62,7 +114,7 @@ track U2OS_ATRi_Input-Fwd
 shortLabel U2OS ATRi Input Fwd
 longLabel U2OS ATRi Input Fwd
 visibility full
-altColor 128,192,192
+color 128,192,192
 type bigWig
 negateValues off
 maxHeightPixels 50
@@ -75,7 +127,7 @@ track U2OS_ATRi_m6A-Fwd
 shortLabel U2OS ATRi m6A Fwd
 longLabel U2OS ATRi m6A Fwd
 visibility full
-altColor 0,128,128
+color 0,128,128
 type bigWig
 negateValues off
 maxHeightPixels 50
@@ -88,7 +140,7 @@ track U2OS_DMSO_m6A-Fwd
 shortLabel  U2OS DMSO m6A Fwd
 longLabel  U2OS DMSO m6A Fwd
 visibility full
-altColor 0,128,128
+color 0,128,128
 type bigWig
 negateValues off
 maxHeightPixels 50
@@ -101,7 +153,7 @@ track U2OS_DMSO_Input-Fwd
 shortLabel U2OS DMSO Input Fwd
 longLabel U2OS DMSO Input Fwd
 visibility full
-altColor 128,192,192
+color 128,192,192
 type bigWig
 negateValues off
 maxHeightPixels 50
@@ -115,7 +167,7 @@ track Igg-Fwd
 shortLabel Igg Fwd
 longLabel Igg Fwd
 visibility full
-altColor 0,128,128
+color 0,128,128
 type bigWig
 negateValues off
 maxHeightPixels 50
@@ -236,7 +288,7 @@ track 812_Bleomycin_4h_Input-Fwd
 shortLabel 812_Bleomycin_4h_Input-Fwd
 longLabel 812_Bleomycin_4h_Input-Fwd
 visibility full
-altColor 128,192,192
+color 128,192,192
 type bigWig
 negateValues off
 maxHeightPixels 50
@@ -249,7 +301,7 @@ track 812_Bleomycin_4h_m6A-Fwd
 shortLabel 812_Bleomycin_4h_m6A-Fwd
 longLabel 812_Bleomycin_4h_m6A-Fwd
 visibility full
-altColor 0,128,128
+color 0,128,128
 type bigWig
 negateValues off
 maxHeightPixels 50
@@ -262,7 +314,7 @@ track Csh_Bleomycin_4h_Input-Fwd
 shortLabel Csh_Bleomycin_4h_Input-Fwd
 longLabel Csh_Bleomycin_4h_Input-Fwd
 visibility full
-altColor 128,192,192
+color 128,192,192
 type bigWig
 negateValues off
 maxHeightPixels 50
@@ -275,7 +327,7 @@ track Csh_Bleomycin_4h_m6A-Fwd
 shortLabel Csh_Bleomycin_4h_m6A-Fwd
 longLabel Csh_Bleomycin_4h_m6A-Fwd
 visibility full
-altColor 0,128,128
+color 0,128,128
 type bigWig
 negateValues off
 maxHeightPixels 50
