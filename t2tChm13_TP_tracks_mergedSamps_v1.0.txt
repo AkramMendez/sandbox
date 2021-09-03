@@ -207,6 +207,101 @@ windowingFunction maximum
 smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/rev/mettl3kd.m6a.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.rev.noNorm.bs10.bw
 
+track Csh_b2_Input-Fwd
+shortLabel Csh_b2_Input-Fwd
+longLabel Csh_b2_Input-Fwd
+visibility full
+color 128,192,192
+type bigWig
+maxHeightPixels 50
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/fwd/Csh_No_treat_Input_S34_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.fwd.noNorm.bs10.bw
+
+track Csh_b2_m6A-Fwd
+shortLabel Csh_b2_m6A-Fwd
+longLabel Csh_b2_m6A-Fwd
+visibility full
+color 0,128,128
+type bigWig
+maxHeightPixels 50
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/fwd/Csh_No_treat_m6A_S38_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.fwd.noNorm.bs10.bw
+
+track Csh_b2_Input-Rev
+shortLabel Csh_b2_Input-Rev
+longLabel Csh_b2_Input-Rev
+visibility full
+color 243,177,241
+type bigWig
+maxHeightPixels 50
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/rev/Csh_No_treat_Input_S34_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.rev.noNorm.bs10.bw
+
+track Csh_b2_m6A-Rev
+shortLabel Csh_b2_m6A-Rev
+longLabel Csh_b2_m6A-Rev
+visibility full
+color 195,29,188
+type bigWig
+maxHeightPixels 50
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/rev/Csh_No_treat_m6A_S38_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.rev.noNorm.bs10.bw
+
+track METTL3KD_b2_m6A-Rev
+shortLabel METTL3KD_b2_m6A-Rev
+longLabel METTL3KD_b2_m6A-Rev
+visibility full
+color 195,29,188
+type bigWig
+maxHeightPixels 50
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/rev/812_No_treat_m6A_S40_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.rev.noNorm.bs10.bw
+
+track METTL3KD_b2_Input-Rev
+shortLabel METTL3KD_b2_Input-Rev
+longLabel METTL3KD_b2_Input-Rev
+visibility full
+color 243,177,241
+type bigWig
+maxHeightPixels 50
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/rev/812_No_treat_Input_S36_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.rev.noNorm.bs10.bw
+
+track METTL3KD_b2_m6A-Fwd
+shortLabel METTL3KD_b2_m6A-Fwd
+longLabel METTL3KD_b2_m6A-Fwd
+visibility full
+color 0,128,128
+type bigWig
+maxHeightPixels 50
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/fwd/812_No_treat_m6A_S40_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.fwd.noNorm.bs10.bw
+
+track METTL3KD_b2_Input-Fwd
+shortLabel METTL3KD_b2_Input-Fwd
+longLabel METTL3KD_b2_Input-Fwd
+visibility full
+color 128,192,192
+type bigWig
+maxHeightPixels 50
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/fwd/812_No_treat_Input_S36_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.fwd.noNorm.bs10.bw
 
 track U2OS_ATRi_Input-Fwd
 shortLabel U2OS ATRi Input Fwd
