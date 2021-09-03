@@ -6,9 +6,9 @@ email akram.mendez@gu.se
 
 genome t2t-chm13-v1.0
 
-track Csh_m6A-ratio_fwd
-shortLabel Csh_m6A-ratio_fwd
-longLabel Csh_m6A-ratio_fwd
+track Csh_merged_m6A-ratio_fwd
+shortLabel Csh_merged_m6A-ratio_fwd
+longLabel Csh_merged_m6A-ratio_fwd
 visibility full
 color 0,128,128
 type bigWig
@@ -19,9 +19,9 @@ windowingFunction maximum
 smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/ratio/csh_merged.mapped.nodup.spikeInNorm.bs10.ratio.fwd.bw
 
-track Csh_m6A-ratio_rev
-shortLabel Csh_m6A-ratio_rev
-longLabel Csh_m6A-ratio_rev
+track Csh_merged_m6A-ratio_rev
+shortLabel Csh_merged_m6A-ratio_rev
+longLabel Csh_merged_m6A-ratio_rev
 visibility full
 color 195,29,188
 type bigWig
@@ -32,9 +32,9 @@ windowingFunction maximum
 smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/ratio/csh_merged.mapped.nodup.spikeInNorm.bs10.ratio.rev.bw
 
-track METTL3KD_m6A-ratio_fwd
-shortLabel METTL3KD_m6A-ratio_fwd
-longLabel METTL3KD_m6A-ratio_fwd
+track METTL3KD_merged_m6A-ratio_fwd
+shortLabel METTL3KD_merged_m6A-ratio_fwd
+longLabel METTL3KD_merged_m6A-ratio_fwd
 visibility full
 color 0,128,128
 type bigWig
@@ -45,9 +45,9 @@ windowingFunction maximum
 smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/ratio/mettl3kd_merged.mapped.nodup.spikeInNorm.bs10.ratio.fwd.bw
 
-track METTL3KD_m6A-ratio_rev
-shortLabel METTL3KD_m6A-ratio_rev
-longLabel METTL3KD_m6A-ratio_rev
+track METTL3KD_merged_m6A-ratio_rev
+shortLabel METTL3KD_merged_m6A-ratio_rev
+longLabel METTL3KD_merged_m6A-ratio_rev
 visibility full
 color 195,29,188
 type bigWig
@@ -58,9 +58,9 @@ windowingFunction maximum
 smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/ratio/mettl3kd_merged.mapped.nodup.spikeInNorm.bs10.ratio.rev.bw
 
-track Csh_m6A-Fwd
-shortLabel Csh m6A Fwd
-longLabel Csh m6A Fwd
+track Csh_merged_m6A-Fwd
+shortLabel Csh_merged_m6A-Fwd
+longLabel Csh_merged_m6A-Fwd
 visibility full
 color 0,128,128
 type bigWig
@@ -71,9 +71,9 @@ windowingFunction maximum
 smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/fwd/csh_merged_m6a.mapped.nodup.sorted.spikeInNorm.bs10.fwd.bw
 
-track Csh_Input-Fwd
-shortLabel Csh_Input_Fwd
-longLabel Csh_Input_Fwd
+track Csh_merged_Input-Fwd
+shortLabel Csh_merged_Input-Fwd
+longLabel Csh_merged_Input-Fwd
 visibility full
 color 128,192,192
 type bigWig
@@ -84,9 +84,9 @@ windowingFunction maximum
 smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/fwd/csh_merged_input.mapped.nodup.sorted.spikeInNorm.bs10.fwd.bw
 
-track METTL3-KD_m6A-Fwd
-shortLabel METTL3-KD m6A Fwd
-longLabel METTL3-KD m6A Fwd
+track METTL3-KD_merged_m6A-Fwd
+shortLabel METTL3-KD_merged_m6A-Fwd
+longLabel METTL3-KD_merged_m6A-Fwd
 visibility full
 color 0,128,128
 type bigWig
@@ -97,9 +97,9 @@ windowingFunction maximum
 smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/fwd/mettl3kd_merged_m6a.mapped.nodup.sorted.spikeInNorm.bs10.fwd.bw
 
-track METTL3-KD_Input-Fwd
-shortLabel METTL3 KD Input Fwd
-longLabel METTL3-KD Input Fwd
+track METTL3-KD_merged_Input-Fwd
+shortLabel METTL3-KD_merged_Input-Fwd
+longLabel METTL3-KD_merged_Input-Fwd
 visibility full
 color 128,192,192
 type bigWig
@@ -109,6 +109,104 @@ maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/fwd/mettl3kd_merged_input.mapped.nodup.sorted.spikeInNorm.bs10.fwd.bw
+
+
+track Csh_b1_m6A-Fwd
+shortLabel Csh_b1_m6A-Fwd
+longLabel Csh_b1_m6A-Fwd
+visibility full
+color 0,128,128
+type bigWig
+maxHeightPixels 50
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/fwd/csh.m6a.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.fwd.noNorm.bs10.bw
+
+track Csh_b1_Input-Fwd
+shortLabel Csh_b1_Input-Fwd
+longLabel Csh_b1_Input-Fwd
+visibility full
+color 128,192,192
+type bigWig
+maxHeightPixels 50
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/fwd/csh.input.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.fwd.noNorm.bs10.bw
+
+track METTL3KD_b1_m6A-Fwd
+shortLabel METTL3KD_b1_m6A-Fwd
+longLabel METTL3KD_b1_m6A-Fwd
+visibility full
+color 0,128,128
+type bigWig
+maxHeightPixels 50
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/fwd/mettl3kd.m6a.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.fwd.noNorm.bs10.bw
+
+track METTL3KD_b1_Input-Fwd
+shortLabel METTL3KD_b1_Input-Fwd
+longLabel METTL3KD_b1_Input-Fwd
+visibility full
+color 128,192,192
+type bigWig
+maxHeightPixels 50
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/fwd/mettl3kd.input.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.fwd.noNorm.bs10.bw
+
+track Csh__b1_Input-Rev
+shortLabel Csh__b1_Input-Rev
+longLabel Csh__b1_Input-Rev
+visibility full
+color 243,177,241
+type bigWig
+maxHeightPixels 50
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/rev/csh.input.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.rev.noNorm.bs10.bw
+
+track Csh_b1_m6A-Rev
+shortLabel  Csh_b1_m6A-Rev
+longLabel  Csh_b1_m6A-Rev
+visibility full
+color 195,29,188
+type bigWig
+maxHeightPixels 50
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/rev/csh.m6a.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.rev.noNorm.bs10.bw
+
+track METTL3KD_b1_Input-Rev
+shortLabel METTL3KD_b1_Input-Rev
+longLabel METTL3KD_b1_Input-Rev
+visibility full
+color 243,177,241
+type bigWig
+maxHeightPixels 50
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/rev/mettl3kd.input.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.rev.noNorm.bs10.bw
+
+track METTL3KD_b1_m6A-Rev
+shortLabel METTL3KD_b1_m6A-Rev
+longLabel METTL3KD_b1_m6A-Rev
+visibility full
+color 195,29,188
+type bigWig
+maxHeightPixels 50
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/rev/mettl3kd.m6a.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.rev.noNorm.bs10.bw
+
 
 track U2OS_ATRi_Input-Fwd
 shortLabel U2OS ATRi Input Fwd
@@ -176,9 +274,9 @@ windowingFunction maximum
 smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/fwd/igg.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.noNorm.bs10.fwd.bw
 
-track Csh_Input-Rev
-shortLabel Csh Input Rev
-longLabel Csh Input Rev
+track Csh_merged_Input-Rev
+shortLabel Csh_merged_Input-Rev
+longLabel Csh_merged_Input-Rev
 visibility full
 color 243,177,241
 type bigWig
@@ -188,9 +286,9 @@ windowingFunction maximum
 smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/rev/csh_merged_input.mapped.nodup.sorted.spikeInNorm.bs10.rev.bw
 
-track Csh_m6A-Rev
-shortLabel  Csh m6A Rev
-longLabel  Csh m6A Rev
+track Csh_merged_m6A-Rev
+shortLabel  Csh_merged_m6A-Rev
+longLabel  Csh_merged_m6A-Rev
 visibility full
 color 195,29,188
 type bigWig
@@ -212,9 +310,9 @@ windowingFunction maximum
 smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/rev/igg.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.noNorm.bs10.rev.bw
 
-track METTL3-KD_Input-Rev
-shortLabel METTL3-KD Input Rev
-longLabel METTL3-KD Input Rev
+track METTL3-KD_merged_Input-Rev
+shortLabel METTL3-KD_merged_Input-Rev
+longLabel METTL3-KD_merged_Input-Rev
 visibility full
 color 243,177,241
 type bigWig
@@ -224,9 +322,9 @@ windowingFunction maximum
 smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/rev/mettl3kd_merged_input.mapped.nodup.sorted.spikeInNorm.bs10.rev.bw
 
-track METTL3-KD_m6A-Rev
-shortLabel METTL3-KD m6A Rev
-longLabel METTL3-KD m6A Rev
+track METTL3-KD_merged_m6A-Rev
+shortLabel METTL3-KD_merged_m6A-Rev
+longLabel METTL3-KD_merged_m6A-Rev
 visibility full
 color 195,29,188
 type bigWig
