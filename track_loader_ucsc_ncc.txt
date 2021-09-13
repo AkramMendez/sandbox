@@ -6,18 +6,18 @@ email akram.mendez@gu.se
 
 genome hg38
 
-track hESC m6A 
-shortLabel hESC m6A
-longLabel hESC m6A
+track hESC_m6A 
+shortLabel hESC_m6A 
+longLabel hESC_m6A
 visibility full
 color 0,128,128
 type bigWig
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/ncc/h9_hESC_m6A_S22_R1_001_trimmed.revcomp.hisat2.uniq.sorted.bs10.bw
 
-track hESC input 
-shortLabel hESC input 
-longLabel hESC input
+track hESC_input 
+shortLabel hESC_input 
+longLabel hESC_input 
 visibility full
 color 0,128,128
 type bigWig
