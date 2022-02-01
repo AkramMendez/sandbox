@@ -1,10 +1,10 @@
-hub t2tChm13_dev_v1.0
+hub t2tChm13_dev_v1.1
 shortLabel CHM13_lab_data
 longLabel T2T CHM13 Dev
 useOneFile on
 email akram.mendez@gu.se
 
-genome t2t-chm13-v1.0
+genome t2t-chm13-v1.1
 
 track Csh_ONT
 shortLabel Csh_ONT
