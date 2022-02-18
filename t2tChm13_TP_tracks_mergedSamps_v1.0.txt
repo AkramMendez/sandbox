@@ -17,7 +17,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/nanopore/ctrlsh.chm13.genome.minimap2.22.20220122.k14.sorted.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/nanopore/ctrlsh.chm13.genome.minimap2.22.20220122.k14.sorted.bw
 
 track METTL3kd_ONT
 shortLabel METTL3kd_ONT
@@ -30,7 +30,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/nanopore/mettl3kd.chm13.genome.k14.sorted.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/nanopore/mettl3kd.chm13.genome.k14.sorted.bw
 
 track Csh_merged_m6A-ratio_fwd
 shortLabel Csh_merged_m6A-ratio_fwd
@@ -43,7 +43,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/ratio/csh_merged.mapped.nodup.spikeInNorm.bs10.ratio.fwd.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/merged/merged_normSpikeIn/ratio/csh_merged.mapped.nodup.spikeInNorm.bs10.ratio.fwd.bw
 
 track Csh_merged_m6A-ratio_rev
 shortLabel Csh_merged_m6A-ratio_rev
@@ -56,7 +56,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/ratio/csh_merged.mapped.nodup.spikeInNorm.bs10.ratio.rev.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/merged/merged_normSpikeIn/ratio/csh_merged.mapped.nodup.spikeInNorm.bs10.ratio.rev.bw
 
 track METTL3KD_merged_m6A-ratio_fwd
 shortLabel METTL3KD_merged_m6A-ratio_fwd
@@ -69,7 +69,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/ratio/mettl3kd_merged.mapped.nodup.spikeInNorm.bs10.ratio.fwd.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/merged/merged_normSpikeIn/ratio/mettl3kd_merged.mapped.nodup.spikeInNorm.bs10.ratio.fwd.bw
 
 track METTL3KD_merged_m6A-ratio_rev
 shortLabel METTL3KD_merged_m6A-ratio_rev
@@ -82,7 +82,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/ratio/mettl3kd_merged.mapped.nodup.spikeInNorm.bs10.ratio.rev.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/merged/merged_normSpikeIn/ratio/mettl3kd_merged.mapped.nodup.spikeInNorm.bs10.ratio.rev.bw
 
 track Csh_merged_m6A-Fwd
 shortLabel Csh_merged_m6A-Fwd
@@ -95,7 +95,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/fwd/csh_merged_m6a.mapped.nodup.sorted.spikeInNorm.bs10.fwd.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/merged/merged_normSpikeIn/fwd/csh_merged_m6a.mapped.nodup.sorted.spikeInNorm.bs10.fwd.bw
 
 track Csh_merged_Input-Fwd
 shortLabel Csh_merged_Input-Fwd
@@ -108,7 +108,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/fwd/csh_merged_input.mapped.nodup.sorted.spikeInNorm.bs10.fwd.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/merged/merged_normSpikeIn/fwd/csh_merged_input.mapped.nodup.sorted.spikeInNorm.bs10.fwd.bw
 
 track METTL3-KD_merged_m6A-Fwd
 shortLabel METTL3-KD_merged_m6A-Fwd
@@ -121,7 +121,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/fwd/mettl3kd_merged_m6a.mapped.nodup.sorted.spikeInNorm.bs10.fwd.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/merged/merged_normSpikeIn/fwd/mettl3kd_merged_m6a.mapped.nodup.sorted.spikeInNorm.bs10.fwd.bw
 
 track METTL3-KD_merged_Input-Fwd
 shortLabel METTL3-KD_merged_Input-Fwd
@@ -134,7 +134,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/fwd/mettl3kd_merged_input.mapped.nodup.sorted.spikeInNorm.bs10.fwd.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/merged/merged_normSpikeIn/fwd/mettl3kd_merged_input.mapped.nodup.sorted.spikeInNorm.bs10.fwd.bw
 
 
 track Csh_b1_m6A-Fwd
@@ -147,7 +147,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/fwd/csh.m6a.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.fwd.noNorm.bs10.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/batch1/fwd/csh.m6a.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.fwd.noNorm.bs10.bw
 
 track Csh_b1_Input-Fwd
 shortLabel Csh_b1_Input-Fwd
@@ -159,7 +159,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/fwd/csh.input.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.fwd.noNorm.bs10.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/batch1/fwd/csh.input.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.fwd.noNorm.bs10.bw
 
 track METTL3KD_b1_m6A-Fwd
 shortLabel METTL3KD_b1_m6A-Fwd
@@ -171,7 +171,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/fwd/mettl3kd.m6a.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.fwd.noNorm.bs10.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/batch1/fwd/mettl3kd.m6a.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.fwd.noNorm.bs10.bw
 
 track METTL3KD_b1_Input-Fwd
 shortLabel METTL3KD_b1_Input-Fwd
@@ -183,7 +183,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/fwd/mettl3kd.input.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.fwd.noNorm.bs10.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/batch1/fwd/mettl3kd.input.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.fwd.noNorm.bs10.bw
 
 track Csh__b1_Input-Rev
 shortLabel Csh__b1_Input-Rev
@@ -195,7 +195,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/rev/csh.input.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.rev.noNorm.bs10.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/batch1/rev/csh.input.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.rev.noNorm.bs10.bw
 
 track Csh_b1_m6A-Rev
 shortLabel  Csh_b1_m6A-Rev
@@ -207,7 +207,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/rev/csh.m6a.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.rev.noNorm.bs10.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/batch1/rev/csh.m6a.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.rev.noNorm.bs10.bw
 
 track METTL3KD_b1_Input-Rev
 shortLabel METTL3KD_b1_Input-Rev
@@ -219,7 +219,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/rev/mettl3kd.input.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.rev.noNorm.bs10.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/batch1/rev/mettl3kd.input.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.rev.noNorm.bs10.bw
 
 track METTL3KD_b1_m6A-Rev
 shortLabel METTL3KD_b1_m6A-Rev
@@ -231,7 +231,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/batch1/rev/mettl3kd.m6a.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.rev.noNorm.bs10.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/batch1/rev/mettl3kd.m6a.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.rev.noNorm.bs10.bw
 
 track Csh_b2_Input-Fwd
 shortLabel Csh_b2_Input-Fwd
@@ -243,7 +243,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/fwd/Csh_No_treat_Input_S34_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.fwd.noNorm.bs10.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/bleomycin/noNorm/fwd/Csh_No_treat_Input_S34_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.fwd.noNorm.bs10.bw
 
 track Csh_b2_m6A-Fwd
 shortLabel Csh_b2_m6A-Fwd
@@ -255,7 +255,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/fwd/Csh_No_treat_m6A_S38_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.fwd.noNorm.bs10.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/bleomycin/noNorm/fwd/Csh_No_treat_m6A_S38_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.fwd.noNorm.bs10.bw
 
 track Csh_b2_Input-Rev
 shortLabel Csh_b2_Input-Rev
@@ -267,7 +267,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/rev/Csh_No_treat_Input_S34_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.rev.noNorm.bs10.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/bleomycin/noNorm/rev/Csh_No_treat_Input_S34_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.rev.noNorm.bs10.bw
 
 track Csh_b2_m6A-Rev
 shortLabel Csh_b2_m6A-Rev
@@ -279,7 +279,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/rev/Csh_No_treat_m6A_S38_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.rev.noNorm.bs10.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/bleomycin/noNorm/rev/Csh_No_treat_m6A_S38_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.rev.noNorm.bs10.bw
 
 track METTL3KD_b2_m6A-Rev
 shortLabel METTL3KD_b2_m6A-Rev
@@ -291,7 +291,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/rev/812_No_treat_m6A_S40_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.rev.noNorm.bs10.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/bleomycin/noNorm/rev/812_No_treat_m6A_S40_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.rev.noNorm.bs10.bw
 
 track METTL3KD_b2_Input-Rev
 shortLabel METTL3KD_b2_Input-Rev
@@ -303,7 +303,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/rev/812_No_treat_Input_S36_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.rev.noNorm.bs10.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/bleomycin/noNorm/rev/812_No_treat_Input_S36_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.rev.noNorm.bs10.bw
 
 track METTL3KD_b2_m6A-Fwd
 shortLabel METTL3KD_b2_m6A-Fwd
@@ -315,7 +315,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/fwd/812_No_treat_m6A_S40_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.fwd.noNorm.bs10.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/bleomycin/noNorm/fwd/812_No_treat_m6A_S40_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.fwd.noNorm.bs10.bw
 
 track METTL3KD_b2_Input-Fwd
 shortLabel METTL3KD_b2_Input-Fwd
@@ -327,7 +327,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/bleomycin/noNorm/fwd/812_No_treat_Input_S36_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.fwd.noNorm.bs10.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/bleomycin/noNorm/fwd/812_No_treat_Input_S36_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.fwd.noNorm.bs10.bw
 
 track U2OS_ATRi_Input-Fwd
 shortLabel U2OS ATRi Input Fwd
@@ -340,7 +340,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/fwd/u2os.atri.input.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.spikeInNorm.bs10.fwd.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/merged/merged_normSpikeIn/fwd/u2os.atri.input.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.spikeInNorm.bs10.fwd.bw
 
 track U2OS_ATRi_m6A-Fwd
 shortLabel U2OS ATRi m6A Fwd
@@ -353,7 +353,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/fwd/u2os.atri.m6a.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.spikeInNorm.bs10.fwd.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/merged/merged_normSpikeIn/fwd/u2os.atri.m6a.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.spikeInNorm.bs10.fwd.bw
 
 track U2OS_DMSO_m6A-Fwd
 shortLabel  U2OS DMSO m6A Fwd
@@ -366,7 +366,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/fwd/u2os.dmso.m6a.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.spikeInNorm.bs10.fwd.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/merged/merged_normSpikeIn/fwd/u2os.dmso.m6a.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.spikeInNorm.bs10.fwd.bw
 
 track U2OS_DMSO_Input-Fwd
 shortLabel U2OS DMSO Input Fwd
@@ -379,7 +379,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/fwd/u2os.dmso.input.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.spikeInNorm.bs10.fwd.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/merged/merged_normSpikeIn/fwd/u2os.dmso.input.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.spikeInNorm.bs10.fwd.bw
 
 
 track Igg-Fwd
@@ -393,7 +393,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/fwd/igg.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.noNorm.bs10.fwd.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/merged/merged_normSpikeIn/fwd/igg.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.noNorm.bs10.fwd.bw
 
 track Csh_merged_Input-Rev
 shortLabel Csh_merged_Input-Rev
@@ -405,7 +405,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/rev/csh_merged_input.mapped.nodup.sorted.spikeInNorm.bs10.rev.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/merged/merged_normSpikeIn/rev/csh_merged_input.mapped.nodup.sorted.spikeInNorm.bs10.rev.bw
 
 track Csh_merged_m6A-Rev
 shortLabel  Csh_merged_m6A-Rev
@@ -417,7 +417,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/rev/csh_merged_m6a.mapped.nodup.sorted.spikeInNorm.bs10.rev.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/merged/merged_normSpikeIn/rev/csh_merged_m6a.mapped.nodup.sorted.spikeInNorm.bs10.rev.bw
 
 track Igg-Rev
 shortLabel Igg Rev 
@@ -429,7 +429,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/rev/igg.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.noNorm.bs10.rev.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/merged/merged_normSpikeIn/rev/igg.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.noNorm.bs10.rev.bw
 
 track METTL3-KD_merged_Input-Rev
 shortLabel METTL3-KD_merged_Input-Rev
@@ -441,7 +441,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/rev/mettl3kd_merged_input.mapped.nodup.sorted.spikeInNorm.bs10.rev.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/merged/merged_normSpikeIn/rev/mettl3kd_merged_input.mapped.nodup.sorted.spikeInNorm.bs10.rev.bw
 
 track METTL3-KD_merged_m6A-Rev
 shortLabel METTL3-KD_merged_m6A-Rev
@@ -453,7 +453,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/rev/mettl3kd_merged_m6a.mapped.nodup.sorted.spikeInNorm.bs10.rev.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/merged/merged_normSpikeIn/rev/mettl3kd_merged_m6a.mapped.nodup.sorted.spikeInNorm.bs10.rev.bw
 
 track U2OS_ATRi_Input-Rev
 shortLabel U2OS ATRi Input Rev
@@ -465,7 +465,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/rev/u2os.atri.input.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.spikeInNorm.bs10.rev.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/merged/merged_normSpikeIn/rev/u2os.atri.input.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.spikeInNorm.bs10.rev.bw
 
 track U2OS_ATRi-Rev
 shortLabel U2OS ATRi Rev
@@ -477,7 +477,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/rev/u2os.atri.m6a.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.spikeInNorm.bs10.rev.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/merged/merged_normSpikeIn/rev/u2os.atri.m6a.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.spikeInNorm.bs10.rev.bw
 
 track U2OS_DMSO_Input-Rev
 shortLabel U2OS DMSO Input Rev
@@ -489,7 +489,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/rev/u2os.dmso.input.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.spikeInNorm.bs10.rev.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/merged/merged_normSpikeIn/rev/u2os.dmso.input.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.spikeInNorm.bs10.rev.bw
 
 track U2OS_DMSO_m6A-Rev
 shortLabel U2OS DMSO m6A Rev
@@ -501,7 +501,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/rev/u2os.dmso.m6a.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.spikeInNorm.bs10.rev.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/merged/merged_normSpikeIn/rev/u2os.dmso.m6a.trim.revcomp.hisat2.markdup.bam.mapped.nodup.sorted.spikeInNorm.bs10.rev.bw
 
 track 812_Bleomycin_4h_Input-Fwd
 shortLabel 812_Bleomycin_4h_Input-Fwd
@@ -514,7 +514,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/fwd/812_Bleomycin_4h_Input_S37_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.spikeInNorm.bs10.fwd.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/merged/merged_normSpikeIn/fwd/812_Bleomycin_4h_Input_S37_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.spikeInNorm.bs10.fwd.bw
 
 track 812_Bleomycin_4h_m6A-Fwd
 shortLabel 812_Bleomycin_4h_m6A-Fwd
@@ -527,7 +527,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/fwd/812_Bleomycin_4h_m6A_S41_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.spikeInNorm.bs10.fwd.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/merged/merged_normSpikeIn/fwd/812_Bleomycin_4h_m6A_S41_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.spikeInNorm.bs10.fwd.bw
 
 track Csh_Bleomycin_4h_Input-Fwd
 shortLabel Csh_Bleomycin_4h_Input-Fwd
@@ -540,7 +540,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/fwd/Csh_Bleomycin_4h_Input_S35_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.spikeInNorm.bs10.fwd.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/merged/merged_normSpikeIn/fwd/Csh_Bleomycin_4h_Input_S35_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.spikeInNorm.bs10.fwd.bw
 
 track Csh_Bleomycin_4h_m6A-Fwd
 shortLabel Csh_Bleomycin_4h_m6A-Fwd
@@ -553,7 +553,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/fwd/Csh_Bleomycin_4h_m6A_S39_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.spikeInNorm.bs10.fwd.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/merged/merged_normSpikeIn/fwd/Csh_Bleomycin_4h_m6A_S39_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.spikeInNorm.bs10.fwd.bw
 
 track 812_Bleomycin_4h_Input-Rev
 shortLabel 812_Bleomycin_4h_Input-Rev
@@ -565,7 +565,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/rev/812_Bleomycin_4h_Input_S37_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.spikeInNorm.bs10.rev.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/merged/merged_normSpikeIn/rev/812_Bleomycin_4h_Input_S37_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.spikeInNorm.bs10.rev.bw
 
 track 812_Bleomycin_4h_m6A-Rev
 shortLabel 812_Bleomycin_4h_m6A-Rev
@@ -577,7 +577,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/rev/812_Bleomycin_4h_m6A_S41_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.spikeInNorm.bs10.rev.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/merged/merged_normSpikeIn/rev/812_Bleomycin_4h_m6A_S41_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.spikeInNorm.bs10.rev.bw
 
 track Csh_Bleomycin_4h_Input-Rev
 shortLabel Csh_Bleomycin_4h_Input-Rev
@@ -589,7 +589,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/rev/Csh_Bleomycin_4h_Input_S35_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.spikeInNorm.bs10.rev.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/merged/merged_normSpikeIn/rev/Csh_Bleomycin_4h_Input_S35_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.spikeInNorm.bs10.rev.bw
 
 track Csh_Bleomycin_4h_m6A-Rev
 shortLabel Csh_Bleomycin_4h_m6A-Rev
@@ -601,7 +601,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/merged/merged_normSpikeIn/rev/Csh_Bleomycin_4h_m6A_S39_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.spikeInNorm.bs10.rev.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/merged/merged_normSpikeIn/rev/Csh_Bleomycin_4h_m6A_S39_R1_001_trimmed.revcomp.hisat2.mapped.nodup.sorted.spikeInNorm.bs10.rev.bw
 
 track CTCF_Deng_etal_2014
 shortLabel CTCF_Deng_etal_2014
@@ -613,7 +613,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/public_datasets/CTCF_SRR036691_trimmed.fq.gz.hisat2.mapped.nodup.sorted.noNorm.bs10.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/public_datasets/CTCF_SRR036691_trimmed.fq.gz.hisat2.mapped.nodup.sorted.noNorm.bs10.bw
 
 track CTCF_U2OS_Ibarra_etal_2016
 shortLabel CTCF_U2OS_Ibarra_etal_2016
@@ -625,7 +625,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/public_datasets/CTCF_U2OS_SRR4413988_trimmed.fq.gz.hisat2.mapped.nodup.sorted.noNorm.bs10.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/public_datasets/CTCF_U2OS_SRR4413988_trimmed.fq.gz.hisat2.mapped.nodup.sorted.noNorm.bs10.bw
 
 track H3K27ac_U2OS_Ibarra_etal_2016
 shortLabel H3K27ac_U2OS_Ibarra_etal_2016
@@ -637,7 +637,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/public_datasets/H3K27ac_U2OS_SRR4413985_trimmed.fq.gz.hisat2.mapped.nodup.sorted.noNorm.bs10.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/public_datasets/H3K27ac_U2OS_SRR4413985_trimmed.fq.gz.hisat2.mapped.nodup.sorted.noNorm.bs10.bw
 
 track PolII_Deng_etal_2014
 shortLabel PolII_Deng_etal_2014
@@ -649,7 +649,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/public_datasets/PolII_SRR038355_trimmed.fq.gz.hisat2.mapped.nodup.sorted.noNorm.bs10.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/public_datasets/PolII_SRR038355_trimmed.fq.gz.hisat2.mapped.nodup.sorted.noNorm.bs10.bw
 
 track PolII_Waltz_etal_2014
 shortLabel PolII_Waltz_etal_2014
@@ -661,7 +661,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/public_datasets/PolII_U2OS_SRR987271_trimmed.fq.gz.hisat2.mapped.nodup.sorted.noNorm.bs10.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/public_datasets/PolII_U2OS_SRR987271_trimmed.fq.gz.hisat2.mapped.nodup.sorted.noNorm.bs10.bw
 
 track Rad21_Deng_etal_2014
 shortLabel Rad21_Deng_etal_2014
@@ -673,7 +673,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/public_datasets/Rad21_SRR351758_trimmed.fq.gz.hisat2.mapped.nodup.sorted.noNorm.bs10.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/public_datasets/Rad21_SRR351758_trimmed.fq.gz.hisat2.mapped.nodup.sorted.noNorm.bs10.bw
 
 
 track Terra_IP_Porro_etal_2014
@@ -686,7 +686,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/public_datasets/merged_terraIP_SRR1246791_trim.extendedFrags.hisat2.mapped.nodup.sorted.porro_terraIP.bs10.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/public_datasets/merged_terraIP_SRR1246791_trim.extendedFrags.hisat2.mapped.nodup.sorted.porro_terraIP.bs10.bw
 
 track Terra_input_Porro_etal_2014
 shortLabel Terra_input_Porro_etal_2014
@@ -698,4 +698,4 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/tp/bigwig/public_datasets/merged_terraInput_SRR1246789_trim.extendedFrags.hisat2.mapped.nodup.sorted.porro_terraIP.bs10.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/public_datasets/merged_terraInput_SRR1246789_trim.extendedFrags.hisat2.mapped.nodup.sorted.porro_terraIP.bs10.bw
