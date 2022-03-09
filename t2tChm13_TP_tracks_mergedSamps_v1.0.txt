@@ -6,6 +6,19 @@ email akram.mendez@gu.se
 
 genome t2t-chm13-v1.1
 
+track Csh_ONT2
+shortLabel Csh_ONT2
+longLabel Csh_ONT2
+visibility full
+color 204,0,0
+type bigWig
+negateValues off
+maxHeightPixels 50
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/nanopore/ctrlsh_withSecondary.chm13.genome.k14.sorted.bw
+
 track Csh_ONT
 shortLabel Csh_ONT
 longLabel Csh_ONT
