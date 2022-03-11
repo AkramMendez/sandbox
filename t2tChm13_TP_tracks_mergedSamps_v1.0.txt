@@ -6,9 +6,9 @@ email akram.mendez@gu.se
 
 genome t2t-chm13-v1.1
 
-track Telome repeats
-shortLabel Telome repeats
-longLabel TAAGGG,TCAGGG,TGAGGG,TTGGGG
+track TVR
+shortLabel Telomere_repeats
+longLabel TAAGGG TCAGGG TGAGGG TTGGGG
 visibility dense
 color 204,0,0
 type bigBed
