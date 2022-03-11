@@ -9,7 +9,7 @@ genome t2t-chm13-v1.1
 track TVAGG
 shortLabel TVAGGG
 longLabel TVAGGG motif (TAAGGG,TCAGGG,TGAGGG repeats)
-visibility full
+visibility dense
 color 204,0,0
 type bigBed
 negateValues off
