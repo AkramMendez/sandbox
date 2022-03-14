@@ -10,14 +10,14 @@ track TVR
 shortLabel Telomere_repeats
 longLabel TAAGGG TCAGGG TGAGGG TTGGGG
 visibility dense
-color 204,0,0
+color 255,102,102
 type bigBed
 negateValues off
 maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/nanopore/seqkit_locate_TBAGGG_TTGGGG_twoMoreConsecutive_CHM13_hg38chrY_ecoliK12.sorted_shortLabel.bigBed
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/nanopore/seqkit_locate_TBAGGGandTTGGGG_motif_CHM13_hg38chrY_ecoliK12.sorted.bigBed
 
 track Csh_ONT2
 shortLabel Csh_ONT2
