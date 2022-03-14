@@ -17,7 +17,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/nanopore/seqkit_locate_TBAGGGandTTGGGG_motif_CHM13_hg38chrY_ecoliK12.sorted.bigBed
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/nanopore/seqkit_locate_TBAGGG_TTGGGG_twoMoreConsecutive_CHM13_hg38chrY_ecoliK12.sorted_shortLabel.bigBed
 
 track Csh_ONT2
 shortLabel Csh_ONT2
