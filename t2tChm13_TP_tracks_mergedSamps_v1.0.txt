@@ -22,7 +22,7 @@ bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/nanopore/seqkit_
 track mapp600bp
 shortLabel mapp600bp
 longLabel mapp600bp
-visibility dense
+visibility full
 color 50,105,168
 type bigWig
 negateValues off
