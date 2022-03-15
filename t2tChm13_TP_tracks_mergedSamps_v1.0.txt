@@ -56,7 +56,7 @@ maxHeightPixels 50
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/nanopore/ctrlsh_withSecondary.chm13.genome.k14.sorted.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/nanopore/ctrlsh_withSecondary_sp.chm13.genome.14.sorted.bs10.bw
 
 track Csh_ONT
 shortLabel Csh_ONT
@@ -83,6 +83,19 @@ maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/nanopore/mettl3kd.chm13.genome.k14.sorted.bw
+
+track METTL3kd_ONT2
+shortLabel METTL3kd_ONT2
+longLabel METTL3kd_ONT2
+visibility full
+color 123,50,168
+type bigWig
+negateValues off
+maxHeightPixels 50
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/nanopore/mettl3kd_withSecondary_sp.chm13.genome.14.sorted.bs10.bw
 
 track Csh_merged_m6A-ratio_fwd
 shortLabel Csh_merged_m6A-ratio_fwd
