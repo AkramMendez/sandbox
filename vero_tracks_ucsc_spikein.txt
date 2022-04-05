@@ -6,6 +6,89 @@ email akram.mendez@gu.se
 
 genome chlSab2
 
+track B.1_ratio_rev
+shortLabel B.1 ratio rev
+longLabel infected B.1 ratio rev
+visibility full
+altColor 190,60,120
+type bigWig
+negateValues on
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/normalizedSpikeIn_ratio/wu_infected_spikeInNorm_rev_ratio_bs10.bw
+
+track B.1_ratio_fwd
+shortLabel B.1 ratio fwd
+longLabel infected B.1 ratio fwd
+visibility full
+altColor 190,60,120
+type bigWig
+negateValues on
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/normalizedSpikeIn_ratio/wu_infected_spikeInNorm_fwd_ratio_bs10.bw
+
+track B.1.1.7_ratio_rev
+shortLabel B.1.1.7_ratio_rev
+longLabel infected B.1.1.7_ratio_rev
+visibility full
+altColor 190,60,120
+type bigWig
+negateValues on
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/normalizedSpikeIn_ratio/uk_infected_spikeInNorm_rev_ratio_bs10.bw
+
+track B.1.1.7_ratio_fwd
+shortLabel B.1.1.7_ratio_fwd
+longLabel infected B.1.1.7_ratio_fwd
+visibility full
+altColor 190,60,120
+type bigWig
+negateValues on
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/normalizedSpikeIn_ratio/uk_infected_spikeInNorm_fwd_ratio_bs10.bw
+
+track B.1.351_ratio_rev
+shortLabel B.1.351_ratio_rev
+longLabel infected B.1.351_ratio_rev
+visibility full
+altColor 190,60,120
+type bigWig
+negateValues on
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/normalizedSpikeIn_ratio/sa_infected_spikeInNorm_rev_ratio_bs10.bw
+
+track B.1.351_ratio_fwd
+shortLabel B.1.351_ratio_fwd
+longLabel infected B.1.351_ratio_fwd
+visibility full
+altColor 190,60,120
+type bigWig
+negateValues on
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/normalizedSpikeIn_ratio/sa_infected_spikeInNorm_fwd_ratio_bs10.bw
+
+track Non-Inf_ratio_rev
+shortLabel Non-Inf_ratio_rev
+longLabel infected Non-Inf_ratio_rev
+visibility full
+altColor 190,60,120
+type bigWig
+negateValues on
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/normalizedSpikeIn_ratio/vero_nonInfected_spikeInNorm_rev_ratio_bs10.bw
+
+track Non-Inf_ratio_fwd
+shortLabel Non-Inf_ratio_rev
+longLabel infected Non-Inf_ratio_rev
+visibility full
+altColor 190,60,120
+type bigWig
+negateValues on
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/normalizedSpikeIn_ratio/vero_nonInfected_spikeInNorm_fwd_ratio_bs10.bw
+
+
+
+
 track WU_m6A_reverse
 shortLabel WU m6A reverse
 longLabel infected WU m6A reverse
