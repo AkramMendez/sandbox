@@ -15,6 +15,7 @@ type bigWig
 maxHeightPixels 50
 windowingFunction maximum
 smoothingWindow 16
+viewLimits 1:10
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/normalizedSpikeIn_ratio/wu_infected_spikeInNorm_rev_ratio_bs10.bw
 
@@ -27,6 +28,7 @@ type bigWig
 maxHeightPixels 50
 windowingFunction maximum
 smoothingWindow 16
+viewLimits 1:10
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/normalizedSpikeIn_ratio/wu_infected_spikeInNorm_fwd_ratio_bs10.bw
 
@@ -39,6 +41,7 @@ type bigWig
 maxHeightPixels 50
 windowingFunction maximum
 smoothingWindow 16
+viewLimits 1:10
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/normalizedSpikeIn_ratio/uk_infected_spikeInNorm_rev_ratio_bs10.bw
 
@@ -51,6 +54,7 @@ type bigWig
 maxHeightPixels 50
 windowingFunction maximum
 smoothingWindow 16
+viewLimits 1:10
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/normalizedSpikeIn_ratio/uk_infected_spikeInNorm_fwd_ratio_bs10.bw
 
@@ -63,6 +67,7 @@ type bigWig
 maxHeightPixels 50
 windowingFunction maximum
 smoothingWindow 16
+viewLimits 1:10
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/normalizedSpikeIn_ratio/sa_infected_spikeInNorm_rev_ratio_bs10.bw
 
@@ -75,6 +80,7 @@ type bigWig
 maxHeightPixels 50
 windowingFunction maximum
 smoothingWindow 16
+viewLimits 1:10
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/normalizedSpikeIn_ratio/sa_infected_spikeInNorm_fwd_ratio_bs10.bw
 
@@ -87,6 +93,7 @@ type bigWig
 maxHeightPixels 50
 windowingFunction maximum
 smoothingWindow 16
+viewLimits 1:10
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/normalizedSpikeIn_ratio/vero_nonInfected_spikeInNorm_rev_ratio_bs10.bw
 
@@ -99,10 +106,9 @@ type bigWig
 maxHeightPixels 50
 windowingFunction maximum
 smoothingWindow 16
+viewLimits 1:10
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/normalizedSpikeIn_ratio/vero_nonInfected_spikeInNorm_fwd_ratio_bs10.bw
-
-
 
 
 track WU_m6A_reverse
