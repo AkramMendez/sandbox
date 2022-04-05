@@ -12,7 +12,9 @@ longLabel infected B.1 ratio rev
 visibility full
 altColor 190,60,120
 type bigWig
-negateValues on
+maxHeightPixels 50
+windowingFunction maximum
+smoothingWindow 16
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/normalizedSpikeIn_ratio/wu_infected_spikeInNorm_rev_ratio_bs10.bw
 
@@ -22,7 +24,9 @@ longLabel infected B.1 ratio fwd
 visibility full
 altColor 190,60,120
 type bigWig
-negateValues on
+maxHeightPixels 50
+windowingFunction maximum
+smoothingWindow 16
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/normalizedSpikeIn_ratio/wu_infected_spikeInNorm_fwd_ratio_bs10.bw
 
@@ -32,7 +36,9 @@ longLabel infected B.1.1.7_ratio_rev
 visibility full
 altColor 190,60,120
 type bigWig
-negateValues on
+maxHeightPixels 50
+windowingFunction maximum
+smoothingWindow 16
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/normalizedSpikeIn_ratio/uk_infected_spikeInNorm_rev_ratio_bs10.bw
 
@@ -42,7 +48,9 @@ longLabel infected B.1.1.7_ratio_fwd
 visibility full
 altColor 190,60,120
 type bigWig
-negateValues on
+maxHeightPixels 50
+windowingFunction maximum
+smoothingWindow 16
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/normalizedSpikeIn_ratio/uk_infected_spikeInNorm_fwd_ratio_bs10.bw
 
@@ -52,7 +60,9 @@ longLabel infected B.1.351_ratio_rev
 visibility full
 altColor 190,60,120
 type bigWig
-negateValues on
+maxHeightPixels 50
+windowingFunction maximum
+smoothingWindow 16
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/normalizedSpikeIn_ratio/sa_infected_spikeInNorm_rev_ratio_bs10.bw
 
@@ -62,7 +72,9 @@ longLabel infected B.1.351_ratio_fwd
 visibility full
 altColor 190,60,120
 type bigWig
-negateValues on
+maxHeightPixels 50
+windowingFunction maximum
+smoothingWindow 16
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/normalizedSpikeIn_ratio/sa_infected_spikeInNorm_fwd_ratio_bs10.bw
 
@@ -72,7 +84,9 @@ longLabel infected Non-Inf_ratio_rev
 visibility full
 altColor 190,60,120
 type bigWig
-negateValues on
+maxHeightPixels 50
+windowingFunction maximum
+smoothingWindow 16
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/normalizedSpikeIn_ratio/vero_nonInfected_spikeInNorm_rev_ratio_bs10.bw
 
@@ -82,7 +96,9 @@ longLabel infected Non-Inf_ratio_rev
 visibility full
 altColor 190,60,120
 type bigWig
-negateValues on
+maxHeightPixels 50
+windowingFunction maximum
+smoothingWindow 16
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/normalizedSpikeIn_ratio/vero_nonInfected_spikeInNorm_fwd_ratio_bs10.bw
 
@@ -95,7 +111,9 @@ longLabel infected WU m6A reverse
 visibility full
 altColor 190,60,120
 type bigWig
-negateValues on
+maxHeightPixels 50
+windowingFunction maximum
+smoothingWindow 16
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/WU_infected_m6a_SpikeInNorm_rev.bw
 
@@ -106,6 +124,9 @@ longLabel infected WU input reverse
 visibility full
 color 190,60,120
 type bigWig
+maxHeightPixels 50
+windowingFunction maximum
+smoothingWindow 16
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/WU_infected_input1_SpikeInNorm_rev.bw
 
@@ -116,7 +137,9 @@ longLabel infected UK m6A reverse
 visibility full
 altColor 190,60,120
 type bigWig
-negateValues on
+maxHeightPixels 50
+windowingFunction maximum
+smoothingWindow 16
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/UK_infected_m6a_SpikeInNorm_rev.bw
 
@@ -127,6 +150,9 @@ longLabel infected UK input reverse
 visibility full
 color 190,60,120
 type bigWig
+maxHeightPixels 50
+windowingFunction maximum
+smoothingWindow 16
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/UK_infected_input1_SpikeInNorm_rev.bw
 
@@ -137,7 +163,9 @@ longLabel infected SA m6A reverse
 visibility full
 altColor 190,60,120
 type bigWig
-negateValues on
+maxHeightPixels 50
+windowingFunction maximum
+smoothingWindow 16
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/SA_infected_m6a_SpikeInNorm_rev.bw
 
@@ -148,6 +176,9 @@ longLabel infected SA input reverse
 visibility full
 color 190,60,120
 type bigWig
+maxHeightPixels 50
+windowingFunction maximum
+smoothingWindow 16
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/SA_infected_input1_SpikeInNorm_rev.bw
 
@@ -158,6 +189,9 @@ longLabel non infected Vero m6A reverse
 visibility full
 color 190,60,120
 type bigWig
+maxHeightPixels 50
+windowingFunction maximum
+smoothingWindow 16
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/Vero_m6a_SpikeInNorm_rev.bw
 
@@ -168,6 +202,9 @@ longLabel non infected Vero input reverse
 visibility full
 color 190,60,120
 type bigWig
+maxHeightPixels 50
+windowingFunction maximum
+smoothingWindow 16
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/Vero_input1_SpikeInNorm_rev.bw
 
@@ -178,6 +215,9 @@ longLabel infected WU m6A forward
 visibility full
 color 33,113,181
 type bigWig
+maxHeightPixels 50
+windowingFunction maximum
+smoothingWindow 16
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/WU_infected_m6a_SpikeInNorm_fwd.bw
 
@@ -188,6 +228,9 @@ longLabel infected WU input forward
 visibility full
 color 33,113,181
 type bigWig
+maxHeightPixels 50
+windowingFunction maximum
+smoothingWindow 16
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/WU_infected_input1_SpikeInNorm_fwd.bw
 
@@ -198,6 +241,9 @@ longLabel infected UK m6A forward
 visibility full
 color 33,113,181
 type bigWig
+maxHeightPixels 50
+windowingFunction maximum
+smoothingWindow 16
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/UK_infected_m6a_SpikeInNorm_fwd.bw
 
@@ -208,6 +254,9 @@ longLabel infected UK input forward
 visibility full
 color 33,113,181
 type bigWig
+maxHeightPixels 50
+windowingFunction maximum
+smoothingWindow 16
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/UK_infected_input1_SpikeInNorm_fwd.bw
 
@@ -218,6 +267,9 @@ longLabel infected SA m6A forward
 visibility full
 color 33,113,181
 type bigWig
+maxHeightPixels 50
+windowingFunction maximum
+smoothingWindow 16
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/SA_infected_m6a_SpikeInNorm_fwd.bw
 
@@ -228,6 +280,9 @@ longLabel infected SA input forward
 visibility full
 color 33,113,181
 type bigWig
+maxHeightPixels 50
+windowingFunction maximum
+smoothingWindow 16
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/SA_infected_input1_SpikeInNorm_fwd.bw
 
@@ -238,6 +293,9 @@ longLabel non infected Vero m6A forward
 visibility full
 color 33,113,181
 type bigWig
+maxHeightPixels 50
+windowingFunction maximum
+smoothingWindow 16
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/Vero_m6a_SpikeInNorm_fwd.bw
 
@@ -248,6 +306,9 @@ longLabel non infected Vero input forward
 visibility full
 color 33,113,181
 type bigWig
+maxHeightPixels 50
+windowingFunction maximum
+smoothingWindow 16
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/Vero_input1_SpikeInNorm_fwd.bw
 
@@ -258,5 +319,8 @@ longLabel H3K27ac SARS-Cov2 (Wilen et al., 2020)
 visibility full
 color 190,60,120
 type bigWig
+maxHeightPixels 50
+windowingFunction maximum
+smoothingWindow 16
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/h3k27ac/GSM4678410_WC200604_051_142_S5_L001_FE.bigWig
