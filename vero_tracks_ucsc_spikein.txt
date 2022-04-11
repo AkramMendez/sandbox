@@ -98,8 +98,8 @@ maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeInNormalization/normalizedSpikeIn_ratio/vero_nonInfected_spikeInNorm_rev_ratio_bs10.bw
 
 track Non-Inf_ratio_fwd
-shortLabel Non-Inf_ratio_rev
-longLabel infected Non-Inf_ratio_rev
+shortLabel Non-Inf_ratio_fwd
+longLabel infected Non-Inf_ratio_fwd
 visibility full
 altColor 190,60,120
 type bigWig
