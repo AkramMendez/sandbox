@@ -6,147 +6,135 @@ email akram.mendez@gu.se
 
 genome hg38
 
-track hESC_m6A
-shortLabel hESC_m6A
-longLabel hESC_m6A
+track hESC_ratio_fwd
+shortLabel hESC_ratio_fwd
+longLabel hESC_ratio_fwd
+visibility full
+color 0,0,0
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/ratio/h9_hESC_trimmed.revcomp.hisat2.uniq.sorted.bam.spikeInNorm.fwd.bs10.ratio.bw
+
+track hESC_ratio_rev
+shortLabel hESC_ratio_rev
+longLabel hESC_ratio_rev
+visibility full
+color 0,0,0
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/ratio/h9_hESC_trimmed.revcomp.hisat2.uniq.sorted.bam.spikeInNorm.rev.bs10.ratio.bw
+
+
+track NCCd6_ratio_fwd
+shortLabel NCCd6_ratio_fwd
+longLabel NCCd6_ratio_fwd
+visibility full
+color 255,0,0
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/ratio/h9_NCC_day6_trimmed.revcomp.hisat2.uniq.sorted.bam.spikeInNorm.fwd.bs10.ratio.bw
+
+track NCCd6_ratio_rev
+shortLabel NCCd6_ratio_rev
+longLabel NCCd6_ratio_rev
+visibility full
+color 255,0,0
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/ratio/h9_NCC_day6_trimmed.revcomp.hisat2.uniq.sorted.bam.spikeInNorm.rev.bs10.ratio.bw
+
+track NCCd13_ratio_fwd
+shortLabel NCCd13_ratio_fwd
+longLabel NCCd13_ratio_fwd
+visibility full
+color 0,192,0
+type bigWig
+maxWindowToDraw 200000
+maxHeightPixels 30
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/ratio/h9_NCC_day13_trimmed.revcomp.hisat2.uniq.sorted.bam.spikeInNorm.fwd.bs10.ratio.bw
+
+track NCCd13_ratio_rev
+shortLabel NCCd13_ratio_rev
+longLabel NCCd13_ratio_rev
+visibility full
+color 0,192,0
+type bigWig
+maxWindowToDraw 200000
+maxHeightPixels 30
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/ratio/h9_NCC_day13_trimmed.revcomp.hisat2.uniq.sorted.bam.spikeInNorm.rev.bs10.ratio.bw
+
+track tNCC_ratio_fwd
+shortLabel tNCC_ratio_fwd
+longLabel tNCC_ratio_fwd
+visibility full
+color 20,73,219
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/ratio/tNCC_Day7_ht2.chrms.mapped.uniq.fwd.bs10.ratio.bw
+
+track tNCC_ratio_rev
+shortLabel tNCC_ratio_rev
+longLabel tNCC_ratio_rev
+visibility full
+color 20,73,219
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/ratio/tNCC_Day7_ht2.chrms.mapped.uniq.rev.bs10.ratio.bw
+
+track SKNSBE2_ratio_fwd
+shortLabel SKNSBE2_ratio_fwd
+longLabel SKNSBE2_ratio_fwd
 visibility full
 color 0,128,128
 type bigWig
 maxWindowToDraw 200000
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/ncc/h9_hESC_m6A_S22_R1_001_trimmed.revcomp.hisat2.uniq.sorted.bs10.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/ratio/SKNBE2_trimmed.revcomp.hisat2.uniq.sorted.bam.spikeInNorm.fwd.bs10.ratio.bw
 
-track hESC_input
-shortLabel hESC_input
-longLabel hESC_input
+track SKNSBE2_ratio_rev
+shortLabel SKNSBE2_ratio_rev
+longLabel SKNSBE2_ratio_rev
 visibility full
 color 0,128,128
 type bigWig
 maxWindowToDraw 200000
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/ncc/h9_hESC_Input_1_S19_R1_001_trimmed.revcomp.hisat2.uniq.sorted.bs10.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/ratio/SKNBE2_trimmed.revcomp.hisat2.uniq.sorted.bam.spikeInNorm.rev.bs10.ratio.bw
 
-track NCCd6_m6A
-shortLabel NCCd6_m6A
-longLabel NCCd6_m6A
+track IMR32_ratio_fwd
+shortLabel IMR32_ratio_fwd
+longLabel IMR32_ratio_fwd
 visibility full
 color 0,128,128
 type bigWig
 maxWindowToDraw 200000
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/ncc/h9_NCC_day6_m6A_S23_R1_001_trimmed.revcomp.hisat2.uniq.sorted.bs10.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/ratio/IMR32_trimmed.revcomp.hisat2.uniq.sorted.bam.spikeInNorm.fwd.bs10.ratio.bw
 
-track NCCd6_input
-shortLabel NCCd6_input
-longLabel NCCd6_input
+track IMR32_ratio_rev
+shortLabel IMR32_ratio_rev
+longLabel IMR32_ratio_rev
 visibility full
 color 0,128,128
 type bigWig
 maxWindowToDraw 200000
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/ncc/h9_NCC_day6_Input_1_S20_R1_001_trimmed.revcomp.hisat2.uniq.sorted.bs10.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/ratio/IMR32_trimmed.revcomp.hisat2.uniq.sorted.bam.spikeInNorm.rev.bs10.ratio.bw
 
-track NCCd13_m6A
-shortLabel NCCd13_m6A
-longLabel NCCd13_m6A
+track LAN5_ratio_fwd
+shortLabel LAN5_ratio_fwd
+longLabel LAN5_ratio_fwd
 visibility full
 color 0,128,128
 type bigWig
 maxWindowToDraw 200000
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/ncc/h9_NCC_day13_m6A_S24_R1_001_trimmed.revcomp.hisat2.uniq.sorted.bs10.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/ratio/LAN5_trimmed.revcomp.hisat2.uniq.sorted.bam.spikeInNorm.fwd.bs10.ratio.bw
 
-track NCCd13_input
-shortLabel NCCd13_input
-longLabel NCCd13_input
+track LAN5_ratio_rev
+shortLabel LAN5_ratio_rev
+longLabel LAN5_ratio_rev
 visibility full
 color 0,128,128
 type bigWig
 maxWindowToDraw 200000
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/ncc/h9_NCC_day13_Input_1_S21_R1_001_trimmed.revcomp.hisat2.uniq.sorted.bs10.bw
-
-
-track SKNSBE2_m6A
-shortLabel SKNSBE2_m6A
-longLabel SKNSBE2_m6A
-visibility full
-color 0,128,128
-type bigWig
-maxWindowToDraw 200000
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/ncc/SKNSBE2_m6A_S31_R1_001_trimmed.revcomp.hisat2.uniq.sorted.bs10.bw
-
-track SKNSBE2_input
-shortLabel SKNSBE2_input
-longLabel SKNSBE2_input
-visibility full
-color 0,128,128
-type bigWig
-maxWindowToDraw 200000
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/ncc/SKNSBE2_Input_S28_R1_001_trimmed.revcomp.hisat2.uniq.sorted.bs10.bw
-
-track IMR32_m6A
-shortLabel IMR32_m6A
-longLabel IMR32_m6A
-visibility full
-color 0,128,128
-type bigWig
-maxWindowToDraw 200000
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/ncc/IMR_32_m6A_S32_R1_001_trimmed.revcomp.hisat2.uniq.sorted.bs10.bw
-
-track IMR32_input
-shortLabel IMR32_input
-longLabel IMR32_input
-visibility full
-color 0,128,128
-type bigWig
-maxWindowToDraw 200000
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/ncc/IMR_32_Input_S29_R1_001_trimmed.revcomp.hisat2.uniq.sorted.bs10.bw
-
-track LAN5_m6A
-shortLabel LAN5_m6A
-longLabel LAN5_m6A
-visibility full
-color 0,128,128
-type bigWig
-maxWindowToDraw 200000
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/ncc/LAN5_m6A_S33_R1_001_trimmed.revcomp.hisat2.uniq.sorted.bs10.bw
-
-track LAN5_input
-shortLabel LAN5_input
-longLabel LAN5_input
-visibility full
-color 0,128,128
-type bigWig
-maxWindowToDraw 200000
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/ncc/LAN5_Input_S30_R1_001_trimmed.revcomp.hisat2.uniq.sorted.bs10.bw
-
-track MYCN_IP
-shortLabel MYCN_IP
-longLabel MYCN_IP
-visibility full
-color 0,128,128
-type bigWig
-maxWindowToDraw 200000
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/ncc/SRR5249439_BE2C_MYCN_trimmed.hisat2.nodup.uniq.sorted.bs10.bw
-
-track MYCN_input
-shortLabel MYCN_input
-longLabel MYCN_input
-visibility full
-color 0,128,128
-type bigWig
-maxWindowToDraw 200000
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/ncc/SRR5249437_BE2C_inputMYCN_trimmed.hisat2.nodup.uniq.sorted.bs10.bw
-
-track H3K27ac_IP
-shortLabel H3K27ac_IP
-longLabel H3K27ac_IP
-visibility full
-color 0,128,128
-type bigWig
-maxWindowToDraw 200000
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/ncc/SRR7101489_BE2C_H3K27ac_s1_trimmed.hisat2.nodup.uniq.sorted.bs10.bw
-
-track H3K27ac_input
-shortLabel H3K27ac_input
-longLabel H3K27ac_input
-visibility full
-color 0,128,128
-type bigWig
-maxWindowToDraw 200000
-bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/ncc/SRR7101491_BE2C_input_s1_trimmed.hisat2.nodup.uniq.sorted.bs10.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/ratio/LAN5_trimmed.revcomp.hisat2.uniq.sorted.bam.spikeInNorm.rev.bs10.ratio.bw
