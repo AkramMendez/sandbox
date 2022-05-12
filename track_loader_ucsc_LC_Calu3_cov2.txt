@@ -28,6 +28,7 @@ maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
 maxHeightPixels 30
+viewLimits 1:10
 bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/bigwig/LC_Calu3_cov2_spikeInNorm/ratio_stranded/LC_cov2_d4_IPvsInput_normSpikeIn_rev.bs10.ratio.bw
 
 track HBEd7cov2_fwd
@@ -40,6 +41,7 @@ maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
 maxHeightPixels 30
+viewLimits 1:10
 bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/bigwig/LC_Calu3_cov2_spikeInNorm/ratio_stranded/LC_cov2_d7_IPvsInput_normSpikeIn_fwd.bs10.ratio.bw
 
 track HBEd7cov2_rev
@@ -52,6 +54,7 @@ maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
 maxHeightPixels 30
+viewLimits 1:10
 bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/bigwig/LC_Calu3_cov2_spikeInNorm/ratio_stranded/LC_cov2_d7_IPvsInput_normSpikeIn_rev.bs10.ratio.bw
 
 track HBEd4mock_fwd
@@ -64,6 +67,7 @@ maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
 maxHeightPixels 30
+viewLimits 1:10
 bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/bigwig/LC_Calu3_cov2_spikeInNorm/ratio_stranded/LC_mock_d4_IPvsInput_normSpikeIn_fwd.bs10.ratio.bw
 
 track HBEd4mock_rev
@@ -76,6 +80,7 @@ maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
 maxHeightPixels 30
+viewLimits 1:10
 bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/bigwig/LC_Calu3_cov2_spikeInNorm/ratio_stranded/LC_mock_d4_IPvsInput_normSpikeIn_rev.bs10.ratio.bw
 
 track HBEd7mock_fwd
@@ -88,6 +93,7 @@ maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
 maxHeightPixels 30
+viewLimits 1:10
 bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/bigwig/LC_Calu3_cov2_spikeInNorm/ratio_stranded/LC_mock_d7_IPvsInput_normSpikeIn_fwd.bs10.ratio.bw
 
 track HBEd7mock_rev
@@ -100,4 +106,5 @@ maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
 maxHeightPixels 30
+viewLimits 1:10
 bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/bigwig/LC_Calu3_cov2_spikeInNorm/ratio_stranded/LC_mock_d7_IPvsInput_normSpikeIn_rev.bs10.ratio.bw
