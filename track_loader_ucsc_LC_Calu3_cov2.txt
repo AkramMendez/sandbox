@@ -4,7 +4,7 @@ longLabel Mapping visualizations for Human hg38 genome data, SARS-CoV-2 HBE-infe
 useOneFile on
 email akram.mendez@gu.se
 
-genome hg38
+genome hg38_sarscov2
 
 track HBEd4cov2_fwd
 shortLabel HBEd4cov2_fwd
