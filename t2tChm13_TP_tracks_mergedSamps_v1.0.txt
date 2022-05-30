@@ -13,7 +13,7 @@ visibility dense
 color 255,102,102
 type bigBed
 negateValues off
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -52,7 +52,7 @@ visibility full
 color 204,0,0
 type bigWig
 negateValues off
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -65,7 +65,7 @@ visibility full
 color 204,0,0
 type bigWig
 negateValues off
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -78,7 +78,7 @@ visibility full
 color 123,50,168
 type bigWig
 negateValues off
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -91,7 +91,7 @@ visibility full
 color 123,50,168
 type bigWig
 negateValues off
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -104,7 +104,7 @@ visibility full
 color 0,128,128
 type bigWig
 negateValues off
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -117,7 +117,7 @@ visibility full
 color 195,29,188
 type bigWig
 negateValues off
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -130,7 +130,7 @@ visibility full
 color 0,128,128
 type bigWig
 negateValues off
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -143,7 +143,7 @@ visibility full
 color 195,29,188
 type bigWig
 negateValues off
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -156,7 +156,7 @@ visibility full
 color 0,128,128
 type bigWig
 negateValues off
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -169,7 +169,7 @@ visibility full
 color 128,192,192
 type bigWig
 negateValues off
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -182,7 +182,7 @@ visibility full
 color 0,128,128
 type bigWig
 negateValues off
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -195,7 +195,7 @@ visibility full
 color 128,192,192
 type bigWig
 negateValues off
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -208,7 +208,7 @@ longLabel Csh_b1_m6A-Fwd
 visibility full
 color 0,128,128
 type bigWig
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -220,7 +220,7 @@ longLabel Csh_b1_Input-Fwd
 visibility full
 color 128,192,192
 type bigWig
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -232,7 +232,7 @@ longLabel METTL3KD_b1_m6A-Fwd
 visibility full
 color 0,128,128
 type bigWig
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -244,7 +244,7 @@ longLabel METTL3KD_b1_Input-Fwd
 visibility full
 color 128,192,192
 type bigWig
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -256,7 +256,7 @@ longLabel Csh__b1_Input-Rev
 visibility full
 color 243,177,241
 type bigWig
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -268,7 +268,7 @@ longLabel  Csh_b1_m6A-Rev
 visibility full
 color 195,29,188
 type bigWig
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -280,7 +280,7 @@ longLabel METTL3KD_b1_Input-Rev
 visibility full
 color 243,177,241
 type bigWig
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -292,7 +292,7 @@ longLabel METTL3KD_b1_m6A-Rev
 visibility full
 color 195,29,188
 type bigWig
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -304,7 +304,7 @@ longLabel Csh_b2_Input-Fwd
 visibility full
 color 128,192,192
 type bigWig
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -316,7 +316,7 @@ longLabel Csh_b2_m6A-Fwd
 visibility full
 color 0,128,128
 type bigWig
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -328,7 +328,7 @@ longLabel Csh_b2_Input-Rev
 visibility full
 color 243,177,241
 type bigWig
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -340,7 +340,7 @@ longLabel Csh_b2_m6A-Rev
 visibility full
 color 195,29,188
 type bigWig
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -352,7 +352,7 @@ longLabel METTL3KD_b2_m6A-Rev
 visibility full
 color 195,29,188
 type bigWig
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -364,7 +364,7 @@ longLabel METTL3KD_b2_Input-Rev
 visibility full
 color 243,177,241
 type bigWig
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -376,7 +376,7 @@ longLabel METTL3KD_b2_m6A-Fwd
 visibility full
 color 0,128,128
 type bigWig
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -388,7 +388,7 @@ longLabel METTL3KD_b2_Input-Fwd
 visibility full
 color 128,192,192
 type bigWig
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -401,7 +401,7 @@ visibility full
 color 128,192,192
 type bigWig
 negateValues off
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -414,7 +414,7 @@ visibility full
 color 0,128,128
 type bigWig
 negateValues off
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -427,7 +427,7 @@ visibility full
 color 0,128,128
 type bigWig
 negateValues off
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -440,7 +440,7 @@ visibility full
 color 128,192,192
 type bigWig
 negateValues off
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -454,7 +454,7 @@ visibility full
 color 0,128,128
 type bigWig
 negateValues off
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -466,7 +466,7 @@ longLabel Csh_merged_Input-Rev
 visibility full
 color 243,177,241
 type bigWig
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -478,7 +478,7 @@ longLabel  Csh_merged_m6A-Rev
 visibility full
 color 195,29,188
 type bigWig
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -490,7 +490,7 @@ longLabel Igg Rev
 visibility full
 color 195,29,188
 type bigWig
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -502,7 +502,7 @@ longLabel METTL3-KD_merged_Input-Rev
 visibility full
 color 243,177,241
 type bigWig
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -514,7 +514,7 @@ longLabel METTL3-KD_merged_m6A-Rev
 visibility full
 color 195,29,188
 type bigWig
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -526,7 +526,7 @@ longLabel U2OS ATRi Input Rev
 visibility full
 color 243,177,241
 type bigWig
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -538,7 +538,7 @@ longLabel U2OS ATRi Rev
 visibility full
 color 195,29,188
 type bigWig
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -550,7 +550,7 @@ longLabel U2OS DMSO Input Rev
 visibility full
 color 243,177,241
 type bigWig
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -562,7 +562,7 @@ longLabel U2OS DMSO m6A Rev
 visibility full
 color 195,29,188
 type bigWig
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -575,7 +575,7 @@ visibility full
 color 128,192,192
 type bigWig
 negateValues off
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -588,7 +588,7 @@ visibility full
 color 0,128,128
 type bigWig
 negateValues off
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -601,7 +601,7 @@ visibility full
 color 128,192,192
 type bigWig
 negateValues off
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -614,7 +614,7 @@ visibility full
 color 0,128,128
 type bigWig
 negateValues off
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -626,7 +626,7 @@ longLabel 812_Bleomycin_4h_Input-Rev
 visibility full
 color 243,177,241
 type bigWig
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -638,7 +638,7 @@ longLabel 812_Bleomycin_4h_m6A-Rev
 visibility full
 color 195,29,188
 type bigWig
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -650,7 +650,7 @@ longLabel Csh_Bleomycin_4h_Input-Rev
 visibility full
 color 243,177,241
 type bigWig
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -662,7 +662,7 @@ longLabel Csh_Bleomycin_4h_m6A-Rev
 visibility full
 color 195,29,188
 type bigWig
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -674,7 +674,7 @@ longLabel CTCF_Deng_etal_2014
 visibility full
 color 121,67,163
 type bigWig
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -686,7 +686,7 @@ longLabel CTCF_U2OS_Ibarra_etal_2016
 visibility full
 color 163,67,15
 type bigWig
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -698,7 +698,7 @@ longLabel H3K27ac_U2OS_Ibarra_etal_2016
 visibility full
 color 239,96,23
 type bigWig
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -710,7 +710,7 @@ longLabel PolII_Deng_etal_2014
 visibility full
 color 23,58,239
 type bigWig
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -722,7 +722,7 @@ longLabel PolII_Waltz_etal_2014
 visibility full
 color 129,71,242
 type bigWig
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -734,7 +734,7 @@ longLabel Rad21_Deng_etal_2014
 visibility full
 color 162,119,245
 type bigWig
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -747,7 +747,7 @@ longLabel Terra_IP_Porro_etal_2014
 visibility full
 color 255,112,0
 type bigWig
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
@@ -759,8 +759,200 @@ longLabel Terra_input_Porro_etal_2014
 visibility full
 color 255,169,103
 type bigWig
-maxHeightPixels 50
+maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/public_datasets/merged_terraInput_SRR1246789_trim.extendedFrags.hisat2.mapped.nodup.sorted.porro_terraIP.bs10.bw
+
+track MF1tum_input_fwd
+shortLabel MF1tum_input_fwd
+longLabel MF1tum_input_fwd
+visibility full
+color 0,0,0
+type bigWig
+maxHeightPixels 30
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/MF_SKNF1/MF_1_Tumour_sample_1_Input_S33_R1_001_trimmed.fq.gz.hisat2.sorted.chrms.nodup.fwd.bs10.bw
+
+track MF1tum_input_rev
+shortLabel MF1tum_input_rev
+longLabel MF1tum_input_rev
+visibility full
+color 0,0,0
+type bigWig
+maxHeightPixels 30
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/MF_SKNF1/MF_1_Tumour_sample_1_Input_S33_R1_001_trimmed.fq.gz.hisat2.sorted.chrms.nodup.rev.bs10.bw
+
+track MF2tum_input_fwd
+shortLabel MF2tum_input_fwd
+longLabel MF2tum_input_fwd
+visibility full
+color 0,0,0
+type bigWig
+maxHeightPixels 30
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/MF_SKNF1/MF_2_Tumour_sample_2_Input_S35_R1_001_trimmed.fq.gz.hisat2.sorted.chrms.nodup.fwd.bs10.bw
+
+track MF2tum_input_rev
+shortLabel MF2tum_input_rev
+longLabel MF2tum_input_rev
+visibility full
+color 0,0,0
+type bigWig
+maxHeightPixels 30
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/MF_SKNF1/MF_2_Tumour_sample_2_Input_S35_R1_001_trimmed.fq.gz.hisat2.sorted.chrms.nodup.rev.bs10.bw
+
+track MF1tum_m6A_fwd
+shortLabel MF1tum_m6A_fwd
+longLabel MF1tum_m6A_fwd
+visibility full
+color 0,0,0
+type bigWig
+maxHeightPixels 30
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/MF_SKNF1/MF_1_Tumour_sample_1_m6A_S34_R1_001_trimmed.fq.gz.hisat2.sorted.chrms.nodup.fwd.bs10.bw
+
+track MF1tum_m6A_rev
+shortLabel MF1tum_m6A_rev
+longLabel MF1tum_m6A_rev
+visibility full
+color 0,0,0
+type bigWig
+maxHeightPixels 30
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/MF_SKNF1/MF_1_Tumour_sample_1_m6A_S34_R1_001_trimmed.fq.gz.hisat2.sorted.chrms.nodup.rev.bs10.bw
+
+track MF2tum_m6A_fwd
+shortLabel MF2tum_m6A_fwd
+longLabel MF2tum_m6A_fwd
+visibility full
+color 0,0,0
+type bigWig
+maxHeightPixels 30
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/MF_SKNF1/MF_2_Tumour_sample_2_m6A_S36_R1_001_trimmed.fq.gz.hisat2.sorted.chrms.nodup.fwd.bs10.bw
+
+track MF2tum_m6A_rev
+shortLabel MF2tum_m6A_rev
+longLabel MF2tum_m6A_rev
+visibility full
+color 0,0,0
+type bigWig
+maxHeightPixels 30
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/MF_SKNF1/MF_2_Tumour_sample_2_m6A_S36_R1_001_trimmed.fq.gz.hisat2.sorted.chrms.nodup.rev.bs10.bw
+
+track SKNF1_Csh_in_fwd
+shortLabel SKNF1_Csh_in_fwd
+longLabel SKNF1_Csh_in_fwd
+visibility full
+color 0,0,0
+type bigWig
+maxHeightPixels 30
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/MF_SKNF1/SKNF1_Csh_Input_S27_R1_001_trimmed.fq.gz.hisat2.sorted.chrms.nodup.spikeInNorm.fwd.bs10.bw
+
+track SKNF1_Csh_in_rev
+shortLabel SKNF1_Csh_in_rev
+longLabel SKNF1_Csh_in_rev
+visibility full
+color 0,0,0
+type bigWig
+maxHeightPixels 30
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/MF_SKNF1/SKNF1_Csh_Input_S27_R1_001_trimmed.fq.gz.hisat2.sorted.chrms.nodup.spikeInNorm.rev.bs10.bw
+
+track SKNF1_Sh1_in_fwd
+shortLabel SKNF1_Sh1_in_fwd
+longLabel SKNF1_Sh1_in_fwd
+visibility full
+color 0,0,0
+type bigWig
+maxHeightPixels 30
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/MF_SKNF1/SKNF1_Sh1_1_Input_S28_R1_001_trimmed.fq.gz.hisat2.sorted.chrms.nodup.spikeInNorm.fwd.bs10.bw
+
+track SKNF1_Sh1_in_rev
+shortLabel SKNF1_Sh1_in_rev
+longLabel SKNF1_Sh1_in_rev
+visibility full
+color 0,0,0
+type bigWig
+maxHeightPixels 30
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/MF_SKNF1/SKNF1_Sh1_1_Input_S28_R1_001_trimmed.fq.gz.hisat2.sorted.chrms.nodup.spikeInNorm.rev.bs10.bw
+
+track SKNF1_Csh_m6A_fwd
+shortLabel SKNF1_Csh_m6A_fwd
+longLabel SKNF1_Csh_m6A_fwd
+visibility full
+color 0,0,0
+type bigWig
+maxHeightPixels 30
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/MF_SKNF1/SKNF1_Csh_m6A_S29_R1_001_trimmed.fq.gz.hisat2.sorted.chrms.nodup.spikeInNorm.fwd.bs10.bw
+
+track SKNF1_Csh_m6A_rev
+shortLabel SKNF1_Csh_m6A_rev
+longLabel SKNF1_Csh_m6A_rev
+visibility full
+color 0,0,0
+type bigWig
+maxHeightPixels 30
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/MF_SKNF1/SKNF1_Csh_m6A_S29_R1_001_trimmed.fq.gz.hisat2.sorted.chrms.nodup.spikeInNorm.rev.bs10.bw
+
+track SKNF1_Sh1_m6A_fwd
+shortLabel SKNF1_Sh1_m6A_fwd
+longLabel SKNF1_Sh1_m6A_fwd
+visibility full
+color 0,0,0
+type bigWig
+maxHeightPixels 30
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/MF_SKNF1/SKNF1_Sh1_1_m6A_S30_R1_001_trimmed.fq.gz.hisat2.sorted.chrms.nodup.spikeInNorm.fwd.bs10.bw
+
+track SKNF1_Sh1_m6A_rev
+shortLabel SKNF1_Sh1_m6A_rev
+longLabel SKNF1_Sh1_m6A_rev
+visibility full
+color 0,0,0
+type bigWig
+maxHeightPixels 30
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/MF_SKNF1/SKNF1_Sh1_1_m6A_S30_R1_001_trimmed.fq.gz.hisat2.sorted.chrms.nodup.spikeInNorm.rev.bs10.bw
