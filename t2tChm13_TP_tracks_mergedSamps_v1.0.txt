@@ -45,6 +45,19 @@ windowingFunction maximum
 smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/nanopore/chm13.draft_v1.1.genmap.srt.75bp.bw
 
+track hnRNPA2B1_clip
+shortLabel hnRNPA2B1
+longLabel hnRNPA2B1_Alarcon2015
+visibility full
+color 0,0,0
+type bigWig
+negateValues off
+maxHeightPixels 30
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/HNRNPA2B1_clip_rep2_SRR2071656.fastq.gz.hisat2.nodup.bs10.bw
+
 track Csh_ONT2
 shortLabel Csh_ONT2
 longLabel Csh_ONT2
