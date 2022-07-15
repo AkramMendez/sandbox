@@ -1065,3 +1065,42 @@ maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/MF_SKNF1/IPvsInput_ratio/SKNF1_sh1_IPvsInput.chrms.nodup.spikeInNorm.rev.bs10.ratio.bw
+
+track IgG_ratio_fwd
+shortLabel IgG_ratio_fwd
+longLabel IgG_ratio_fwd
+visibility full
+color 0,0,0
+type bigWig
+negateValues off
+maxHeightPixels 30
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/IgG.spikeInNorm.fwd_ratio_bs10.bw
+
+track IgG_ratio_rev
+shortLabel IgG_ratio_rev
+longLabel IgG_ratio_rev
+visibility full
+color 0,0,0
+type bigWig
+negateValues off
+maxHeightPixels 30
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/IgG.spikeInNorm.rev_ratio_bs10.bw
+
+track TERRA_ratio_Porro
+shortLabel TERRA_ratio_Porro
+longLabel TERRA_ratio_Porro
+visibility full
+color 255,128,0
+type bigWig
+negateValues off
+maxHeightPixels 30
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/terraRIP_porro_ratio_bs10.bw
