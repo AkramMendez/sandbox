@@ -61,23 +61,23 @@ maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/h9_NCC_day13_Input_1_S21_R1_001_trimmed.revcomp.hisat2.uniq.sorted.bs10.bw
 
 
-track SKNSBE2_m6A
-shortLabel SKNSBE2_m6A
-longLabel SKNSBE2_m6A
+track SKNBE2_m6A
+shortLabel SKNBE2_m6A
+longLabel SKNBE2_m6A
 visibility full
 color 0,128,128
 type bigWig
 maxWindowToDraw 200000
-bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/SKNSBE2_m6A_S31_R1_001_trimmed.revcomp.hisat2.uniq.sorted.bs10.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/SKNBE2_m6A_S31_R1_001_trimmed.revcomp.hisat2.uniq.sorted.bs10.bw
 
-track SKNSBE2_input
-shortLabel SKNSBE2_input
-longLabel SKNSBE2_input
+track SKNBE2_input
+shortLabel SKNBE2_input
+longLabel SKNBE2_input
 visibility full
 color 0,128,128
 type bigWig
 maxWindowToDraw 200000
-bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/SKNSBE2_Input_S28_R1_001_trimmed.revcomp.hisat2.uniq.sorted.bs10.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/SKNBE2_Input_S28_R1_001_trimmed.revcomp.hisat2.uniq.sorted.bs10.bw
 
 track IMR32_m6A
 shortLabel IMR32_m6A
