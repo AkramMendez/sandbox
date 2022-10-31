@@ -194,7 +194,7 @@ visibility full
 color 0,0,0
 type bigWig
 maxWindowToDraw 200000
-bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/h9_hESC_trimmed.revcomp.hisat2.uniq.sorted.bam.spikeInNorm.fwd.bs10.ratio.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/ratio/h9_hESC_trimmed.revcomp.hisat2.uniq.sorted.bam.spikeInNorm.fwd.bs10.ratio.bw
 
 track hESC_ratio_rev
 shortLabel hESC_ratio_rev
@@ -203,7 +203,7 @@ visibility full
 color 0,0,0
 type bigWig
 maxWindowToDraw 200000
-bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/h9_hESC_trimmed.revcomp.hisat2.uniq.sorted.bam.spikeInNorm.rev.bs10.ratio.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/ratio/h9_hESC_trimmed.revcomp.hisat2.uniq.sorted.bam.spikeInNorm.rev.bs10.ratio.bw
 
 track NCCd13_ratio_fwd
 shortLabel NCCd13_ratio_fwd
@@ -212,7 +212,7 @@ visibility full
 color 0,0,0
 type bigWig
 maxWindowToDraw 200000
-bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/h9_NCC_day13_trimmed.revcomp.hisat2.uniq.sorted.bam.spikeInNorm.fwd.bs10.ratio.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/ratio/h9_NCC_day13_trimmed.revcomp.hisat2.uniq.sorted.bam.spikeInNorm.fwd.bs10.ratio.bw
 
 track NCCd13_ratio_rev
 shortLabel NCCd13_ratio_rev
@@ -221,7 +221,7 @@ visibility full
 color 0,0,0
 type bigWig
 maxWindowToDraw 200000
-bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/h9_NCC_day13_trimmed.revcomp.hisat2.uniq.sorted.bam.spikeInNorm.rev.bs10.ratio.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/ratio/h9_NCC_day13_trimmed.revcomp.hisat2.uniq.sorted.bam.spikeInNorm.rev.bs10.ratio.bw
 
 track NCCd6_ratio_fwd
 shortLabel NCCd6_ratio_fwd
@@ -230,7 +230,7 @@ visibility full
 color 0,0,0
 type bigWig
 maxWindowToDraw 200000
-bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/h9_NCC_day6_trimmed.revcomp.hisat2.uniq.sorted.bam.spikeInNorm.fwd.bs10.ratio.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/ratio/h9_NCC_day6_trimmed.revcomp.hisat2.uniq.sorted.bam.spikeInNorm.fwd.bs10.ratio.bw
 
 track NCCd6_ratio_rev
 shortLabel NCCd6_ratio_rev
@@ -239,7 +239,7 @@ visibility full
 color 0,0,0
 type bigWig
 maxWindowToDraw 200000
-bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/h9_NCC_day6_trimmed.revcomp.hisat2.uniq.sorted.bam.spikeInNorm.rev.bs10.ratio.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/ratio/h9_NCC_day6_trimmed.revcomp.hisat2.uniq.sorted.bam.spikeInNorm.rev.bs10.ratio.bw
 
 track IMR32_ratio_fwd
 shortLabel IMR32_ratio_fwd
@@ -248,7 +248,7 @@ visibility full
 color 0,0,0
 type bigWig
 maxWindowToDraw 200000
-bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/IMR32_trimmed.revcomp.hisat2.uniq.sorted.bam.spikeInNorm.fwd.bs10.ratio.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/ratio/IMR32_trimmed.revcomp.hisat2.uniq.sorted.bam.spikeInNorm.fwd.bs10.ratio.bw
 
 track IMR32_ratio_rev
 shortLabel IMR32_ratio_rev
@@ -257,7 +257,7 @@ visibility full
 color 0,0,0
 type bigWig
 maxWindowToDraw 200000
-bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/IMR32_trimmed.revcomp.hisat2.uniq.sorted.bam.spikeInNorm.rev.bs10.ratio.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/ratio/IMR32_trimmed.revcomp.hisat2.uniq.sorted.bam.spikeInNorm.rev.bs10.ratio.bw
 
 track LAN5_ratio_fwd
 shortLabel LAN5_ratio_fwd
@@ -266,7 +266,7 @@ visibility full
 color 0,0,0
 type bigWig
 maxWindowToDraw 200000
-bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/LAN5_trimmed.revcomp.hisat2.uniq.sorted.bam.spikeInNorm.fwd.bs10.ratio.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/ratio/LAN5_trimmed.revcomp.hisat2.uniq.sorted.bam.spikeInNorm.fwd.bs10.ratio.bw
 
 track LAN5_ratio_rev
 shortLabel LAN5_ratio_rev
@@ -275,7 +275,7 @@ visibility full
 color 0,0,0
 type bigWig
 maxWindowToDraw 200000
-bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/LAN5_trimmed.revcomp.hisat2.uniq.sorted.bam.spikeInNorm.rev.bs10.ratio.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/ratio/LAN5_trimmed.revcomp.hisat2.uniq.sorted.bam.spikeInNorm.rev.bs10.ratio.bw
 
 track SKNBE2_ratio_fwd
 shortLabel SKNBE2_ratio_fwd
@@ -284,7 +284,7 @@ visibility full
 color 0,0,0
 type bigWig
 maxWindowToDraw 200000
-bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/SKNBE2_trimmed.revcomp.hisat2.uniq.sorted.bam.spikeInNorm.fwd.bs10.ratio.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/ratio/SKNBE2_trimmed.revcomp.hisat2.uniq.sorted.bam.spikeInNorm.fwd.bs10.ratio.bw
 
 track SKNBE2_ratio_rev
 shortLabel SKNBE2_ratio_rev
@@ -293,7 +293,7 @@ visibility full
 color 0,0,0
 type bigWig
 maxWindowToDraw 200000
-bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/SKNBE2_trimmed.revcomp.hisat2.uniq.sorted.bam.spikeInNorm.rev.bs10.ratio.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/ratio/SKNBE2_trimmed.revcomp.hisat2.uniq.sorted.bam.spikeInNorm.rev.bs10.ratio.bw
 
 track tNCCd7_ratio_fwd
 shortLabel tNCCd7_ratio_fwd
@@ -302,7 +302,7 @@ visibility full
 color 0,0,0
 type bigWig
 maxWindowToDraw 200000
-bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/tNCC_Day7_ht2.chrms.mapped.uniq.fwd.bs10.ratio.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/ratio/tNCC_Day7_ht2.chrms.mapped.uniq.fwd.bs10.ratio.bw
 
 track tNCCd7_ratio_rev
 shortLabel tNCCd7_ratio_rev
@@ -311,4 +311,4 @@ visibility full
 color 0,0,0
 type bigWig
 maxWindowToDraw 200000
-bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/tNCC_Day7_ht2.chrms.mapped.uniq.rev.bs10.ratio.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/ratio/tNCC_Day7_ht2.chrms.mapped.uniq.rev.bs10.ratio.bw
