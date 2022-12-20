@@ -16,7 +16,6 @@ maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
 maxHeightPixels 30
-viewLimits 1:10
 bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/bigwig/LC_Calu3_cov2_spikeInNorm/ratio_stranded/LC_cov2_d4_IPvsInput_normSpikeIn_fwd.bs10.ratio.bw
 
 track HBEd4cov2_rev
@@ -29,7 +28,6 @@ maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
 maxHeightPixels 30
-viewLimits 1:10
 bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/bigwig/LC_Calu3_cov2_spikeInNorm/ratio_stranded/LC_cov2_d4_IPvsInput_normSpikeIn_rev.bs10.ratio.bw
 
 track HBEd7cov2_fwd
@@ -42,7 +40,6 @@ maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
 maxHeightPixels 30
-viewLimits 1:10
 bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/bigwig/LC_Calu3_cov2_spikeInNorm/ratio_stranded/LC_cov2_d7_IPvsInput_normSpikeIn_fwd.bs10.ratio.bw
 
 track HBEd7cov2_rev
@@ -55,7 +52,6 @@ maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
 maxHeightPixels 30
-viewLimits 1:10
 bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/bigwig/LC_Calu3_cov2_spikeInNorm/ratio_stranded/LC_cov2_d7_IPvsInput_normSpikeIn_rev.bs10.ratio.bw
 
 track HBEd4mock_fwd
@@ -68,7 +64,6 @@ maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
 maxHeightPixels 30
-viewLimits 1:10
 bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/bigwig/LC_Calu3_cov2_spikeInNorm/ratio_stranded/LC_mock_d4_IPvsInput_normSpikeIn_fwd.bs10.ratio.bw
 
 track HBEd4mock_rev
@@ -81,7 +76,6 @@ maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
 maxHeightPixels 30
-viewLimits 1:10
 bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/bigwig/LC_Calu3_cov2_spikeInNorm/ratio_stranded/LC_mock_d4_IPvsInput_normSpikeIn_rev.bs10.ratio.bw
 
 track HBEd7mock_fwd
@@ -94,7 +88,6 @@ maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
 maxHeightPixels 30
-viewLimits 1:10
 bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/bigwig/LC_Calu3_cov2_spikeInNorm/ratio_stranded/LC_mock_d7_IPvsInput_normSpikeIn_fwd.bs10.ratio.bw
 
 track HBEd7mock_rev
@@ -107,5 +100,148 @@ maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
 maxHeightPixels 30
-viewLimits 1:10
 bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/bigwig/LC_Calu3_cov2_spikeInNorm/ratio_stranded/LC_mock_d7_IPvsInput_normSpikeIn_rev.bs10.ratio.bw
+
+track HBEd4mockInputFwd
+shortLabel HBEd4mockInputFwd
+longLabel HBE day4 Non-infected Input Fwd
+visibility full
+color 33,113,181
+type bigWig
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+maxHeightPixels 30
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/bigwig/LC_Calu3_cov2_spikeInNorm/ratio_stranded/LC_Mock_D4_Input_1_S1_R1_001.ht2.srt.chrms.nodup.uniq.fwd_coverageCPM_bs10.bw
+
+track HBEd4mockIPFwd
+shortLabel HBEd4mockIPFwd
+longLabel HBE day4 Non-infected m6A-RIP Fwd
+visibility full
+color 33,113,181
+type bigWig
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+maxHeightPixels 30
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/bigwig/LC_Calu3_cov2_spikeInNorm/ratio_stranded/LC_Mock_D4_m6A_RIP_S3_R1_001.ht2.srt.chrms.nodup.uniq.fwd_coverageCPM_spikeInNorm_bs10.bw
+
+track HBEd4mockRatioFwd
+shortLabel HBEd4mockRatioFwd
+longLabel HBE day4 Non-infected m6A-RIP/input ratio Fwd
+visibility full
+color 33,113,181
+type bigWig
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+maxHeightPixels 30
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/bigwig/LC_Calu3_cov2_spikeInNorm/ratio_stranded/ratio_IPvsinput_spikeInNorm_CPM_bs10_nonInfected_HBE_mock_d4_fwd.bw
+
+track HBEd4cov2InputFwd
+shortLabel HBEd4cov2InputFwd
+longLabel HBE day4 Infected Input Fwd
+visibility full
+color 33,113,181
+type bigWig
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+maxHeightPixels 30
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/bigwig/LC_Calu3_cov2_spikeInNorm/ratio_stranded/LC_CoV2_D4_Input_2_S8_R1_001.ht2.srt.chrms.nodup.uniq.fwd_coverageCPM_bs10.bw
+
+track HBEd4cov2IPFwd
+shortLabel HBEd4cov2IPFwd
+longLabel HBE day4 Infected m6A-RIP Fwd
+visibility full
+color 33,113,181
+type bigWig
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+maxHeightPixels 30
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/bigwig/LC_Calu3_cov2_spikeInNorm/ratio_stranded/LC_CoV2_D4_m6A_RIP_S9_R1_001.ht2.srt.chrms.nodup.uniq.fwd_coverageCPM_spikeInNorm_bs10.bw
+
+track HBEd4cov2RatioFwd
+shortLabel HBEd4cov2RatioFwd
+longLabel HBE day4 Infected m6A-RIP/input ratio Fwd
+visibility full
+color 33,113,181
+type bigWig
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+maxHeightPixels 30
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/bigwig/LC_Calu3_cov2_spikeInNorm/ratio_stranded/ratio_IPvsinput_spikeInNorm_CPM_bs10_Infected_HBE_cov2_d4_fwd.bw
+
+track HBEd4mockInputRev
+shortLabel HBEd4mockInputRev
+longLabel HBE day4 Non-infected Input Rev
+visibility full
+color 33,113,181
+type bigWig
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+maxHeightPixels 30
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/bigwig/LC_Calu3_cov2_spikeInNorm/ratio_stranded/LC_Mock_D4_Input_1_S1_R1_001.ht2.srt.chrms.nodup.uniq.rev_coverageCPM_bs10.bw
+
+track HBEd4mockIPRev
+shortLabel HBEd4mockIPRev
+longLabel HBE day4 Non-infected m6A-RIP Rev
+visibility full
+color 33,113,181
+type bigWig
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+maxHeightPixels 30
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/bigwig/LC_Calu3_cov2_spikeInNorm/ratio_stranded/LC_Mock_D4_m6A_RIP_S3_R1_001.ht2.srt.chrms.nodup.uniq.rev_coverageCPM_spikeInNorm_bs10.bw
+
+track HBEd4mockRatioRev
+shortLabel HBEd4mockRatioRev
+longLabel HBE day4 Non-infected m6A-RIP/input ratio Rev
+visibility full
+color 33,113,181
+type bigWig
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+maxHeightPixels 30
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/bigwig/LC_Calu3_cov2_spikeInNorm/ratio_stranded/ratio_IPvsinput_spikeInNorm_CPM_bs10_nonInfected_HBE_mock_d4_rev.bw
+
+track HBEd4cov2InputRev
+shortLabel HBEd4cov2InputRev
+longLabel HBE day4 Infected Input Rev
+visibility full
+color 33,113,181
+type bigWig
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+maxHeightPixels 30
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/bigwig/LC_Calu3_cov2_spikeInNorm/ratio_stranded/LC_CoV2_D4_Input_2_S8_R1_001.ht2.srt.chrms.nodup.uniq.rev_coverageCPM_bs10.bw
+
+track HBEd4cov2IPRev
+shortLabel HBEd4cov2IPRev
+longLabel HBE day4 Infected m6A-RIP Rev
+visibility full
+color 33,113,181
+type bigWig
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+maxHeightPixels 30
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/bigwig/LC_Calu3_cov2_spikeInNorm/ratio_stranded/LC_CoV2_D4_m6A_RIP_S9_R1_001.ht2.srt.chrms.nodup.uniq.rev_coverageCPM_spikeInNorm_bs10.bw
+
+track HBEd4cov2RatioRev
+shortLabel HBEd4cov2RatioRev
+longLabel HBE day4 Infected m6A-RIP/input ratio Rev
+visibility full
+color 33,113,181
+type bigWig
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+maxHeightPixels 30
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/bigwig/LC_Calu3_cov2_spikeInNorm/ratio_stranded/ratio_IPvsinput_spikeInNorm_CPM_bs10_Infected_HBE_cov2_d4_rev.bw
