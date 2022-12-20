@@ -330,3 +330,291 @@ windowingFunction maximum
 smoothingWindow 16
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/h3k27ac/GSM4678410_WC200604_051_142_S5_L001_FE.bigWig
+
+track Vero_in_fwd_CPM
+shortLabel Vero_in_fwd_CPM
+longLabel non infected Vero_in_fwd_CPM
+visibility full
+color 33,113,181
+type bigWig
+maxHeightPixels 30
+windowingFunction maximum
+smoothingWindow 16
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeIn_CPM/Vero_Input_1_S13_R1_001.chroms.nodup.uniq.sorted.fwd_coverageCPM_spikeInNorm_bs10.bw
+
+track Vero_m6A_fwd_CPM
+shortLabel Vero_m6A_fwd_CPM
+longLabel non infected Vero_m6A_fwd_CPM
+visibility full
+color 33,113,181
+type bigWig
+maxHeightPixels 30
+windowingFunction maximum
+smoothingWindow 16
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeIn_CPM/Vero_m6A_S14_R1_001.chroms.nodup.uniq.sorted.fwd_coverageCPM_spikeInNorm_bs10.bw
+
+track Vero_in_rev_CPM
+shortLabel Vero_in_rev_CPM
+longLabel non infected Vero_in_rev_CPM
+visibility full
+color 33,113,181
+type bigWig
+maxHeightPixels 30
+windowingFunction maximum
+smoothingWindow 16
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeIn_CPM/Vero_Input_1_S13_R1_001.chroms.nodup.uniq.sorted.rev_coverageCPM_spikeInNorm_bs10.bw
+
+track Vero_m6A_rev_CPM
+shortLabel Vero_m6A_rev_CPM
+longLabel non infected Vero_m6A_rev_CPM
+visibility full
+color 33,113,181
+type bigWig
+maxHeightPixels 30
+windowingFunction maximum
+smoothingWindow 16
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeIn_CPM/Vero_m6A_S14_R1_001.chroms.nodup.uniq.sorted.rev_coverageCPM_spikeInNorm_bs10.bw
+
+track Vero_ratio_fwd_CPM
+shortLabel Vero_ratio_fwd_CPM
+longLabel non infected Vero_ratio_fwd_CPM
+visibility full
+color 33,113,181
+type bigWig
+maxHeightPixels 30
+windowingFunction maximum
+smoothingWindow 16
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeIn_CPM/ratio_IPvsinput_spikeInNorm_CPM_bs10_nonInfected_vero_fwd.bw
+
+track Vero_ratio_rev_CPM
+shortLabel Vero_ratio_rev_CPM
+longLabel non infected Vero_ratio_rev_CPM
+visibility full
+color 33,113,181
+type bigWig
+maxHeightPixels 30
+windowingFunction maximum
+smoothingWindow 16
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeIn_CPM/ratio_IPvsinput_spikeInNorm_CPM_bs10_nonInfected_vero_rev.bw
+
+track B.1_in_fwd_CPM
+shortLabel B.1_in_fwd_CPM
+longLabel non infected B.1_in_fwd_CPM
+visibility full
+color 33,113,181
+type bigWig
+maxHeightPixels 30
+windowingFunction maximum
+smoothingWindow 16
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeIn_CPM/COVID_19_Infected_cell_Input_1_S7_R1_001.chroms.nodup.uniq.sorted.fwd_coverageCPM_spikeInNorm_bs10.bw
+
+track B.1_m6A_fwd_CPM
+shortLabel B.1_m6A_fwd_CPM
+longLabel non infected B.1_m6A_fwd_CPM
+visibility full
+color 33,113,181
+type bigWig
+maxHeightPixels 30
+windowingFunction maximum
+smoothingWindow 16
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeIn_CPM/COVID_19_Infected_cell_m6A_S10_R1_001.chroms.nodup.uniq.sorted.fwd_coverageCPM_spikeInNorm_bs10.bw
+
+track B.1_in_rev_CPM
+shortLabel B.1_in_rev_CPM
+longLabel non infected B.1_in_rev_CPM
+visibility full
+color 33,113,181
+type bigWig
+maxHeightPixels 30
+windowingFunction maximum
+smoothingWindow 16
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeIn_CPM/COVID_19_Infected_cell_Input_1_S7_R1_001.chroms.nodup.uniq.sorted.rev_coverageCPM_spikeInNorm_bs10.bw
+
+track B.1_m6A_rev_CPM
+shortLabel B.1_m6A_rev_CPM
+longLabel non infected B.1_m6A_rev_CPM
+visibility full
+color 33,113,181
+type bigWig
+maxHeightPixels 30
+windowingFunction maximum
+smoothingWindow 16
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeIn_CPM/COVID_19_Infected_cell_m6A_S10_R1_001.chroms.nodup.uniq.sorted.rev_coverageCPM_spikeInNorm_bs10.bw
+
+track B.1_ratio_fwd_CPM
+shortLabel B.1_ratio_fwd_CPM
+longLabel non infected B.1_ratio_fwd_CPM
+visibility full
+color 33,113,181
+type bigWig
+maxHeightPixels 30
+windowingFunction maximum
+smoothingWindow 16
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeIn_CPM/ratio_IPvsinput_spikeInNorm_CPM_bs10_nonInfected_wu_fwd.bw
+
+track B.1_ratio_rev_CPM
+shortLabel B.1_ratio_rev_CPM
+longLabel non infected B.1_ratio_rev_CPM
+visibility full
+color 33,113,181
+type bigWig
+maxHeightPixels 30
+windowingFunction maximum
+smoothingWindow 16
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeIn_CPM/ratio_IPvsinput_spikeInNorm_CPM_bs10_nonInfected_wu_rev.bw
+
+track B.1.1.7_in_fwd_CPM
+shortLabel B.1.1.7_in_fwd_CPM
+longLabel non infected B.1.1.7_in_fwd_CPM
+visibility full
+color 33,113,181
+type bigWig
+maxHeightPixels 30
+windowingFunction maximum
+smoothingWindow 16
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeIn_CPM/COVID_UK_Infected_cell_Input_1_S8_R1_001.chroms.nodup.uniq.sorted.fwd_coverageCPM_spikeInNorm_bs10.bw
+
+track B.1.1.7_m6A_fwd_CPM
+shortLabel B.1.1.7_m6A_fwd_CPM
+longLabel non infected B.1.1.7_m6A_fwd_CPM
+visibility full
+color 33,113,181
+type bigWig
+maxHeightPixels 30
+windowingFunction maximum
+smoothingWindow 16
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeIn_CPM/COVID_UK_Infected_cell_m6A_S11_R1_001.chroms.nodup.uniq.sorted.fwd_coverageCPM_spikeInNorm_bs10.bw
+
+track B.1.1.7_in_rev_CPM
+shortLabel B.1.1.7_in_rev_CPM
+longLabel non infected B.1.1.7_in_rev_CPM
+visibility full
+color 33,113,181
+type bigWig
+maxHeightPixels 30
+windowingFunction maximum
+smoothingWindow 16
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeIn_CPM/COVID_UK_Infected_cell_Input_1_S8_R1_001.chroms.nodup.uniq.sorted.rev_coverageCPM_spikeInNorm_bs10.bw
+
+track B.1.1.7_m6A_rev_CPM
+shortLabel B.1.1.7_m6A_rev_CPM
+longLabel non infected B.1.1.7_m6A_rev_CPM
+visibility full
+color 33,113,181
+type bigWig
+maxHeightPixels 30
+windowingFunction maximum
+smoothingWindow 16
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeIn_CPM/COVID_UK_Infected_cell_m6A_S11_R1_001.chroms.nodup.uniq.sorted.rev_coverageCPM_spikeInNorm_bs10.bw
+
+track B.1.1.7_ratio_fwd_CPM
+shortLabel B.1.1.7_ratio_fwd_CPM
+longLabel non infected B.1.1.7_ratio_fwd_CPM
+visibility full
+color 33,113,181
+type bigWig
+maxHeightPixels 30
+windowingFunction maximum
+smoothingWindow 16
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeIn_CPM/ratio_IPvsinput_spikeInNorm_CPM_bs10_nonInfected_uk_fwd.bw
+
+track B.1.1.7_ratio_rev_CPM
+shortLabel B.1.1.7_ratio_rev_CPM
+longLabel non infected B.1.1.7_ratio_rev_CPM
+visibility full
+color 33,113,181
+type bigWig
+maxHeightPixels 30
+windowingFunction maximum
+smoothingWindow 16
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeIn_CPM/ratio_IPvsinput_spikeInNorm_CPM_bs10_nonInfected_uk_rev.bw
+
+track B.1.351_in_fwd_CPM
+shortLabel B.1.351_in_fwd_CPM
+longLabel non infected B.1.351_in_fwd_CPM
+visibility full
+color 33,113,181
+type bigWig
+maxHeightPixels 30
+windowingFunction maximum
+smoothingWindow 16
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeIn_CPM/COVID_SA_Infected_cell_Input_1_S9_R1_001.chroms.nodup.uniq.sorted.fwd_coverageCPM_spikeInNorm_bs10.bw
+
+track B.1.351_m6A_fwd_CPM
+shortLabel B.1.351_m6A_fwd_CPM
+longLabel non infected B.1.351_m6A_fwd_CPM
+visibility full
+color 33,113,181
+type bigWig
+maxHeightPixels 30
+windowingFunction maximum
+smoothingWindow 16
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeIn_CPM/COVID_SA_Infected_cell_m6A_S12_R1_001.chroms.nodup.uniq.sorted.fwd_coverageCPM_spikeInNorm_bs10.bw
+
+track B.1.351_in_rev_CPM
+shortLabel B.1.351_in_rev_CPM
+longLabel non infected B.1.351_in_rev_CPM
+visibility full
+color 33,113,181
+type bigWig
+maxHeightPixels 30
+windowingFunction maximum
+smoothingWindow 16
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeIn_CPM/COVID_SA_Infected_cell_Input_1_S9_R1_001.chroms.nodup.uniq.sorted.rev_coverageCPM_spikeInNorm_bs10.bw
+
+track B.1.351_m6A_rev_CPM
+shortLabel B.1.351_m6A_rev_CPM
+longLabel non infected B.1.351_m6A_rev_CPM
+visibility full
+color 33,113,181
+type bigWig
+maxHeightPixels 30
+windowingFunction maximum
+smoothingWindow 16
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeIn_CPM/COVID_SA_Infected_cell_m6A_S12_R1_001.chroms.nodup.uniq.sorted.rev_coverageCPM_spikeInNorm_bs10.bw
+
+track B.1.351_ratio_fwd_CPM
+shortLabel B.1.351_ratio_fwd_CPM
+longLabel non infected B.1.351_ratio_fwd_CPM
+visibility full
+color 33,113,181
+type bigWig
+maxHeightPixels 30
+windowingFunction maximum
+smoothingWindow 16
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeIn_CPM/ratio_IPvsinput_spikeInNorm_CPM_bs10_nonInfected_sa_fwd.bw
+
+track B.1.351_ratio_rev_CPM
+shortLabel B.1.351_ratio_rev_CPM
+longLabel non infected B.1.351_ratio_rev_CPM
+visibility full
+color 33,113,181
+type bigWig
+maxHeightPixels 30
+windowingFunction maximum
+smoothingWindow 16
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeIn_CPM/ratio_IPvsinput_spikeInNorm_CPM_bs10_nonInfected_sa_rev.bw
