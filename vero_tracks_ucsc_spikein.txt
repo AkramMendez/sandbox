@@ -618,3 +618,100 @@ windowingFunction maximum
 smoothingWindow 16
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeIn_CPM/ratio_IPvsinput_spikeInNorm_CPM_bs10_Infected_sa_rev.bw
+
+
+track VeroRatioFwdCPM2
+shortLabel Vero_ratio_fwd_CPM
+longLabel non infected Vero_ratio_fwd_CPM
+visibility full
+color 237,154,71
+type bigWig
+maxHeightPixels 30
+windowingFunction maximum
+smoothingWindow 16
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeIn_CPM/binSize10_spikeIn_CPM/ratio_IPvsinput_spikeInNorm_CPM_bs10_nonInfected_vero_fwd.bw
+
+track VeroRatioRevCPM2
+shortLabel Vero_ratio_rev_CPM
+longLabel non infected Vero_ratio_rev_CPM
+visibility full
+color 237,154,71
+type bigWig
+maxHeightPixels 30
+windowingFunction maximum
+smoothingWindow 16
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeIn_CPM/binSize10_spikeIn_CPM/ratio_IPvsinput_spikeInNorm_CPM_bs10_nonInfected_vero_rev.bw
+
+track B.1RatioFwdCPM2
+shortLabel B.1_ratio_fwd_CPM
+longLabel non infected B.1_ratio_fwd_CPM
+visibility full
+color 237,154,71
+type bigWig
+maxHeightPixels 30
+windowingFunction maximum
+smoothingWindow 16
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeIn_CPM/binSize10_spikeIn_CPM/ratio_IPvsinput_spikeInNorm_CPM_bs10_Infected_wu_fwd.bw
+
+track B.1RatioRevCPM2
+shortLabel B.1_ratio_rev_CPM
+longLabel non infected B.1_ratio_rev_CPM
+visibility full
+color 237,154,71
+type bigWig
+maxHeightPixels 30
+windowingFunction maximum
+smoothingWindow 16
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeIn_CPM/binSize10_spikeIn_CPM/ratio_IPvsinput_spikeInNorm_CPM_bs10_Infected_wu_rev.bw
+
+track B.1.1.7RatioFwdCPM2
+shortLabel B.1.1.7_ratio_fwd_CPM
+longLabel non infected B.1.1.7_ratio_fwd_CPM
+visibility full
+color 237,154,71
+type bigWig
+maxHeightPixels 30
+windowingFunction maximum
+smoothingWindow 16
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeIn_CPM/binSize10_spikeIn_CPM/ratio_IPvsinput_spikeInNorm_CPM_bs10_Infected_uk_fwd.bw
+
+track B.1.1.7RatioRevCPM2
+shortLabel B.1.1.7_ratio_rev_CPM
+longLabel non infected B.1.1.7_ratio_rev_CPM
+visibility full
+color 237,154,71
+type bigWig
+maxHeightPixels 30
+windowingFunction maximum
+smoothingWindow 16
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeIn_CPM/binSize10_spikeIn_CPM/ratio_IPvsinput_spikeInNorm_CPM_bs10_Infected_uk_rev.bw
+
+track B.1.351RatioFwdCPM2
+shortLabel B.1.351_ratio_fwd_CPM
+longLabel non infected B.1.351_ratio_fwd_CPM
+visibility full
+color 237,154,71
+type bigWig
+maxHeightPixels 30
+windowingFunction maximum
+smoothingWindow 16
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeIn_CPM/binSize10_spikeIn_CPM/ratio_IPvsinput_spikeInNorm_CPM_bs10_Infected_sa_fwd.bw
+
+track B.1.351RatioRevCPM2
+shortLabel B.1.351_ratio_rev_CPM
+longLabel non infected B.1.351_ratio_rev_CPM
+visibility full
+color 237,154,71
+type bigWig
+maxHeightPixels 30
+windowingFunction maximum
+smoothingWindow 16
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2020-15-304/bigwig/infectedCellsAll_spikeIn_CPM/binSize10_spikeIn_CPM/ratio_IPvsinput_spikeInNorm_CPM_bs10_Infected_sa_rev.bw
