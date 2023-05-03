@@ -1105,9 +1105,9 @@ windowingFunction maximum
 smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/terraRIP_porro_ratio_bs10.bw
 
-track Terra_Pulldown_fwd
-shortLabel Terra_Pulldown_fwd
-longLabel Terra_Pulldown_fwd
+track Terra_Pulldown_RPKM_fwd
+shortLabel Terra_Pulldown_RPKM_fwd
+longLabel Terra_Pulldown_RPKM_fwd
 visibility full
 color 184,0,255
 type bigWig
@@ -1117,9 +1117,9 @@ windowingFunction maximum
 smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/terra_pulldown/TM16_S16_R1_001_trimmed.fq.gz.hisat2.mapped.nodup.sorted.fwd.rpkm.bs10.bw
 
-track Terra_Pulldown_rev
-shortLabel Terra_Pulldown_rev
-longLabel Terra_Pulldown_rev
+track Terra_Pulldown_RPKM_rev
+shortLabel Terra_Pulldown_RPKM_rev
+longLabel Terra_Pulldown_RPKM_rev
 visibility full
 color 205,76,255
 type bigWig
@@ -1129,9 +1129,9 @@ windowingFunction maximum
 smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/terra_pulldown/TM16_S16_R1_001_trimmed.fq.gz.hisat2.mapped.nodup.sorted.rev.rpkm.bs10.bw
 
-track Luciferase_Pulldown_fwd
-shortLabel Luciferase_Pulldown_fwd
-longLabel Luciferase_Pulldown_fwd
+track Luciferase_Pulldown_RPKM_fwd
+shortLabel Luciferase_Pulldown_RPKM_fwd
+longLabel Luciferase_Pulldown_RPKM_fwd
 visibility full
 color 0,87,231
 type bigWig
@@ -1141,9 +1141,9 @@ windowingFunction maximum
 smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/terra_pulldown/TM15_S15_R1_001_trimmed.fq.gz.hisat2.mapped.nodup.sorted.fwd.rpkm.bs10.bw
 
-track Luciferase_Pulldown_rev
-shortLabel Luciferase_Pulldown_rev
-longLabel Luciferase_Pulldown_rev
+track Luciferase_Pulldown_RPKM_rev
+shortLabel Luciferase_Pulldown_RPKM_rev
+longLabel Luciferase_Pulldown_RPKM_rev
 visibility full
 color 69,159,231
 type bigWig
