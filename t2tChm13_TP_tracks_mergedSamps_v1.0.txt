@@ -1115,7 +1115,7 @@ maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/terra_pulldown/TM16_S16_R1_001_trimmed.fq.gz.hisat2.mapped.nodup.sorted.bs10.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/terra_pulldown/TM16_S16_R1_001_trimmed.fq.gz.hisat2.mapped.nodup.sorted.fwd.rpkm.bs10.bw
 
 
 track Luciferase_Pulldown
@@ -1128,4 +1128,4 @@ maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
-bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/terra_pulldown/TM15_S15_R1_001_trimmed.fq.gz.hisat2.mapped.nodup.sorted.bs10.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/terra_pulldown/TM15_S15_R1_001_trimmed.fq.gz.hisat2.mapped.nodup.sorted.fwd.rpkm.bs10.bw
