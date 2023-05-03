@@ -1157,10 +1157,22 @@ track TERRAvsLuciferase_ratio_RPKM_fwd
 shortLabel TERRAvsLuciferase_ratio_RPKM_fwd
 longLabel TERRAvsLuciferase_ratio_RPKM_fwd
 visibility full
-color 69,159,231
+color 5,141,250
 type bigWig
 maxHeightPixels 30
 maxWindowToDraw 200000
 windowingFunction maximum
 smoothingWindow 16
 bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/terra_pulldown/TERRA_vs_Luciferase_pulldown_fwd_ratio_bs10.bw
+
+track TERRAvsLuciferase_ratio_RPKM_rev
+shortLabel TERRAvsLuciferase_ratio_RPKM_rev
+longLabel TERRAvsLuciferase_ratio_RPKM_rev
+visibility full
+color 5,160,250
+type bigWig
+maxHeightPixels 30
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/tp/bigwig/terra_pulldown/TERRA_vs_Luciferase_pulldown_RPKM_rev_ratio_bs10.bw
