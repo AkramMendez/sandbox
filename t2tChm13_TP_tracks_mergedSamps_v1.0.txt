@@ -1157,7 +1157,7 @@ track TERRAvsLuciferase_ratio_RPKM_fwd
 shortLabel TERRAvsLuciferase_ratio_RPKM_fwd
 longLabel TERRAvsLuciferase_ratio_RPKM_fwd
 visibility full
-color 5,141,250
+color 224,66,245
 type bigWig
 maxHeightPixels 30
 maxWindowToDraw 200000
@@ -1169,7 +1169,7 @@ track TERRAvsLuciferase_ratio_RPKM_rev
 shortLabel TERRAvsLuciferase_ratio_RPKM_rev
 longLabel TERRAvsLuciferase_ratio_RPKM_rev
 visibility full
-color 5,160,250
+color 7,162,240
 type bigWig
 maxHeightPixels 30
 maxWindowToDraw 200000
