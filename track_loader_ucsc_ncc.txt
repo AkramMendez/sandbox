@@ -194,4 +194,4 @@ visibility full
 color 0,128,128
 type bigWig
 maxWindowToDraw 200000
-bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/MYCNampNB_MFsamples_and_SHEP_may2023/MF5.Input.mapped.uniq.fwd.bs10.bw
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/MYCNampNB_MFsamples_and_SHEP_may2023/MF5.m6A.mapped.uniq.fwd.bs10.bw
