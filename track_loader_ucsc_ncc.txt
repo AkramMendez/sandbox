@@ -195,3 +195,246 @@ color 0,128,128
 type bigWig
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/MYCNampNB_MFsamples_and_SHEP_may2023/MF5.m6A.mapped.uniq.fwd.bs10.bw
+
+track MYCNampNB_MF4_m6A_fwd
+shortLabel MYCNampNB_MF4_m6A_fwd
+longLabel MYCNampNB_MF4_m6A_fwd
+visibility full
+color 0,128,128
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/MYCNampNB_MFsamples_and_SHEP_may2023/MF4.m6A.mapped.uniq.fwd.bs10.bw
+
+track MYCNampNB_MF3_m6A_fwd
+shortLabel MYCNampNB_MF3_m6A_fwd
+longLabel MYCNampNB_MF3_m6A_fwd
+visibility full
+color 0,128,128
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/MYCNampNB_MFsamples_and_SHEP_may2023/MF3.m6A.mapped.uniq.fwd.bs10.bw
+
+track MYCNampNB_AD9_m6A_fwd
+shortLabel MYCNampNB_AD9_m6A_fwd
+longLabel MYCNampNB_AD9_m6A_fwd
+visibility full
+color 0,128,128
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/MYCNampNB_MFsamples_and_SHEP_may2023/AD9.m6A.mapped.uniq.fwd.bs10.bw
+
+track SHEPminusDOX_m6A_fwd
+shortLabel SHEPminusDOX_m6A_fwd
+longLabel SHEPminusDOX_m6A_fwd
+visibility full
+color 0,128,128
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/MYCNampNB_MFsamples_and_SHEP_may2023/SHEP_minusDOX.m6A.mapped.uniq.spikeInNorm.fwd.bs10.bw
+
+track SHEPplusDOX_m6A_fwd
+shortLabel SHEPplusDOX_m6A_fwd
+longLabel SHEPplusDOX_m6A_fwd
+visibility full
+color 0,128,128
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/MYCNampNB_MFsamples_and_SHEP_may2023/SHEP_plusDOX.m6A.mapped.uniq.spikeInNorm.fwd.bs10.bw
+
+track SHEPminusDOX_IgG_fwd
+shortLabel SHEPminusDOX_IgG_fwd
+longLabel SHEPminusDOX_IgG_fwd
+visibility full
+color 0,128,128
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/MYCNampNB_MFsamples_and_SHEP_may2023/SHEP_minusDOX.IgG.mapped.uniq.spikeInNorm.fwd.bs10.bw
+
+track SHEPplusDOX_IgG_fwd
+shortLabel SHEPplusDOX_IgG_fwd
+longLabel SHEPplusDOX_IgG_fwd
+visibility full
+color 0,128,128
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/MYCNampNB_MFsamples_and_SHEP_may2023/SHEP_plusDOX.IgG.mapped.uniq.spikeInNorm.fwd.bs10.bw
+
+track MYCNampNB_MF5_input_fwd
+shortLabel MYCNampNB_MF5_input_fwd
+longLabel MYCNampNB_MF5_input_fwd
+visibility full
+color 0,128,128
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/MYCNampNB_MFsamples_and_SHEP_may2023/MF5.Input.mapped.uniq.fwd.bs10.bw
+
+track MYCNampNB_MF4_input_fwd
+shortLabel MYCNampNB_MF4_input_fwd
+longLabel MYCNampNB_MF4_input_fwd
+visibility full
+color 0,128,128
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/MYCNampNB_MFsamples_and_SHEP_may2023/MF4.Input.mapped.uniq.fwd.bs10.bw
+
+track MYCNampNB_MF3_input_fwd
+shortLabel MYCNampNB_MF3_input_fwd
+longLabel MYCNampNB_MF3_input_fwd
+visibility full
+color 0,128,128
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/MYCNampNB_MFsamples_and_SHEP_may2023/MF3.Input.mapped.uniq.fwd.bs10.bw
+
+track MYCNampNB_AD9_input_fwd
+shortLabel MYCNampNB_AD9_input_fwd
+longLabel MYCNampNB_AD9_input_fwd
+visibility full
+color 0,128,128
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/MYCNampNB_MFsamples_and_SHEP_may2023/AD9.Input.mapped.uniq.fwd.bs10.bw
+
+track SHEPminusDOX_input_fwd
+shortLabel SHEPminusDOX_input_fwd
+longLabel SHEPminusDOX_input_fwd
+visibility full
+color 0,128,128
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/MYCNampNB_MFsamples_and_SHEP_may2023/SHEP_minusDOX.Input.mapped.uniq.spikeInNorm.fwd.bs10.bw
+
+track SHEPplusDOX_input_fwd
+shortLabel SHEPplusDOX_input_fwd
+longLabel SHEPplusDOX_input_fwd
+visibility full
+color 0,128,128
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/MYCNampNB_MFsamples_and_SHEP_may2023/SHEP_plusDOX.Input.mapped.uniq.spikeInNorm.fwd.bs10.bw
+
+track MYCNampNB_MF5_m6A_rev
+shortLabel MYCNampNB_MF5_m6A_rev
+longLabel MYCNampNB_MF5_m6A_rev
+visibility full
+color 0,128,128
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/MYCNampNB_MFsamples_and_SHEP_may2023/MF5.m6A.mapped.uniq.rev.bs10.bw
+
+track MYCNampNB_MF4_m6A_rev
+shortLabel MYCNampNB_MF4_m6A_rev
+longLabel MYCNampNB_MF4_m6A_rev
+visibility full
+color 0,128,128
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/MYCNampNB_MFsamples_and_SHEP_may2023/MF4.m6A.mapped.uniq.rev.bs10.bw
+
+track MYCNampNB_MF3_m6A_rev
+shortLabel MYCNampNB_MF3_m6A_rev
+longLabel MYCNampNB_MF3_m6A_rev
+visibility full
+color 0,128,128
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/MYCNampNB_MFsamples_and_SHEP_may2023/MF3.m6A.mapped.uniq.rev.bs10.bw
+
+track MYCNampNB_AD9_m6A_rev
+shortLabel MYCNampNB_AD9_m6A_rev
+longLabel MYCNampNB_AD9_m6A_rev
+visibility full
+color 0,128,128
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/MYCNampNB_MFsamples_and_SHEP_may2023/AD9.m6A.mapped.uniq.rev.bs10.bw
+
+track SHEPminusDOX_m6A_rev
+shortLabel SHEPminusDOX_m6A_rev
+longLabel SHEPminusDOX_m6A_rev
+visibility full
+color 0,128,128
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/MYCNampNB_MFsamples_and_SHEP_may2023/SHEP_minusDOX.m6A.mapped.uniq.spikeInNorm.rev.bs10.bw
+
+track SHEPplusDOX_m6A_rev
+shortLabel SHEPplusDOX_m6A_rev
+longLabel SHEPplusDOX_m6A_rev
+visibility full
+color 0,128,128
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/MYCNampNB_MFsamples_and_SHEP_may2023/SHEP_plusDOX.m6A.mapped.uniq.spikeInNorm.rev.bs10.bw
+
+track SHEPminusDOX_IgG_rev
+shortLabel SHEPminusDOX_IgG_rev
+longLabel SHEPminusDOX_IgG_rev
+visibility full
+color 0,128,128
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/MYCNampNB_MFsamples_and_SHEP_may2023/SHEP_minusDOX.IgG.mapped.uniq.spikeInNorm.rev.bs10.bw
+
+track SHEPplusDOX_IgG_rev
+shortLabel SHEPplusDOX_IgG_rev
+longLabel SHEPplusDOX_IgG_rev
+visibility full
+color 0,128,128
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/MYCNampNB_MFsamples_and_SHEP_may2023/SHEP_plusDOX.IgG.mapped.uniq.spikeInNorm.rev.bs10.bw
+
+track MYCNampNB_MF5_input_rev
+shortLabel MYCNampNB_MF5_input_rev
+longLabel MYCNampNB_MF5_input_rev
+visibility full
+color 0,128,128
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/MYCNampNB_MFsamples_and_SHEP_may2023/MF5.Input.mapped.uniq.rev.bs10.bw
+
+track MYCNampNB_MF4_input_rev
+shortLabel MYCNampNB_MF4_input_rev
+longLabel MYCNampNB_MF4_input_rev
+visibility full
+color 0,128,128
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/MYCNampNB_MFsamples_and_SHEP_may2023/MF4.Input.mapped.uniq.rev.bs10.bw
+
+track MYCNampNB_MF3_input_rev
+shortLabel MYCNampNB_MF3_input_rev
+longLabel MYCNampNB_MF3_input_rev
+visibility full
+color 0,128,128
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/MYCNampNB_MFsamples_and_SHEP_may2023/MF3.Input.mapped.uniq.rev.bs10.bw
+
+track MYCNampNB_AD9_input_rev
+shortLabel MYCNampNB_AD9_input_rev
+longLabel MYCNampNB_AD9_input_rev
+visibility full
+color 0,128,128
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/MYCNampNB_MFsamples_and_SHEP_may2023/AD9.Input.mapped.uniq.rev.bs10.bw
+
+track SHEPminusDOX_input_rev
+shortLabel SHEPminusDOX_input_rev
+longLabel SHEPminusDOX_input_rev
+visibility full
+color 0,128,128
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/MYCNampNB_MFsamples_and_SHEP_may2023/SHEP_minusDOX.Input.mapped.uniq.spikeInNorm.rev.bs10.bw
+
+track SHEPplusDOX_input_rev
+shortLabel SHEPplusDOX_input_rev
+longLabel SHEPplusDOX_input_rev
+visibility full
+color 0,128,128
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/MYCNampNB_MFsamples_and_SHEP_may2023/SHEP_plusDOX.Input.mapped.uniq.spikeInNorm.rev.bs10.bw
