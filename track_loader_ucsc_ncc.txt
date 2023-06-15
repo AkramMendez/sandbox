@@ -186,3 +186,12 @@ color 0,128,128
 type bigWig
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/tNCC_Day7_Input_S31_R1_001.ht2.chrms.mapped.uniq.rev.bs10.bw
+
+track MYCNampNB_MF5_m6A_fwd
+shortLabel MYCNampNB_MF5_m6A_fwd
+longLabel MYCNampNB_MF5_m6A_fwd
+visibility full
+color 0,128,128
+type bigWig
+maxWindowToDraw 200000
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/MYCNampNB_MFsamples_and_SHEP_may2023/MF5.Input.mapped.uniq.fwd.bs10.bw
