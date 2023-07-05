@@ -448,15 +448,6 @@ type bigWig
 maxWindowToDraw 200000
 bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/mycn_mettl3_chip_may2023/01_hESC_h9_Input_S1_R1_001_trimmed.hisat2.chrms.mapped.nodup.RPKM.bs10.bw
 
-track hESC_h9_input_rpkm
-shortLabel hESC_h9_input_rpkm
-longLabel hESC_h9_input_rpkm
-visibility full
-color 0,0,0
-type bigWig
-maxWindowToDraw 200000
-bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/mycn_mettl3_chip_may2023/01_hESC_h9_Input_S1_R1_001_trimmed.hisat2.chrms.mapped.nodup.RPKM.bs10.bw
-
 track hESC_h9_K27ac_IP_rpkm
 shortLabel hESC_h9_K27ac_IP_rpkm
 longLabel hESC_h9_K27ac_IP_rpkm
