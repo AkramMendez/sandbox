@@ -678,3 +678,51 @@ windowingFunction maximum
 smoothingWindow 16
 maxHeightPixels 30
 bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/mycn_mettl3_chip_may2023/10_SHEP_plus_Dox_IgG_ChIP_S10_R1_001_trimmed.hisat2.chrms.mapped.uniq.RPKM.bs10.bw
+
+track BE2_Csh_input_rpkm
+shortLabel BE2_Csh_input_rpkm
+longLabel BE2_Csh_input_rpkm
+visibility full
+color 0,0,0
+type bigWig
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+maxHeightPixels 30
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/mycn_mettl3_chip_may2023/03_BE2_Csh_Input_S3_R1_001_trimmed.hisat2.chrms.mapped.uniq.RPKM.bs10.bw
+
+track BE2_Csh_MYCN_rpkm
+shortLabel BE2_Csh_MYCN_rpkm
+longLabel BE2_Csh_MYCN_rpkm
+visibility full
+color 0,0,0
+type bigWig
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+maxHeightPixels 30
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/mycn_mettl3_chip_may2023/11_BE2_Csh_Mycn_ChIP_S11_R1_001_trimmed.hisat2.chrms.mapped.uniq.RPKM.bs10.bw
+
+track BE2_METTL3sh1_input_rpkm
+shortLabel BE2_METTL3sh1_input_rpkm
+longLabel BE2_METTL3sh1_input_rpkm
+visibility full
+color 0,0,0
+type bigWig
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+maxHeightPixels 30
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/mycn_mettl3_chip_may2023/04_BE2_Mettl3_Sh1_1_Input_S4_R1_001_trimmed.hisat2.chrms.mapped.uniq.RPKM.bs10.bw
+
+track BE2_METTL3sh1_MYCN_rpkm
+shortLabel BE2_METTL3sh1_MYCN_rpkm
+longLabel BE2_METTL3sh1_MYCN_rpkm
+visibility full
+color 0,0,0
+type bigWig
+maxWindowToDraw 200000
+windowingFunction maximum
+smoothingWindow 16
+maxHeightPixels 30
+bigDataUrl https://export.uppmax.uu.se/snic2022-22-85/ncc/mycn_mettl3_chip_may2023/12_BE2_Mettl3_Sh1_1_Mycn_ChIP_S12_R1_001_trimmed.hisat2.chrms.mapped.uniq.RPKM.bs10.bw
